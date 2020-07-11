@@ -1,0 +1,718 @@
+\contentsline {chapter}{\tocchapter {Chapter}{1}{数学基础}}{9}{chapter.1}
+\contentsline {section}{\tocsection {}{1}{向量和矩阵}}{9}{section.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{标量、向量、矩阵、张量之间的联系}}{9}{subsection.1.1.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.1}{标量}}{9}{subsubsection.1.1.1.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.2}{向量}}{9}{subsubsection.1.1.1.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.3}{矩阵}}{9}{subsubsection.1.1.1.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.4}{张量}}{10}{subsubsection.1.1.1.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.5}{四者之间关系}}{10}{subsubsection.1.1.1.5}
+\contentsline {subsection}{\tocsubsection {}{1.2}{张量与矩阵的区别}}{10}{subsection.1.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{矩阵和向量相乘结果}}{10}{subsection.1.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.4}{向量和矩阵的范数归纳}}{10}{subsection.1.1.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.4.1}{向量的范数}}{11}{subsubsection.1.1.4.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.4.2}{矩阵的范数}}{12}{subsubsection.1.1.4.2}
+\contentsline {subsection}{\tocsubsection {}{1.5}{如何判断一个矩阵为正定}}{13}{subsection.1.1.5}
+\contentsline {section}{\tocsection {}{2}{导数和偏导数}}{13}{section.1.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{导数偏导计算}}{13}{subsection.1.2.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.1.1}{导数定义}}{14}{subsubsection.1.2.1.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{导数和偏导数有什么区别？}}{15}{subsection.1.2.2}
+\contentsline {section}{\tocsection {}{3}{特征值和特征向量}}{15}{section.1.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{特征值分解与特征向量}}{15}{subsection.1.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{奇异值与特征值有什么关系}}{15}{subsection.1.3.2}
+\contentsline {section}{\tocsection {}{4}{概率分布与随机变量}}{16}{section.1.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{机器学习为什么要使用概率}}{16}{subsection.1.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{变量与随机变量有什么区别}}{16}{subsection.1.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.3}{随机变量与概率分布的联系}}{17}{subsection.1.4.3}
+\contentsline {subsection}{\tocsubsection {}{4.4}{离散型随机变量和概率质量函数}}{17}{subsection.1.4.4}
+\contentsline {subsection}{\tocsubsection {}{4.5}{连续型随机变量和概率密度函数}}{17}{subsection.1.4.5}
+\contentsline {subsection}{\tocsubsection {}{4.6}{举例理解条件概率}}{18}{subsection.1.4.6}
+\contentsline {subsection}{\tocsubsection {}{4.7}{联合概率与边缘概率联系区别}}{18}{subsection.1.4.7}
+\contentsline {subsection}{\tocsubsection {}{4.8}{条件概率的链式法则}}{19}{subsection.1.4.8}
+\contentsline {subsection}{\tocsubsection {}{4.9}{独立性和条件独立性}}{19}{subsection.1.4.9}
+\contentsline {section}{\tocsection {}{5}{常见概率分布}}{20}{section.1.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{ Bernoulli分布}}{20}{subsection.1.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{ 高斯分布}}{20}{subsection.1.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{何时采用正态分布}}{21}{subsection.1.5.3}
+\contentsline {subsection}{\tocsubsection {}{5.4}{ 指数分布}}{21}{subsection.1.5.4}
+\contentsline {subsection}{\tocsubsection {}{5.5}{ Laplace分布（拉普拉斯分布）}}{21}{subsection.1.5.5}
+\contentsline {subsection}{\tocsubsection {}{5.6}{Dirac分布和经验分布}}{22}{subsection.1.5.6}
+\contentsline {section}{\tocsection {}{6}{期望、方差、协方差、相关系数}}{22}{section.1.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{ 期望}}{22}{subsection.1.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{方差}}{23}{subsection.1.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.3}{ 协方差}}{23}{subsection.1.6.3}
+\contentsline {subsection}{\tocsubsection {}{6.4}{ 相关系数}}{23}{subsection.1.6.4}
+\contentsline {chapter}{\tocchapter {Chapter}{2}{机器学习基础}}{25}{chapter.2}
+\contentsline {section}{\tocsection {}{1}{ 基本概念}}{25}{section.2.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{大话理解机器学习本质}}{25}{subsection.2.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{什么是神经网络}}{25}{subsection.2.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{各种常见算法图示}}{26}{subsection.2.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.4}{计算图的导数计算}}{26}{subsection.2.1.4}
+\contentsline {subsection}{\tocsubsection {}{1.5}{理解局部最优与全局最优}}{26}{subsection.2.1.5}
+\contentsline {subsection}{\tocsubsection {}{1.6}{大数据与深度学习之间的关系}}{27}{subsection.2.1.6}
+\contentsline {section}{\tocsection {}{2}{机器学习学习方式}}{27}{section.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{ 监督学习}}{27}{subsection.2.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{非监督式学习}}{28}{subsection.2.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{半监督式学习}}{28}{subsection.2.2.3}
+\contentsline {subsection}{\tocsubsection {}{2.4}{弱监督学习}}{28}{subsection.2.2.4}
+\contentsline {subsection}{\tocsubsection {}{2.5}{监督学习有哪些步骤}}{28}{subsection.2.2.5}
+\contentsline {section}{\tocsection {}{3}{ 分类算法}}{29}{section.2.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{常用分类算法的优缺点？}}{30}{subsection.2.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{2.8.2 分类算法的评估方法}}{38}{subsection.2.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3}{2.8.3 正确率能很好的评估分类算法吗}}{40}{subsection.2.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.4}{什么样的分类器是最好的}}{40}{subsection.2.3.4}
+\contentsline {section}{\tocsection {}{4}{2.9 逻辑回归}}{40}{section.2.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{2.9.1 回归划分}}{40}{subsection.2.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{逻辑回归适用性}}{40}{subsection.2.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.3}{生成模型和判别模型的区别}}{41}{subsection.2.4.3}
+\contentsline {subsection}{\tocsubsection {}{4.4}{逻辑回归与朴素贝叶斯有什么区别}}{41}{subsection.2.4.4}
+\contentsline {subsection}{\tocsubsection {}{4.5}{线性回归与逻辑回归的区别}}{41}{subsection.2.4.5}
+\contentsline {section}{\tocsection {}{5}{2.10 代价函数}}{42}{section.2.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{2.10.1 为什么需要代价函数}}{42}{subsection.2.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{代价函数作用原理}}{42}{subsection.2.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{为什么代价函数要非负}}{43}{subsection.2.5.3}
+\contentsline {subsection}{\tocsubsection {}{5.4}{常见代价函数}}{43}{subsection.2.5.4}
+\contentsline {subsection}{\tocsubsection {}{5.5}{2.10.5 为什么用交叉熵代替二次代价函数}}{48}{subsection.2.5.5}
+\contentsline {section}{\tocsection {}{6}{2.11 损失函数}}{48}{section.2.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{2.11.1 什么是损失函数}}{48}{subsection.2.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{2.11.2 常见的损失函数}}{49}{subsection.2.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.3}{2.11.3 逻辑回归为什么使用对数损失函数}}{50}{subsection.2.6.3}
+\contentsline {subsection}{\tocsubsection {}{6.4}{对数损失函数是如何度量损失的}}{51}{subsection.2.6.4}
+\contentsline {section}{\tocsection {}{7}{ 梯度下降}}{52}{section.2.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{机器学习中为什么需要梯度下降}}{52}{subsection.2.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.2}{梯度下降法缺点}}{52}{subsection.2.7.2}
+\contentsline {subsection}{\tocsubsection {}{7.3}{梯度下降法直观理解}}{52}{subsection.2.7.3}
+\contentsline {subsection}{\tocsubsection {}{7.4}{梯度下降法算法描述}}{53}{subsection.2.7.4}
+\contentsline {subsection}{\tocsubsection {}{7.5}{如何对梯度下降法进行调优}}{54}{subsection.2.7.5}
+\contentsline {subsection}{\tocsubsection {}{7.6}{随机梯度和批量梯度区别}}{54}{subsection.2.7.6}
+\contentsline {subsection}{\tocsubsection {}{7.7}{2.12.7 各种梯度下降法性能比较}}{56}{subsection.2.7.7}
+\contentsline {section}{\tocsection {}{8}{2.14 线性判别分析（LDA）}}{56}{section.2.8}
+\contentsline {subsection}{\tocsubsection {}{8.1}{2.14.1 LDA思想总结}}{56}{subsection.2.8.1}
+\contentsline {subsection}{\tocsubsection {}{8.2}{2.14.2 图解LDA核心思想}}{57}{subsection.2.8.2}
+\contentsline {subsection}{\tocsubsection {}{8.3}{2.14.3 二类LDA算法原理}}{57}{subsection.2.8.3}
+\contentsline {subsection}{\tocsubsection {}{8.4}{LDA算法流程总结}}{58}{subsection.2.8.4}
+\contentsline {subsection}{\tocsubsection {}{8.5}{LDA和PCA区别}}{59}{table.2.5}
+\contentsline {subsection}{\tocsubsection {}{8.6}{ LDA优缺点}}{62}{table.2.6}
+\contentsline {section}{\tocsection {}{9}{主成分分析（PCA）}}{62}{section.2.9}
+\contentsline {subsection}{\tocsubsection {}{9.1}{主成分分析（PCA）思想总结}}{62}{subsection.2.9.1}
+\contentsline {subsection}{\tocsubsection {}{9.2}{图解PCA核心思想}}{62}{subsection.2.9.2}
+\contentsline {subsection}{\tocsubsection {}{9.3}{ PCA算法推理}}{62}{subsection.2.9.3}
+\contentsline {subsection}{\tocsubsection {}{9.4}{PCA算法流程总结}}{64}{subsection.2.9.4}
+\contentsline {subsection}{\tocsubsection {}{9.5}{PCA算法主要优缺点}}{67}{table.2.7}
+\contentsline {subsection}{\tocsubsection {}{9.6}{降维的必要性及目的}}{67}{subsection.2.9.6}
+\contentsline {subsection}{\tocsubsection {}{9.7}{KPCA与PCA的区别}}{67}{subsection.2.9.7}
+\contentsline {section}{\tocsection {}{10}{ 模型评估}}{67}{section.2.10}
+\contentsline {subsection}{\tocsubsection {}{10.1}{模型评估常用方法？}}{67}{subsection.2.10.1}
+\contentsline {subsection}{\tocsubsection {}{10.2}{2.16.2 误差、偏差和方差有什么区别和联系}}{68}{subsection.2.10.2}
+\contentsline {subsection}{\tocsubsection {}{10.3}{经验误差与泛化误差}}{69}{subsection.2.10.3}
+\contentsline {subsection}{\tocsubsection {}{10.4}{图解欠拟合、过拟合}}{69}{subsection.2.10.4}
+\contentsline {subsection}{\tocsubsection {}{10.5}{如何解决过拟合与欠拟合}}{70}{subsection.2.10.5}
+\contentsline {subsection}{\tocsubsection {}{10.6}{交叉验证的主要作用}}{70}{subsection.2.10.6}
+\contentsline {subsection}{\tocsubsection {}{10.7}{理解k折交叉验证}}{70}{subsection.2.10.7}
+\contentsline {subsection}{\tocsubsection {}{10.8}{混淆矩阵}}{70}{subsection.2.10.8}
+\contentsline {subsection}{\tocsubsection {}{10.9}{错误率及精度}}{71}{subsection.2.10.9}
+\contentsline {subsection}{\tocsubsection {}{10.10}{查准率与查全率}}{71}{subsection.2.10.10}
+\contentsline {subsection}{\tocsubsection {}{10.11}{ROC与AUC}}{71}{subsection.2.10.11}
+\contentsline {subsection}{\tocsubsection {}{10.12}{如何画ROC曲线}}{72}{subsection.2.10.12}
+\contentsline {subsection}{\tocsubsection {}{10.13}{如何计算TPR，FPR}}{72}{subsection.2.10.13}
+\contentsline {subsection}{\tocsubsection {}{10.14}{如何计算AUC}}{73}{subsection.2.10.14}
+\contentsline {subsection}{\tocsubsection {}{10.15}{为什么使用Roc和Auc评价分类器}}{74}{subsection.2.10.15}
+\contentsline {subsection}{\tocsubsection {}{10.16}{直观理解AUC}}{74}{subsection.2.10.16}
+\contentsline {subsection}{\tocsubsection {}{10.17}{代价敏感错误率与代价曲线}}{74}{subsection.2.10.17}
+\contentsline {subsection}{\tocsubsection {}{10.18}{模型有哪些比较检验方法}}{75}{subsection.2.10.18}
+\contentsline {subsection}{\tocsubsection {}{10.19}{为什么使用标准差}}{75}{subsection.2.10.19}
+\contentsline {subsection}{\tocsubsection {}{10.20}{类别不平衡产生原因}}{76}{subsection.2.10.20}
+\contentsline {section}{\tocsection {}{11}{决策树}}{77}{section.2.11}
+\contentsline {subsection}{\tocsubsection {}{11.1}{决策树的基本原理}}{77}{subsection.2.11.1}
+\contentsline {subsection}{\tocsubsection {}{11.2}{决策树的三要素？}}{77}{subsection.2.11.2}
+\contentsline {subsection}{\tocsubsection {}{11.3}{决策树学习基本算法}}{77}{subsection.2.11.3}
+\contentsline {subsection}{\tocsubsection {}{11.4}{决策树算法优缺点}}{77}{subsection.2.11.4}
+\contentsline {subsection}{\tocsubsection {}{11.5}{熵的概念以及理解}}{78}{subsection.2.11.5}
+\contentsline {subsection}{\tocsubsection {}{11.6}{信息增益的理解}}{78}{subsection.2.11.6}
+\contentsline {subsection}{\tocsubsection {}{11.7}{剪枝处理的作用及策略}}{78}{subsection.2.11.7}
+\contentsline {section}{\tocsection {}{12}{ 支持向量机}}{79}{section.2.12}
+\contentsline {subsection}{\tocsubsection {}{12.1}{什么是支持向量机}}{79}{subsection.2.12.1}
+\contentsline {subsection}{\tocsubsection {}{12.2}{支持向量机能解决哪些问题}}{79}{subsection.2.12.2}
+\contentsline {subsection}{\tocsubsection {}{12.3}{核函数特点及其作用}}{80}{subsection.2.12.3}
+\contentsline {subsection}{\tocsubsection {}{12.4}{SVM为什么引入对偶问题}}{80}{subsection.2.12.4}
+\contentsline {subsection}{\tocsubsection {}{12.5}{如何理解SVM中的对偶问题}}{80}{subsection.2.12.5}
+\contentsline {subsection}{\tocsubsection {}{12.6}{常见的核函数有哪些}}{82}{table.2.17}
+\contentsline {subsection}{\tocsubsection {}{12.7}{ SVM主要特点}}{82}{subsection.2.12.7}
+\contentsline {subsection}{\tocsubsection {}{12.8}{ SVM主要缺点}}{83}{subsection.2.12.8}
+\contentsline {subsection}{\tocsubsection {}{12.9}{逻辑回归与SVM的异同}}{83}{subsection.2.12.9}
+\contentsline {section}{\tocsection {}{13}{贝叶斯分类器}}{85}{section.2.13}
+\contentsline {subsection}{\tocsubsection {}{13.1}{图解极大似然估计}}{85}{subsection.2.13.1}
+\contentsline {subsection}{\tocsubsection {}{13.2}{极大似然估计原理}}{85}{subsection.2.13.2}
+\contentsline {subsection}{\tocsubsection {}{13.3}{贝叶斯分类器基本原理}}{85}{subsection.2.13.3}
+\contentsline {subsection}{\tocsubsection {}{13.4}{朴素贝叶斯分类器}}{86}{subsection.2.13.4}
+\contentsline {subsection}{\tocsubsection {}{13.5}{举例理解朴素贝叶斯分类器}}{86}{subsection.2.13.5}
+\contentsline {subsection}{\tocsubsection {}{13.6}{半朴素贝叶斯分类器}}{89}{subsection.2.13.6}
+\contentsline {section}{\tocsection {}{14}{ EM算法}}{89}{section.2.14}
+\contentsline {subsection}{\tocsubsection {}{14.1}{EM算法基本思想}}{89}{subsection.2.14.1}
+\contentsline {subsection}{\tocsubsection {}{14.2}{EM算法推导}}{89}{subsection.2.14.2}
+\contentsline {subsection}{\tocsubsection {}{14.3}{ 图解EM算法}}{90}{subsection.2.14.3}
+\contentsline {subsection}{\tocsubsection {}{14.4}{ EM算法流程}}{91}{subsection.2.14.4}
+\contentsline {section}{\tocsection {}{15}{ 降维和聚类}}{91}{section.2.15}
+\contentsline {subsection}{\tocsubsection {}{15.1}{图解为什么会产生维数灾难}}{91}{subsection.2.15.1}
+\contentsline {subsection}{\tocsubsection {}{15.2}{怎样避免维数灾难}}{93}{subsection.2.15.2}
+\contentsline {subsection}{\tocsubsection {}{15.3}{聚类和降维有什么区别与联系}}{93}{subsection.2.15.3}
+\contentsline {subsection}{\tocsubsection {}{15.4}{有哪些聚类算法优劣衡量标准}}{93}{subsection.2.15.4}
+\contentsline {subsection}{\tocsubsection {}{15.5}{聚类和分类有什么区别}}{93}{subsection.2.15.5}
+\contentsline {subsection}{\tocsubsection {}{15.6}{不同聚类算法特点性能比较}}{94}{table.2.20}
+\contentsline {subsection}{\tocsubsection {}{15.7}{四种常用聚类方法之比较}}{94}{subsection.2.15.7}
+\contentsline {subsection}{\tocsubsection {}{15.8}{k-means聚类算法}}{94}{subsection.2.15.8}
+\contentsline {subsection}{\tocsubsection {}{15.9}{层次聚类算法}}{95}{subsection.2.15.9}
+\contentsline {subsection}{\tocsubsection {}{15.10}{SOM聚类算法}}{95}{subsection.2.15.10}
+\contentsline {subsection}{\tocsubsection {}{15.11}{ FCM聚类算法}}{95}{subsection.2.15.11}
+\contentsline {subsection}{\tocsubsection {}{15.12}{四种聚类算法试验}}{96}{subsection.2.15.12}
+\contentsline {chapter}{\tocchapter {Chapter}{3}{深度学习基础}}{99}{chapter.3}
+\contentsline {section}{\tocsection {}{1}{基本概念}}{99}{section.3.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{神经网络组成？}}{99}{subsection.3.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{神经网络有哪些常用模型结构？}}{100}{subsection.3.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{如何选择深度学习开发平台？}}{100}{subsection.3.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.4}{为什么使用深层表示?}}{100}{subsection.3.1.4}
+\contentsline {subsection}{\tocsubsection {}{1.5}{为什么深层神经网络难以训练？}}{101}{subsection.3.1.5}
+\contentsline {subsection}{\tocsubsection {}{1.6}{深度学习和机器学习有什么不同？}}{101}{subsection.3.1.6}
+\contentsline {section}{\tocsection {}{2}{网络操作与计算}}{101}{section.3.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{前向传播与反向传播？}}{101}{subsection.3.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{如何计算神经网络的输出？}}{102}{subsection.3.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{如何计算卷积神经网络输出值？}}{103}{subsection.3.2.3}
+\contentsline {section}{\tocsection {}{3}{ 超参数}}{103}{section.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{什么是超参数？}}{103}{subsection.3.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{如何寻找超参数的最优值？}}{103}{subsection.3.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3}{超参数搜索一般过程？}}{104}{subsection.3.3.3}
+\contentsline {section}{\tocsection {}{4}{ 激活函数}}{104}{section.3.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{为什么需要非线性激活函数？}}{104}{subsection.3.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{常见的激活函数及图像}}{104}{subsection.3.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.3}{3.4.3 常见激活函数的导数计算？}}{105}{subsection.3.4.3}
+\contentsline {subsection}{\tocsubsection {}{4.4}{激活函数有哪些性质？}}{105}{subsection.3.4.4}
+\contentsline {subsection}{\tocsubsection {}{4.5}{如何选择激活函数？}}{106}{subsection.3.4.5}
+\contentsline {subsection}{\tocsubsection {}{4.6}{ 使用 ReLu激活函数的优点？}}{106}{subsection.3.4.6}
+\contentsline {subsection}{\tocsubsection {}{4.7}{3.4.7 什么时候可以用线性激活函数？}}{106}{subsection.3.4.7}
+\contentsline {subsection}{\tocsubsection {}{4.8}{3.4.8 怎样理解 Relu（\textless {} 0 时）是非线性激活函数？}}{106}{subsection.3.4.8}
+\contentsline {subsection}{\tocsubsection {}{4.9}{3.4.9 Softmax 定义及作用}}{107}{subsection.3.4.9}
+\contentsline {subsection}{\tocsubsection {}{4.10}{3.4.10 Softmax 函数如何应用于多分类？}}{107}{subsection.3.4.10}
+\contentsline {subsection}{\tocsubsection {}{4.11}{3.4.11 交叉熵代价函数定义及其求导推导}}{108}{subsection.3.4.11}
+\contentsline {subsection}{\tocsubsection {}{4.12}{3.4.12 为什么Tanh收敛速度比Sigmoid快？}}{109}{subsection.3.4.12}
+\contentsline {subsection}{\tocsubsection {}{4.13}{3.4.12 内聚外斥 - Center Loss}}{109}{subsection.3.4.13}
+\contentsline {section}{\tocsection {}{5}{3.5 Batch\_Size}}{110}{section.3.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{3.5.1 为什么需要 Batch\_Size？}}{110}{subsection.3.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{3.5.2 Batch\_Size 值的选择}}{110}{subsection.3.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{3.5.3 在合理范围内，增大Batch\_Size有何好处？}}{111}{subsection.3.5.3}
+\contentsline {subsection}{\tocsubsection {}{5.4}{3.5.4 盲目增大 Batch\_Size 有何坏处？}}{111}{subsection.3.5.4}
+\contentsline {subsection}{\tocsubsection {}{5.5}{3.5.5 调节 Batch\_Size 对训练效果影响到底如何？}}{111}{subsection.3.5.5}
+\contentsline {section}{\tocsection {}{6}{3.6 归一化}}{111}{section.3.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{3.6.1 归一化含义？}}{111}{subsection.3.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{3.6.2 为什么要归一化？}}{112}{subsection.3.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.3}{3.6.3 为什么归一化能提高求解最优解速度？}}{112}{subsection.3.6.3}
+\contentsline {subsection}{\tocsubsection {}{6.4}{3.6.4 3D 图解未归一化}}{112}{subsection.3.6.4}
+\contentsline {subsection}{\tocsubsection {}{6.5}{3.6.5 归一化有哪些类型？}}{112}{subsection.3.6.5}
+\contentsline {subsection}{\tocsubsection {}{6.6}{3.6.6 局部响应归一化作用}}{113}{subsection.3.6.6}
+\contentsline {subsection}{\tocsubsection {}{6.7}{3.6.7 理解局部响应归一化}}{113}{subsection.3.6.7}
+\contentsline {subsection}{\tocsubsection {}{6.8}{3.6.8 什么是批归一化（Batch Normalization）}}{114}{subsection.3.6.8}
+\contentsline {subsection}{\tocsubsection {}{6.9}{3.6.9 批归一化（BN）算法的优点}}{114}{subsection.3.6.9}
+\contentsline {subsection}{\tocsubsection {}{6.10}{3.6.10 批归一化（BN）算法流程}}{114}{subsection.3.6.10}
+\contentsline {subsection}{\tocsubsection {}{6.12}{3.6.12 Weight Normalization和Batch Normalization比较}}{115}{subsection.3.6.12}
+\contentsline {subsection}{\tocsubsection {}{6.13}{3.6.13 Batch Normalization在什么时候用比较合适？}}{116}{subsection.3.6.13}
+\contentsline {section}{\tocsection {}{7}{3.7 预训练与微调(fine tuning)}}{116}{section.3.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{3.7.1 为什么无监督预训练可以帮助深度学习？}}{116}{subsection.3.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.2}{3.7.2 什么是模型微调fine tuning}}{116}{subsection.3.7.2}
+\contentsline {subsection}{\tocsubsection {}{7.3}{3.7.3 微调时候网络参数是否更新？}}{116}{subsection.3.7.3}
+\contentsline {subsection}{\tocsubsection {}{7.4}{3.7.4 fine-tuning 模型的三种状态}}{117}{subsection.3.7.4}
+\contentsline {section}{\tocsection {}{8}{3.8 权重偏差初始化}}{117}{section.3.8}
+\contentsline {subsection}{\tocsubsection {}{8.1}{3.8.1 全都初始化为 0}}{117}{subsection.3.8.1}
+\contentsline {subsection}{\tocsubsection {}{8.2}{3.8.2 全都初始化为同样的值}}{117}{subsection.3.8.2}
+\contentsline {subsection}{\tocsubsection {}{8.3}{3.8.3 初始化为小的随机数}}{118}{subsection.3.8.3}
+\contentsline {subsection}{\tocsubsection {}{8.4}{3.8.4 用 $ 1/\sqrt n $ 校准方差}}{119}{subsection.3.8.4}
+\contentsline {subsection}{\tocsubsection {}{8.5}{3.8.5 稀疏初始化(Sparse Initialazation)}}{119}{subsection.3.8.5}
+\contentsline {subsection}{\tocsubsection {}{8.6}{3.8.6 初始化偏差}}{119}{subsection.3.8.6}
+\contentsline {section}{\tocsection {}{9}{3.9 学习率}}{119}{section.3.9}
+\contentsline {subsection}{\tocsubsection {}{9.1}{3.9.1 学习率的作用}}{119}{subsection.3.9.1}
+\contentsline {subsection}{\tocsubsection {}{9.2}{学习率衰减常用参数有哪些}}{120}{table.3.3}
+\contentsline {subsection}{\tocsubsection {}{9.3}{分段常数衰减}}{120}{subsection.3.9.3}
+\contentsline {subsection}{\tocsubsection {}{9.4}{ 指数衰减}}{120}{subsection.3.9.4}
+\contentsline {subsection}{\tocsubsection {}{9.5}{自然指数衰减}}{120}{subsection.3.9.5}
+\contentsline {subsection}{\tocsubsection {}{9.6}{ 多项式衰减}}{120}{subsection.3.9.6}
+\contentsline {subsection}{\tocsubsection {}{9.7}{ 余弦衰减}}{121}{subsection.3.9.7}
+\contentsline {section}{\tocsection {}{10}{ Dropout系列问题}}{121}{section.3.10}
+\contentsline {subsection}{\tocsubsection {}{10.1}{为什么要正则化？}}{121}{subsection.3.10.1}
+\contentsline {subsection}{\tocsubsection {}{10.2}{为什么正则化有利于预防过拟合？}}{122}{subsection.3.10.2}
+\contentsline {subsection}{\tocsubsection {}{10.3}{理解dropout正则化}}{122}{subsection.3.10.3}
+\contentsline {subsection}{\tocsubsection {}{10.4}{dropout率的选择}}{122}{subsection.3.10.4}
+\contentsline {subsection}{\tocsubsection {}{10.5}{dropout有什么缺点？}}{122}{subsection.3.10.5}
+\contentsline {section}{\tocsection {}{11}{深度学习中常用的数据增强方法？}}{123}{section.3.11}
+\contentsline {section}{\tocsection {}{12}{如何理解 Internal CovariateShift？}}{123}{section.3.12}
+\contentsline {subsection}{\tocsubsection {}{2.2}{4.2.2 模型结构}}{127}{figure.4.3}
+\contentsline {subsection}{\tocsubsection {}{2.3}{4.2.3 模型特性}}{128}{subsection.4.2.3}
+\contentsline {section}{\tocsection {}{3}{4.3 ZFNet}}{128}{section.4.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{4.3.1 模型介绍}}{128}{subsection.4.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.3}{4.3.3 模型特性}}{129}{subsection.4.3.3}
+\contentsline {section}{\tocsection {}{4}{4.4 Network in Network}}{129}{section.4.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{4.4.1 模型介绍}}{129}{subsection.4.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{4.4.2 模型结构}}{130}{subsection.4.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.3}{4.4.3 模型特点}}{131}{subsection.4.4.3}
+\contentsline {subsection}{\tocsubsection {}{5.2}{4.5.2 模型结构}}{132}{figure.4.8}
+\contentsline {subsection}{\tocsubsection {}{5.3}{4.5.3 模型特性}}{133}{subsection.4.5.3}
+\contentsline {section}{\tocsection {}{6}{4.6 GoogLeNet}}{133}{section.4.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{4.6.1 模型介绍}}{133}{subsection.4.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{4.6.2 模型结构}}{135}{subsection.4.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.3}{4.6.3 模型特性}}{136}{subsection.4.6.3}
+\contentsline {section}{\tocsection {}{7}{Restnet}}{136}{section.4.7}
+\contentsline {section}{\tocsection {}{8}{Densenet}}{136}{section.4.8}
+\contentsline {section}{\tocsection {}{9}{4.7 为什么现在的CNN模型都是在GoogleNet、VGGNet或者AlexNet上调整的？}}{136}{section.4.9}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{循环神经网络(RNN)}}{141}{chapter.5}
+\contentsline {subsection}{\tocsubsection {}{0.1}{为什么需要RNN？}}{141}{subsection.5.0.1}
+\contentsline {subsection}{\tocsubsection {}{0.2}{图解RNN基本结构}}{141}{subsection.5.0.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.2.1}{基本的单层网络结构}}{141}{subsubsection.5.0.2.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.2.2}{图解经典RNN结构}}{141}{subsubsection.5.0.2.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.2.3}{vector-to-sequence结构}}{142}{subsubsection.5.0.2.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.2.4}{sequence-to-vector结构}}{142}{subsubsection.5.0.2.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.2.5}{Encoder-Decoder结构}}{142}{subsubsection.5.0.2.5}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.2.6}{以上三种结构各有怎样的应用场景}}{142}{table.5.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.2.7}{6.2.7 图解RNN中的Attention机制}}{143}{subsubsection.5.0.2.7}
+\contentsline {subsection}{\tocsubsection {}{0.3}{6.3 RNNs典型特点？}}{143}{subsection.5.0.3}
+\contentsline {subsection}{\tocsubsection {}{0.4}{6.4 CNN和RNN的区别 ？}}{144}{table.5.2}
+\contentsline {subsection}{\tocsubsection {}{0.5}{6.5 RNNs和FNNs有什么区别？}}{144}{subsection.5.0.5}
+\contentsline {subsection}{\tocsubsection {}{0.6}{RNNs训练和传统ANN训练异同点？}}{144}{subsection.5.0.6}
+\contentsline {subsection}{\tocsubsection {}{0.7}{ 为什么RNN训练的时候Loss波动很大}}{144}{subsection.5.0.7}
+\contentsline {subsection}{\tocsubsection {}{0.8}{标准RNN前向输出流程}}{144}{subsection.5.0.8}
+\contentsline {subsection}{\tocsubsection {}{0.9}{ BPTT算法推导}}{145}{subsection.5.0.9}
+\contentsline {subsection}{\tocsubsection {}{0.10}{RNN中为什么会出现梯度消失？}}{146}{subsection.5.0.10}
+\contentsline {subsection}{\tocsubsection {}{0.11}{如何解决RNN中的梯度消失问题？}}{146}{subsection.5.0.11}
+\contentsline {subsection}{\tocsubsection {}{0.12}{ LSTM}}{146}{subsection.5.0.12}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.12.1}{LSTM的产生原因}}{147}{subsubsection.5.0.12.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.12.2}{图解标准RNN和LSTM的区别}}{147}{subsubsection.5.0.12.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.12.3}{6.11.3 LSTM核心思想图解}}{147}{subsubsection.5.0.12.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.12.4}{LSTM流行的变体}}{148}{subsubsection.5.0.12.4}
+\contentsline {subsection}{\tocsubsection {}{0.13}{LSTMs与GRUs的区别}}{148}{subsection.5.0.13}
+\contentsline {subsection}{\tocsubsection {}{0.14}{RNNs在NLP中典型应用？}}{148}{subsection.5.0.14}
+\contentsline {subsection}{\tocsubsection {}{0.15}{常见的RNNs扩展和改进模型}}{149}{subsection.5.0.15}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.15.1}{Simple RNNs(SRNs)}}{149}{subsubsection.5.0.15.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.15.2}{ Bidirectional RNNs}}{149}{subsubsection.5.0.15.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.15.3}{ Deep RNNs}}{149}{subsubsection.5.0.15.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.15.4}{ Echo StateNetworks（ESNs）}}{149}{subsubsection.5.0.15.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.15.5}{ Gated Recurrent Unit Recurrent Neural Networks}}{150}{subsubsection.5.0.15.5}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.15.6}{ Bidirectional LSTMs}}{150}{subsubsection.5.0.15.6}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.15.7}{ Stacked LSTMs}}{150}{subsubsection.5.0.15.7}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.15.8}{ ClockworkRNNs(CW-RNNs)}}{150}{subsubsection.5.0.15.8}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.15.9}{ CNN-LSTMs}}{151}{subsubsection.5.0.15.9}
+\contentsline {chapter}{\tocchapter {Chapter}{6}{循环神经网络(RNN)}}{155}{chapter.6}
+\contentsline {section}{\tocsection {}{1}{6.1为什么需要RNN？}}{155}{section.6.1}
+\contentsline {section}{\tocsection {}{2}{6.2 图解RNN基本结构}}{155}{section.6.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{6.2.1 基本的单层网络结构}}{155}{subsection.6.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{6.2.2 图解经典RNN结构}}{155}{subsection.6.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{6.2.3 vector-to-sequence结构}}{156}{subsection.6.2.3}
+\contentsline {subsection}{\tocsubsection {}{2.4}{6.2.4 sequence-to-vector结构}}{156}{subsection.6.2.4}
+\contentsline {subsection}{\tocsubsection {}{2.5}{6.2.5 Encoder-Decoder结构}}{156}{subsection.6.2.5}
+\contentsline {subsection}{\tocsubsection {}{2.6}{以上三种结构各有怎样的应用场景}}{157}{table.6.1}
+\contentsline {subsection}{\tocsubsection {}{2.7}{6.2.7 图解RNN中的Attention机制}}{157}{subsection.6.2.7}
+\contentsline {section}{\tocsection {}{3}{6.3 RNNs典型特点？}}{157}{section.6.3}
+\contentsline {section}{\tocsection {}{4}{6.4 CNN和RNN的区别 ？}}{158}{section.6.4}
+\contentsline {section}{\tocsection {}{5}{6.5 RNNs和FNNs有什么区别？}}{158}{section.6.5}
+\contentsline {section}{\tocsection {}{6}{6.6 RNNs训练和传统ANN训练异同点？}}{158}{section.6.6}
+\contentsline {section}{\tocsection {}{7}{6.7 为什么RNN 训练的时候Loss波动很大}}{159}{section.6.7}
+\contentsline {section}{\tocsection {}{8}{6.8 标准RNN前向输出流程}}{159}{section.6.8}
+\contentsline {section}{\tocsection {}{9}{6.9 BPTT算法推导}}{159}{section.6.9}
+\contentsline {section}{\tocsection {}{10}{6.9 RNN中为什么会出现梯度消失？}}{160}{section.6.10}
+\contentsline {section}{\tocsection {}{11}{6.10 如何解决RNN中的梯度消失问题？}}{161}{section.6.11}
+\contentsline {section}{\tocsection {}{12}{6.11 LSTM}}{161}{section.6.12}
+\contentsline {subsection}{\tocsubsection {}{12.1}{6.11.1 LSTM的产生原因}}{161}{subsection.6.12.1}
+\contentsline {subsection}{\tocsubsection {}{12.2}{6.11.2 图解标准RNN和LSTM的区别}}{161}{subsection.6.12.2}
+\contentsline {subsection}{\tocsubsection {}{12.3}{6.11.3 LSTM核心思想图解}}{162}{subsection.6.12.3}
+\contentsline {subsection}{\tocsubsection {}{12.4}{6.11.4 LSTM流行的变体}}{162}{subsection.6.12.4}
+\contentsline {section}{\tocsection {}{13}{6.12 LSTMs与GRUs的区别}}{163}{section.6.13}
+\contentsline {section}{\tocsection {}{14}{6.13 RNNs在NLP中典型应用？}}{163}{section.6.14}
+\contentsline {section}{\tocsection {}{15}{6.13 常见的RNNs扩展和改进模型}}{163}{section.6.15}
+\contentsline {subsection}{\tocsubsection {}{15.1}{6.13.1 Simple RNNs(SRNs)}}{163}{subsection.6.15.1}
+\contentsline {subsection}{\tocsubsection {}{15.2}{6.13.2 Bidirectional RNNs}}{164}{subsection.6.15.2}
+\contentsline {subsection}{\tocsubsection {}{15.3}{6.13.3 Deep RNNs}}{164}{subsection.6.15.3}
+\contentsline {subsection}{\tocsubsection {}{15.4}{6.13.4 Echo State Networks（ESNs）}}{164}{subsection.6.15.4}
+\contentsline {subsection}{\tocsubsection {}{15.5}{6.13.4 Gated Recurrent Unit Recurrent Neural Networks}}{164}{subsection.6.15.5}
+\contentsline {subsection}{\tocsubsection {}{15.6}{6.13.5 Bidirectional LSTMs}}{165}{subsection.6.15.6}
+\contentsline {subsection}{\tocsubsection {}{15.7}{6.13.6 Stacked LSTMs}}{165}{subsection.6.15.7}
+\contentsline {subsection}{\tocsubsection {}{15.8}{6.13.7 Clockwork RNNs(CW-RNNs)}}{165}{subsection.6.15.8}
+\contentsline {subsection}{\tocsubsection {}{15.9}{6.13.8 CNN-LSTMs}}{166}{subsection.6.15.9}
+\contentsline {chapter}{\tocchapter {Chapter}{7}{生成对抗网络}}{169}{chapter.7}
+\contentsline {section}{\tocsection {}{1}{7.1 GAN基本概念}}{169}{section.7.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{如何通俗理解GAN？}}{169}{subsection.7.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{7.1.2 GAN的形式化表达}}{169}{subsection.7.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{7.1.3 GAN的目标函数是什么？}}{169}{subsection.7.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.4}{7.1.4 GAN的目标函数和交叉熵有什么区别？}}{170}{subsection.7.1.4}
+\contentsline {subsection}{\tocsubsection {}{1.5}{7.1.5 GAN的Loss为什么降不下去？}}{170}{subsection.7.1.5}
+\contentsline {subsection}{\tocsubsection {}{1.6}{7.1.6 生成式模型、判别式模型的区别？}}{171}{subsection.7.1.6}
+\contentsline {subsection}{\tocsubsection {}{1.7}{7.1.7 什么是mode collapsing?}}{172}{subsection.7.1.7}
+\contentsline {subsection}{\tocsubsection {}{1.8}{7.1.8 如何解决mode collapsing？}}{172}{subsection.7.1.8}
+\contentsline {section}{\tocsection {}{2}{7.2 GAN的生成能力评价}}{172}{section.7.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{7.2.1 如何客观评价GAN的生成能力？}}{173}{subsection.7.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{7.2.2 Inception Score}}{173}{subsection.7.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{7.2.3 Mode Score}}{173}{subsection.7.2.3}
+\contentsline {subsection}{\tocsubsection {}{2.4}{7.2.4 Kernel MMD (Maximum Mean Discrepancy)}}{173}{subsection.7.2.4}
+\contentsline {subsection}{\tocsubsection {}{2.5}{7.2.5 Wasserstein distance}}{174}{subsection.7.2.5}
+\contentsline {subsection}{\tocsubsection {}{2.6}{7.2.6 Fréchet Inception Distance (FID)}}{174}{subsection.7.2.6}
+\contentsline {subsection}{\tocsubsection {}{2.7}{7.2.7 1-Nearest Neighbor classifier}}{174}{subsection.7.2.7}
+\contentsline {subsection}{\tocsubsection {}{2.8}{7.2.8 其他评价方法}}{174}{subsection.7.2.8}
+\contentsline {section}{\tocsection {}{3}{7.3 其他常见的生成式模型有哪些？}}{174}{section.7.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{7.3.1 什么是自回归模型：pixelRNN与pixelCNN？}}{174}{subsection.7.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{7.3.2 什么是VAE？}}{175}{subsection.7.3.2}
+\contentsline {section}{\tocsection {}{4}{7.4 GAN的改进与优化}}{175}{section.7.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{7.4.1 如何生成指定类型的图像------条件GAN}}{175}{subsection.7.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{7.4.2 CNN与GAN------DCGAN}}{176}{subsection.7.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.3}{7.4.3 如何理解GAN中的输入随机噪声？}}{176}{subsection.7.4.3}
+\contentsline {subsection}{\tocsubsection {}{4.4}{7.4.4 GAN为什么容易训练崩溃？}}{176}{subsection.7.4.4}
+\contentsline {subsection}{\tocsubsection {}{4.5}{7.4.5 WGAN如何解决训练崩溃问题？}}{177}{subsection.7.4.5}
+\contentsline {subsection}{\tocsubsection {}{4.6}{7.4.6 WGAN-GP：带有梯度正则的WGAN}}{177}{subsection.7.4.6}
+\contentsline {subsection}{\tocsubsection {}{4.7}{7.4.7 LSGAN}}{177}{subsection.7.4.7}
+\contentsline {subsection}{\tocsubsection {}{4.8}{7.4.8 如何尽量避免GAN的训练崩溃问题？}}{178}{subsection.7.4.8}
+\contentsline {section}{\tocsection {}{5}{7.3 GAN的应用（图像翻译）}}{178}{section.7.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{7.3.1 什么是图像翻译？}}{178}{subsection.7.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{7.3.2 有监督图像翻译：pix2pix}}{179}{subsection.7.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{7.3.3 其他图像翻译的tricks}}{179}{subsection.7.5.3}
+\contentsline {subsection}{\tocsubsection {}{5.4}{7.3.4 如何生成高分辨率图像和高分辨率视频？}}{179}{subsection.7.5.4}
+\contentsline {subsection}{\tocsubsection {}{5.5}{7.3.5 有监督的图像翻译的缺点？}}{180}{subsection.7.5.5}
+\contentsline {subsection}{\tocsubsection {}{5.6}{7.3.6 无监督图像翻译：CycleGAN}}{180}{subsection.7.5.6}
+\contentsline {subsection}{\tocsubsection {}{5.7}{7.3.7 多领域的无监督图像翻译：StarGAN}}{180}{subsection.7.5.7}
+\contentsline {section}{\tocsection {}{6}{7.4 GAN的应用（文本生成）}}{181}{section.7.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{7.4.1 GAN为什么不适合文本任务？}}{181}{subsection.7.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{7.4.2 seqGAN用于文本生成}}{181}{subsection.7.6.2}
+\contentsline {section}{\tocsection {}{7}{7.5 GAN在其他领域的应用}}{181}{section.7.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{7.5.1 数据增广}}{181}{subsection.7.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.2}{7.5.2 图像超分辨与图像补全}}{182}{subsection.7.7.2}
+\contentsline {subsection}{\tocsubsection {}{7.3}{7.5.3 语音领域}}{182}{subsection.7.7.3}
+\contentsline {subsection}{\tocsubsection {}{2.3}{8.2.3 Faster R-CNN}}{186}{subsection.8.2.3}
+\contentsline {subsection}{\tocsubsection {}{2.4}{8.2.4 R-FCN}}{186}{subsection.8.2.4}
+\contentsline {subsection}{\tocsubsection {}{2.8}{8.2.8 CBNet}}{187}{subsection.8.2.8}
+\contentsline {subsection}{\tocsubsection {}{3.2}{8.3.2 DSSD}}{189}{subsection.8.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.5}{8.3.5 YOLO9000}}{190}{subsection.8.3.5}
+\contentsline {subsection}{\tocsubsection {}{5.2}{8.5.2 OHEM}}{193}{subsection.8.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{8.5.3 NMS：Soft NMS/ Polygon NMS/ Inclined NMS/ ConvNMS/ Yes-Net NMS/ Softer NMS}}{193}{subsection.8.5.3}
+\contentsline {subsection}{\tocsubsection {}{5.4}{8.5.4 Multi Scale Training/Testing}}{193}{subsection.8.5.4}
+\contentsline {subsection}{\tocsubsection {}{5.5}{8.5.5 建立小物体与context的关系}}{193}{subsection.8.5.5}
+\contentsline {section}{\tocsection {}{6}{8.6 目标检测的常用数据集}}{194}{section.8.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{8.6.1 PASCAL VOC}}{194}{subsection.8.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{8.6.2 MS COCO}}{194}{subsection.8.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.3}{8.6.3 Google Open Image}}{194}{subsection.8.6.3}
+\contentsline {subsection}{\tocsubsection {}{6.4}{8.6.4 ImageNet}}{195}{subsection.8.6.4}
+\contentsline {subsection}{\tocsubsection {}{6.5}{8.6.5 DOTA}}{195}{subsection.8.6.5}
+\contentsline {section}{\tocsection {}{7}{8.7 目标检测常用标注工具}}{195}{section.8.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{8.7.1 LabelImg}}{195}{subsection.8.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.2}{8.7.2 labelme}}{195}{subsection.8.7.2}
+\contentsline {subsection}{\tocsubsection {}{7.3}{8.7.3 Labelbox}}{195}{subsection.8.7.3}
+\contentsline {subsection}{\tocsubsection {}{7.4}{8.7.4 RectLabel}}{196}{subsection.8.7.4}
+\contentsline {subsection}{\tocsubsection {}{7.5}{8.7.5 CVAT}}{196}{subsection.8.7.5}
+\contentsline {subsection}{\tocsubsection {}{7.6}{8.7.6 VIA}}{196}{subsection.8.7.6}
+\contentsline {subsection}{\tocsubsection {}{7.7}{8.7.6 其他标注工具}}{196}{subsection.8.7.7}
+\contentsline {section}{\tocsection {}{8}{8.8 目标检测工具和框架（贡献者：北京理工大学--明奇）}}{197}{section.8.8}
+\contentsline {section}{\tocsection {}{9}{TODO}}{198}{section.8.9}
+\contentsline {subsection}{\tocsubsection {}{3.4}{9.2.4 全连接层和卷积层如何相互转化？}}{201}{subsection.9.3.4}
+\contentsline {section}{\tocsection {}{8}{9.7 PSPNet}}{204}{section.9.8}
+\contentsline {section}{\tocsection {}{9}{9.8 DeepLab系列}}{205}{section.9.9}
+\contentsline {subsection}{\tocsubsection {}{9.1}{9.8.1 DeepLabv1}}{205}{subsection.9.9.1}
+\contentsline {subsection}{\tocsubsection {}{9.2}{9.8.2 DeepLabv2}}{205}{subsection.9.9.2}
+\contentsline {subsection}{\tocsubsection {}{10.1}{9.9.1 Mask-RCNN 的网络结构示意图}}{206}{subsection.9.10.1}
+\contentsline {subsection}{\tocsubsection {}{10.2}{9.9.2 RCNN行人检测框架}}{206}{subsection.9.10.2}
+\contentsline {subsection}{\tocsubsection {}{10.3}{9.9.3 Mask-RCNN 技术要点}}{206}{subsection.9.10.3}
+\contentsline {subsection}{\tocsubsection {}{11.2}{9.10.2 图像级别标记}}{207}{subsection.9.11.2}
+\contentsline {subsection}{\tocsubsection {}{11.3}{9.10.3 DeepLab+bounding box+image-level labels**}}{207}{subsection.9.11.3}
+\contentsline {subsection}{\tocsubsection {}{11.5}{9.10.5 弱监督分割最新进展（贡献者：明奇-北京理工大学）}}{208}{subsection.9.11.5}
+\contentsline {section}{\tocsection {}{14}{9.13 全景分割（贡献者：北京理工大学--明奇）}}{209}{section.9.14}
+\contentsline {subsection}{\tocsubsection {}{3.1}{强化学习和监督式学习的区别：}}{215}{subsection.10.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{强化学习和非监督式学习的区别：}}{215}{subsection.10.3.2}
+\contentsline {chapter}{\tocchapter {Chapter}{11}{迁移学习}}{223}{chapter.11}
+\contentsline {section}{\tocsection {}{1}{迁移学习基础知识}}{223}{section.11.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{什么是迁移学习？}}{223}{subsection.11.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{为什么需要迁移学习？}}{223}{subsection.11.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{迁移学习的基本问题有哪些？}}{223}{subsection.11.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.4}{迁移学习有哪些常用概念？}}{223}{subsection.11.1.4}
+\contentsline {subsection}{\tocsubsection {}{1.5}{迁移学习与传统机器学习有什么区别？}}{225}{table.11.1}
+\contentsline {subsection}{\tocsubsection {}{1.6}{迁移学习与其他概念的区别？}}{226}{subsection.11.1.6}
+\contentsline {subsection}{\tocsubsection {}{1.7}{什么是负迁移？产生负迁移的原因有哪些？}}{226}{subsection.11.1.7}
+\contentsline {subsection}{\tocsubsection {}{1.8}{迁移学习的基本思路？}}{226}{subsection.11.1.8}
+\contentsline {subsection}{\tocsubsection {}{3.9}{什么是深度网络自适应？}}{227}{subsection.11.3.9}
+\contentsline {chapter}{\tocchapter {Chapter}{12}{网络搭建及训练}}{231}{chapter.12}
+\contentsline {section}{\tocsection {}{1}{ TensorFlow}}{231}{section.12.1}
+\contentsline {section}{\tocsection {}{2}{TensorFlow是什么？}}{231}{section.12.2}
+\contentsline {section}{\tocsection {}{3}{TensorFlow的设计理念是什么？}}{231}{section.12.3}
+\contentsline {section}{\tocsection {}{4}{TensorFlow特点有哪些？}}{232}{section.12.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{高度的灵活性}}{232}{subsection.12.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{真正的可移植性}}{232}{subsection.12.4.2}
+\contentsline {subsection}{\tocsubsection {}{5.1}{  整个系统从底层到上层可分为七层：}}{233}{figure.12.1}
+\contentsline {section}{\tocsection {}{6}{TensorFlow编程模型是怎样的？}}{233}{section.12.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{构建图}}{233}{subsection.12.6.1}
+\contentsline {paragraph}{\tocparagraph {}{}{placeholder}}{234}{section*.6}
+\contentsline {paragraph}{\tocparagraph {}{}{2.\nonbreakingspace variable}}{235}{section*.7}
+\contentsline {paragraph}{\tocparagraph {}{}{\nonbreakingspace initializer}}{235}{section*.8}
+\contentsline {subsection}{\tocsubsection {}{6.2}{启动图}}{235}{subsection.12.6.2}
+\contentsline {paragraph}{\tocparagraph {}{}{给图输入数据并获取结果}}{236}{section*.9}
+\contentsline {section}{\tocsection {}{7}{如何基于tensorflow搭建VGG16}}{237}{section.12.7}
+\contentsline {section}{\tocsection {}{8}{Pytorch}}{238}{section.12.8}
+\contentsline {section}{\tocsection {}{9}{ Pytorch是什么？}}{238}{section.12.9}
+\contentsline {section}{\tocsection {}{10}{ 为什么选择Pytorch？}}{238}{section.12.10}
+\contentsline {subsection}{\tocsubsection {}{10.1}{简洁：}}{238}{subsection.12.10.1}
+\contentsline {subsection}{\tocsubsection {}{10.2}{速度：}}{238}{subsection.12.10.2}
+\contentsline {subsection}{\tocsubsection {}{10.3}{易用：}}{239}{subsection.12.10.3}
+\contentsline {subsection}{\tocsubsection {}{10.4}{活跃的社区：}}{239}{subsection.12.10.4}
+\contentsline {section}{\tocsection {}{11}{ PyTorch的架构是怎样的？}}{239}{section.12.11}
+\contentsline {section}{\tocsection {}{12}{ Pytorch 与 tensorflow之间的差异在哪里？}}{239}{section.12.12}
+\contentsline {section}{\tocsection {}{13}{Pytorch有哪些常用工具包？}}{240}{section.12.13}
+\contentsline {section}{\tocsection {}{14}{ Caffe}}{240}{section.12.14}
+\contentsline {section}{\tocsection {}{15}{ 什么是 Caffe？}}{240}{section.12.15}
+\contentsline {section}{\tocsection {}{16}{Caffe的特点是什么？}}{240}{section.12.16}
+\contentsline {section}{\tocsection {}{17}{Caffe的设计思想是怎样的？}}{240}{section.12.17}
+\contentsline {section}{\tocsection {}{18}{Caffe架构是怎样的？}}{241}{section.12.18}
+\contentsline {subsection}{\tocsubsection {}{18.1}{ SyncedMem}}{241}{subsection.12.18.1}
+\contentsline {subsection}{\tocsubsection {}{18.2}{ Blob}}{241}{subsection.12.18.2}
+\contentsline {subsection}{\tocsubsection {}{18.3}{ Layer}}{242}{subsection.12.18.3}
+\contentsline {subsection}{\tocsubsection {}{18.4}{ Net}}{242}{subsection.12.18.4}
+\contentsline {subsection}{\tocsubsection {}{18.5}{ Solver}}{242}{subsection.12.18.5}
+\contentsline {subsection}{\tocsubsection {}{18.6}{ Proto}}{242}{subsection.12.18.6}
+\contentsline {subsection}{\tocsubsection {}{18.7}{ IO}}{243}{subsection.12.18.7}
+\contentsline {section}{\tocsection {}{19}{Caffe的有哪些接口？}}{243}{section.12.19}
+\contentsline {subsection}{\tocsubsection {}{19.1}{ Caffe Python接口}}{243}{subsection.12.19.1}
+\contentsline {subsection}{\tocsubsection {}{19.2}{ Caffe MATLAB接口}}{243}{subsection.12.19.2}
+\contentsline {subsection}{\tocsubsection {}{19.3}{Caffe命令行接口}}{243}{subsection.12.19.3}
+\contentsline {paragraph}{\tocparagraph {}{}{caffe train}}{244}{section*.10}
+\contentsline {paragraph}{\tocparagraph {}{}{ caffe test}}{244}{section*.11}
+\contentsline {paragraph}{\tocparagraph {}{}{ caffe time}}{244}{section*.12}
+\contentsline {subsection}{\tocsubsection {}{19.4}{网络搭建有什么原则？}}{244}{subsection.12.19.4}
+\contentsline {subsection}{\tocsubsection {}{19.5}{新手原则}}{244}{subsection.12.19.5}
+\contentsline {subsection}{\tocsubsection {}{19.6}{深度优先原则。}}{244}{subsection.12.19.6}
+\contentsline {subsection}{\tocsubsection {}{19.7}{卷积核size一般为奇数。}}{244}{subsection.12.19.7}
+\contentsline {subsection}{\tocsubsection {}{19.8}{卷积核不是越大越好。}}{244}{subsection.12.19.8}
+\contentsline {section}{\tocsection {}{20}{有哪些经典的网络模型值得我们去学习的？}}{244}{section.12.20}
+\contentsline {section}{\tocsection {}{21}{10.6 网络训练有哪些技巧吗？}}{248}{section.12.21}
+\contentsline {subsection}{\tocsubsection {}{21.1}{10.6.1.合适的数据集。}}{248}{subsection.12.21.1}
+\contentsline {subsection}{\tocsubsection {}{21.2}{合适的预处理方法}}{248}{subsection.12.21.2}
+\contentsline {subsection}{\tocsubsection {}{21.3}{网络的初始化}}{248}{subsection.12.21.3}
+\contentsline {subsection}{\tocsubsection {}{21.4}{小规模数据试练}}{248}{subsection.12.21.4}
+\contentsline {subsection}{\tocsubsection {}{21.5}{设置合理LearningRate}}{248}{subsection.12.21.5}
+\contentsline {subsection}{\tocsubsection {}{21.6}{损失函数}}{248}{subsection.12.21.6}
+\contentsline {chapter}{\tocchapter {Chapter}{13}{优化算法}}{253}{chapter.13}
+\contentsline {section}{\tocsection {}{1}{如何解决训练样本少的问题}}{253}{section.13.1}
+\contentsline {section}{\tocsection {}{2}{深度学习是否能胜任所有数据集?}}{253}{section.13.2}
+\contentsline {section}{\tocsection {}{3}{有没有可能找到比已知算法更好的算法?}}{253}{section.13.3}
+\contentsline {section}{\tocsection {}{4}{什么是共线性，如何判断和解决共线性问题?}}{254}{section.13.4}
+\contentsline {section}{\tocsection {}{5}{权值初始化方法有哪些？}}{254}{section.13.5}
+\contentsline {section}{\tocsection {}{6}{如何防止梯度下降陷入局部最优解?}}{255}{section.13.6}
+\contentsline {section}{\tocsection {}{7}{为什么需要激活函数？}}{256}{section.13.7}
+\contentsline {section}{\tocsection {}{8}{常见的损失函数有哪些?}}{257}{section.13.8}
+\contentsline {section}{\tocsection {}{9}{ 如何进行特征选择(feature selection)?}}{258}{section.13.9}
+\contentsline {subsection}{\tocsubsection {}{9.1}{特征类型有哪些？}}{258}{subsection.13.9.1}
+\contentsline {subsection}{\tocsubsection {}{9.2}{如何考虑特征选择}}{259}{subsection.13.9.2}
+\contentsline {subsection}{\tocsubsection {}{9.3}{特征选择方法分类}}{259}{subsection.13.9.3}
+\contentsline {subsection}{\tocsubsection {}{9.4}{特征选择目的}}{259}{subsection.13.9.4}
+\contentsline {section}{\tocsection {}{10}{梯度消失/梯度爆炸原因，以及解决方法}}{259}{section.13.10}
+\contentsline {subsection}{\tocsubsection {}{10.1}{为什么要使用梯度更新规则?}}{259}{subsection.13.10.1}
+\contentsline {subsection}{\tocsubsection {}{10.2}{梯度消失/爆炸产生的原因?}}{260}{subsection.13.10.2}
+\contentsline {subsection}{\tocsubsection {}{10.3}{梯度消失、爆炸的解决方案}}{261}{subsection.13.10.3}
+\contentsline {section}{\tocsection {}{11}{深度学习为什么不用二阶优化？}}{262}{section.13.11}
+\contentsline {section}{\tocsection {}{12}{为什么要设置单一数字评估指标，设置指标的意义？}}{262}{section.13.12}
+\contentsline {section}{\tocsection {}{13}{训练/验证/测试集的定义及划分}}{262}{section.13.13}
+\contentsline {section}{\tocsection {}{14}{什么是TOP5错误率？}}{263}{section.13.14}
+\contentsline {section}{\tocsection {}{15}{什么是泛化误差，如何理解方差和偏差？}}{263}{section.13.15}
+\contentsline {section}{\tocsection {}{16}{如何提升模型的稳定性？}}{264}{section.13.16}
+\contentsline {section}{\tocsection {}{17}{有哪些改善模型的思路}}{264}{section.13.17}
+\contentsline {subsection}{\tocsubsection {}{17.1}{数据角度}}{264}{subsection.13.17.1}
+\contentsline {subsection}{\tocsubsection {}{17.2}{ 模型角度}}{264}{subsection.13.17.2}
+\contentsline {subsection}{\tocsubsection {}{17.3}{调参优化角度}}{264}{subsection.13.17.3}
+\contentsline {subsection}{\tocsubsection {}{17.4}{ 训练角度}}{265}{subsection.13.17.4}
+\contentsline {section}{\tocsection {}{18}{如何快速构建有效初始模型？}}{265}{section.13.18}
+\contentsline {section}{\tocsection {}{19}{如何通过模型重新观察数据？}}{266}{section.13.19}
+\contentsline {section}{\tocsection {}{20}{如何解决数据不匹配问题？}}{266}{section.13.20}
+\contentsline {subsection}{\tocsubsection {}{20.1}{如何定位数据不匹配?}}{266}{subsection.13.20.1}
+\contentsline {subsection}{\tocsubsection {}{20.2}{举例常见几个数据不匹配的场景?}}{266}{subsection.13.20.2}
+\contentsline {subsection}{\tocsubsection {}{20.3}{如何解决数据不匹配问题?}}{266}{subsection.13.20.3}
+\contentsline {subsection}{\tocsubsection {}{20.4}{如何提高深度学习系统的性能}}{267}{subsection.13.20.4}
+\contentsline {section}{\tocsection {}{1}{ 超参数概念}}{271}{section.14.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{什么是超参数，参数和超参数的区别？}}{271}{subsection.14.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{神经网络中包含哪些超参数？}}{271}{subsection.14.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{为什么要进行超参数调优？}}{271}{subsection.14.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.4}{14.2.4 超参数的重要性顺序}}{271}{subsection.14.1.4}
+\contentsline {subsection}{\tocsubsection {}{1.5}{14.2.5 部分超参数如何影响模型性能？}}{274}{table.14.1}
+\contentsline {subsection}{\tocsubsection {}{1.6}{14.2.6 部分超参数合适的范围}}{274}{table.14.2}
+\contentsline {section}{\tocsection {}{2}{14.3 网络训练中的超参调整策略}}{274}{section.14.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{14.3.1 如何调试模型？}}{274}{subsection.14.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{14.3.2 为什么要做学习率调整?}}{275}{subsection.14.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{14.3.3 学习率调整策略有哪些？}}{275}{subsection.14.2.3}
+\contentsline {subsection}{\tocsubsection {}{2.4}{14.3.4 极端批样本数量下，如何训练网络？}}{277}{subsection.14.2.4}
+\contentsline {section}{\tocsection {}{3}{14.4 合理使用预训练网络}}{277}{section.14.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{14.4.1 什么是微调（fine-tune）}}{277}{subsection.14.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{14.4.2 微调有哪些不同方法？}}{278}{subsection.14.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3}{14.4.3 微调先冻结底层，训练顶层的原因？}}{278}{subsection.14.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.4}{14.4.4 不同的数据集特性下如何微调？}}{278}{subsection.14.3.4}
+\contentsline {subsection}{\tocsubsection {}{3.5}{14.4.4 目标检测中使用预训练模型的优劣？}}{279}{subsection.14.3.5}
+\contentsline {subsection}{\tocsubsection {}{3.6}{14.4.5 目标检测中如何从零开始训练(train from scratch)？}}{279}{subsection.14.3.6}
+\contentsline {section}{\tocsection {}{4}{14.5 如何改善 GAN 的性能}}{279}{section.14.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{14.6.1 什么是AutoML？}}{280}{subsection.14.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{14.6.2 自动化超参数搜索方法有哪些？}}{280}{subsection.14.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.3}{14.6.3 什么是神经网络架构搜索（NAS）}}{281}{subsection.14.4.3}
+\contentsline {subsection}{\tocsubsection {}{4.5}{14.6.5 网络设计中，为什么卷积核设计尺寸都是奇数}}{282}{subsection.14.4.5}
+\contentsline {subsection}{\tocsubsection {}{4.6}{14.6.6 网络设计中，权重共享的形式有哪些，为什么要权重共享}}{282}{subsection.14.4.6}
+\contentsline {chapter}{\tocchapter {Chapter}{15}{第十五章 异构计算，GPU和框架选型指南}}{285}{chapter.15}
+\contentsline {subsection}{\tocsubsection {}{0.1}{15.1 什么是异构计算？}}{285}{subsection.15.0.1}
+\contentsline {subsection}{\tocsubsection {}{0.2}{15.2 什么是GPU？}}{285}{subsection.15.0.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.5.2}{15.5.2 购买建议}}{286}{subsubsection.15.0.5.2}
+\contentsline {subsection}{\tocsubsection {}{0.6}{15.6 软件环境搭建}}{287}{subsection.15.0.6}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.6.1}{15.6.1 操作系统选择？}}{287}{subsubsection.15.0.6.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.6.2}{15.6.2 常用基础软件安装？}}{287}{subsubsection.15.0.6.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.6.3}{15.6.3 本机安装还是使用docker？}}{288}{subsubsection.15.0.6.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.6.4}{15.6.4 GPU驱动问题}}{288}{subsubsection.15.0.6.4}
+\contentsline {subsection}{\tocsubsection {}{0.7}{15.7 框架选择}}{288}{subsection.15.0.7}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.7.1}{15.7.1 主流框架比较}}{288}{subsubsection.15.0.7.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.7.2}{15.7.2 框架详细信息}}{288}{subsubsection.15.0.7.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.7.3}{15.7.3 哪些框架对于部署环境友好？}}{291}{subsubsection.15.0.7.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.7.4}{15.7.4 移动平台的框架如何选择？}}{291}{subsubsection.15.0.7.4}
+\contentsline {subsection}{\tocsubsection {}{0.8}{15.8 其他}}{291}{subsection.15.0.8}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.8.1}{15.8.1 多GPU环境的配置}}{291}{subsubsection.15.0.8.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.8.2}{15.8.2 是不是可以分布式训练？}}{291}{subsubsection.15.0.8.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.8.3}{15.8.3 可以在SPARK环境里训练或者部署模型吗？}}{291}{subsubsection.15.0.8.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.8.4}{15.8.4 怎么进一步优化性能？}}{291}{subsubsection.15.0.8.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.8.5}{15.8.5 TPU和GPU的区别？}}{291}{subsubsection.15.0.8.5}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.8.6}{15.8.6 未来量子计算对于深度学习等AI技术的影响？}}{291}{subsubsection.15.0.8.6}
+\contentsline {subsection}{\tocsubsection {}{0.9}{15.1 GPU购买指南}}{291}{subsection.15.0.9}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.9.1}{15.1.1 如何选择GPU}}{292}{subsubsection.15.0.9.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.9.2}{15.1.2 GPU的主要性能指标}}{292}{subsubsection.15.0.9.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.9.3}{15.1.3 整机配置}}{292}{subsubsection.15.0.9.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.9.4}{15.1.4 小结}}{292}{subsubsection.15.0.9.4}
+\contentsline {subsection}{\tocsubsection {}{0.10}{15.2 框架选型}}{292}{subsection.15.0.10}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.10.1}{15.2.1 常用框架简介}}{292}{subsubsection.15.0.10.1}
+\contentsline {subsection}{\tocsubsection {}{0.11}{15.3 模型部署}}{293}{subsection.15.0.11}
+\contentsline {chapter}{\tocchapter {Chapter}{16}{第十六章 NLP}}{297}{chapter.16}
+\contentsline {section}{\tocsection {}{1}{16.0 NLP 发展史简述}}{297}{section.16.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{第一个浪潮：理性主义}}{297}{subsection.16.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{第二波浪潮：经验主义}}{298}{subsection.16.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{第三波浪潮：深度学习}}{299}{subsection.16.1.3}
+\contentsline {section}{\tocsection {}{2}{16.1 如何理解序列到序列模型？}}{302}{section.16.2}
+\contentsline {section}{\tocsection {}{3}{16.2 序列到序列模型有什么限制吗？}}{302}{section.16.3}
+\contentsline {section}{\tocsection {}{4}{16.3 如果不采用序列到序列模型，可以考虑用其它模型方法吗？}}{302}{section.16.4}
+\contentsline {section}{\tocsection {}{5}{16.4 如何理解词向量？}}{302}{section.16.5}
+\contentsline {section}{\tocsection {}{6}{16.5 词向量哪家好？}}{302}{section.16.6}
+\contentsline {section}{\tocsection {}{7}{16.6 解释一下注意力机制的原理？}}{302}{section.16.7}
+\contentsline {section}{\tocsection {}{8}{16.7 注意力机制是不是适用于所有场景呢？它的鲁棒性如何？}}{302}{section.16.8}
+\contentsline {section}{\tocsection {}{9}{16.8 怎么将原有的模型加上注意力机制呢？}}{302}{section.16.9}
+\contentsline {section}{\tocsection {}{10}{16.9 通俗地解释一下词法分析是什么？有什么应用场景？}}{302}{section.16.10}
+\contentsline {section}{\tocsection {}{11}{16.10 深度学习中的词法分析有哪些常见模型呢？}}{302}{section.16.11}
+\contentsline {section}{\tocsection {}{12}{16.11 通俗地解释一下知识图谱是什么？有什么应用场景？}}{302}{section.16.12}
+\contentsline {section}{\tocsection {}{13}{16.12 深度学习中的知识图谱有哪些常见模型呢？}}{302}{section.16.13}
+\contentsline {section}{\tocsection {}{14}{16.13 深度学习中的机器翻译有哪些常见模型呢？}}{302}{section.16.14}
+\contentsline {section}{\tocsection {}{15}{16.14 机器翻译的通俗实现以及部署过程是怎样的呢？}}{302}{section.16.15}
+\contentsline {section}{\tocsection {}{16}{16.15 通俗地解释一下文本情感分析是什么？常见的应用场景是？}}{302}{section.16.16}
+\contentsline {section}{\tocsection {}{17}{16.16 最常用的情感分析模型是什么呢？如何快速部署呢？}}{302}{section.16.17}
+\contentsline {section}{\tocsection {}{18}{16.17 通俗地解释一下问答系统？它涵盖哪些领域？常见的应用场景是？}}{302}{section.16.18}
+\contentsline {section}{\tocsection {}{19}{16.18 常见的问答系统模型是什么？如何快速部署呢？}}{302}{section.16.19}
+\contentsline {section}{\tocsection {}{20}{16.19 图像文字生成是什么？它的技术原理是什么？}}{302}{section.16.20}
+\contentsline {section}{\tocsection {}{21}{16.20 常见的图像文字生成模型是什么？}}{302}{section.16.21}
+\contentsline {section}{\tocsection {}{22}{16.21 NLP 的无监督学习发展动态是怎样的？有哪些领域在尝试无监督学习？}}{302}{section.16.22}
+\contentsline {section}{\tocsection {}{23}{16.22 NLP 和强化学习的结合方式是怎样的？有哪些方向在尝试强化学习？}}{302}{section.16.23}
+\contentsline {section}{\tocsection {}{24}{16.23 NLP 和元学习？元学习如何能够和 NLP 结合起来？}}{302}{section.16.24}
+\contentsline {section}{\tocsection {}{25}{16.24 能说一下各自领域最常用且常见的基准模型有哪些吗？}}{302}{section.16.25}
+\contentsline {chapter}{\tocchapter {Chapter}{17}{模型压缩及移动端部署}}{305}{chapter.17}
+\contentsline {subsection}{\tocsubsection {}{0.1}{模型压缩理解}}{305}{subsection.17.0.1}
+\contentsline {subsection}{\tocsubsection {}{0.2}{为什么需要模型压缩和加速？}}{305}{subsection.17.0.2}
+\contentsline {subsection}{\tocsubsection {}{0.3}{17.3 模型压缩的必要性及可行性}}{306}{table.17.1}
+\contentsline {subsection}{\tocsubsection {}{0.4}{17.4 目前有哪些深度学习模型压缩方法？}}{306}{subsection.17.0.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.4.1}{17.4.1 前端压缩和后端压缩对比}}{306}{table.17.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.4.2}{17.4.2 网络剪枝}}{306}{subsubsection.17.0.4.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.4.5}{17.4.5 前端压缩}}{307}{subsubsection.17.0.4.5}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.4.6}{17.4.6 后端压缩}}{307}{subsubsection.17.0.4.6}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.4.8}{17.4.7 总体压缩效果评价指标有哪些？}}{309}{subsubsection.17.0.4.8}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.4.9}{17.4.8 几种轻量化网络结构对比}}{309}{table.17.12}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.4.10}{17.4.9 网络压缩未来研究方向有哪些？}}{309}{subsubsection.17.0.4.10}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.5.3}{17.5.3 TensorRT如何优化重构模型？}}{310}{table.17.13}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.5.4}{17.5.4 TensorRT加速效果如何？}}{310}{subsubsection.17.0.5.4}
+\contentsline {subsection}{\tocsubsection {}{0.6}{17.6 影响神经网络速度的4个因素（再稍微详细一点）}}{311}{subsection.17.0.6}
+\contentsline {subsection}{\tocsubsection {}{0.7}{17.7 压缩和加速方法如何选择？}}{311}{subsection.17.0.7}
+\contentsline {subsection}{\tocsubsection {}{0.8}{17.8 改变网络结构设计为什么会实现模型压缩、加速？}}{311}{subsection.17.0.8}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.8.1}{17.8.1 Group convolution}}{311}{subsubsection.17.0.8.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.8.2}{17.8.2. Depthwise separable convolution}}{313}{subsubsection.17.0.8.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.8.3}{17.8.3 输入输出的channel相同时，MAC最小}}{316}{subsubsection.17.0.8.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.8.4}{17.8.4 减少组卷积的数量}}{317}{subsubsection.17.0.8.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.8.5}{17.8.5 减少网络碎片化程度(分支数量)}}{317}{subsubsection.17.0.8.5}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.8.6}{17.8.7 减少元素级操作}}{318}{subsubsection.17.0.8.6}
+\contentsline {subsection}{\tocsubsection {}{0.9}{17.9 常用的轻量级网络有哪些？}}{319}{subsection.17.0.9}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.9.1}{17.9.1 SequeezeNet}}{319}{subsubsection.17.0.9.1}
+\contentsline {paragraph}{\tocparagraph {}{}{1.3实验结果}}{321}{section*.13}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.9.2}{17.9.2 MobileNet}}{321}{subsubsection.17.0.9.2}
+\contentsline {paragraph}{\tocparagraph {}{}{2.3 实验结果}}{325}{section*.14}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.9.3}{17.9.3 MobileNet-v2}}{325}{subsubsection.17.0.9.3}
+\contentsline {paragraph}{\tocparagraph {}{}{3.2 网络架构}}{325}{section*.15}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.9.4}{17.9.4 Xception}}{329}{subsubsection.17.0.9.4}
+\contentsline {paragraph}{\tocparagraph {}{}{4.2网络架构}}{329}{section*.16}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.9.5}{17.9.5 ShuffleNet-v1}}{330}{subsubsection.17.0.9.5}
+\contentsline {paragraph}{\tocparagraph {}{}{5.2 网络架构}}{331}{section*.17}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.9.6}{17.9.6 ShuffleNet-v2}}{335}{subsubsection.17.0.9.6}
+\contentsline {paragraph}{\tocparagraph {}{}{6.2 网络结构}}{335}{section*.18}
+\contentsline {paragraph}{\tocparagraph {}{}{6.4 ShuffleNet-v2具有高精度的原因}}{337}{section*.19}
+\contentsline {subsection}{\tocsubsection {}{0.10}{17.10 现有移动端开源框架及其特点}}{337}{subsection.17.0.10}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.10.1}{17.10.1 NCNN}}{337}{subsubsection.17.0.10.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.10.3}{17.10.3 Prestissimo}}{339}{subsubsection.17.0.10.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.10.4}{17.10.4 MDL（mobile-deep-learning）}}{340}{subsubsection.17.0.10.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.10.5}{17.10.5 Paddle-Mobile}}{341}{subsubsection.17.0.10.5}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.10.9}{17.10.9 PocketFlow}}{343}{subsubsection.17.0.10.9}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.10.10}{17.10.10 其他几款支持移动端深度学习的开源框架}}{345}{subsubsection.17.0.10.10}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.10.11}{17.10.11 MDL、NCNN和 TFLite比较}}{345}{subsubsection.17.0.10.11}
+\contentsline {subsection}{\tocsubsection {}{0.11}{17.11 移动端开源框架部署}}{345}{subsection.17.0.11}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.11.1}{17.8.1 以NCNN为例}}{345}{subsubsection.17.0.11.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.11.2}{17.8.2 以QNNPACK为例}}{345}{subsubsection.17.0.11.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.11.3}{17.8.4 在Android手机上使用MACE实现图像分类}}{346}{subsubsection.17.0.11.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{0.11.4}{17.8.3 在Android手机上使用PaddleMobile实现图像分类}}{346}{subsubsection.17.0.11.4}
+\contentsline {subsection}{\tocsubsection {}{0.12}{17.9 移动端开源框架部署疑难}}{350}{subsection.17.0.12}
+\contentsline {chapter}{\tocchapter {Chapter}{18}{第十八章\_后端架构选型、离线及实时计算}}{353}{chapter.18}
+\contentsline {section}{\tocsection {}{1}{18.1 为什么需要分布式计算？}}{353}{section.18.1}
+\contentsline {subsection}{\tocsubsection {}{2.4}{18.2.4 Spark MLllib}}{354}{subsection.18.2.4}
+\contentsline {subsection}{\tocsubsection {}{2.5}{18.2.5 Ray}}{354}{subsection.18.2.5}
+\contentsline {subsection}{\tocsubsection {}{2.6}{18.2.6 Spark stream}}{356}{subsection.18.2.6}
+\contentsline {subsection}{\tocsubsection {}{2.7}{18.2.7 Horovod}}{356}{subsection.18.2.7}
+\contentsline {subsection}{\tocsubsection {}{2.8}{18.2.8 BigDL}}{358}{subsection.18.2.8}
+\contentsline {subsection}{\tocsubsection {}{2.9}{18.2.9 Petastorm}}{358}{subsection.18.2.9}
+\contentsline {subsection}{\tocsubsection {}{2.10}{18.2.10 TensorFlowOnSpark}}{359}{subsection.18.2.10}
+\contentsline {subsection}{\tocsubsection {}{4.2}{18.4.2 实时流计算过程}}{360}{figure.18.4}
+\contentsline {section}{\tocsection {}{5}{18.5 如何进行离线计算？}}{364}{section.18.5}
+\contentsline {section}{\tocsection {}{6}{18.6 如何使用分布式框架提高模型训练速度？}}{364}{section.18.6}
+\contentsline {section}{\tocsection {}{7}{18.7 深度学习分布式计算框架如何在移动互联网中应用？}}{364}{section.18.7}
+\contentsline {section}{\tocsection {}{8}{18.8 如何在个性化推荐中应用深度学习分布式框架？}}{364}{section.18.8}
+\contentsline {section}{\tocsection {}{9}{18.9 如何评价个性化推荐系统的效果？}}{364}{section.18.9}
+\contentsline {subsection}{\tocsubsection {}{9.1}{18.9.1 准确率与召回率（Precision \& Recall）}}{364}{subsection.18.9.1}
+\contentsline {subsection}{\tocsubsection {}{9.4}{18.9.4 平均正确率（Average Precision）}}{365}{subsection.18.9.4}
+\contentsline {chapter}{\tocchapter {Chapter}{19}{第十八章 后端架构选型及应用场景}}{369}{chapter.19}
+\contentsline {section}{\tocsection {}{1}{18.1 为什么需要分布式计算？}}{369}{section.19.1}
+\contentsline {subsection}{\tocsubsection {}{2.4}{18.2.4 Spark MLllib}}{370}{subsection.19.2.4}
+\contentsline {subsection}{\tocsubsection {}{2.5}{18.2.5 Ray}}{370}{subsection.19.2.5}
+\contentsline {subsection}{\tocsubsection {}{2.7}{18.2.7 Horovod}}{372}{subsection.19.2.7}
+\contentsline {subsection}{\tocsubsection {}{2.8}{18.2.8 BigDL}}{373}{subsection.19.2.8}
+\contentsline {subsection}{\tocsubsection {}{3.2}{18.3.2 实时流计算过程}}{374}{figure.19.10}
+\contentsline {section}{\tocsection {}{4}{18.4 如何进行离线计算？}}{378}{section.19.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{18.4.1 数据采集}}{378}{subsection.19.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{18.4.2 数据预处理}}{380}{subsection.19.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.3}{18.4.3 数据建模}}{381}{subsection.19.4.3}
+\contentsline {subsection}{\tocsubsection {}{4.4}{18.4.4 ETL}}{382}{subsection.19.4.4}
+\contentsline {subsection}{\tocsubsection {}{4.5}{18.4.5 数据导出}}{387}{subsection.19.4.5}
+\contentsline {subsection}{\tocsubsection {}{4.6}{18.4.6 工作流调度}}{390}{subsection.19.4.6}
+\contentsline {section}{\tocsection {}{5}{18.5 如何设计一个人机交互系统？}}{390}{section.19.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{18.5.1 什么是人机交互系统？}}{390}{subsection.19.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.5}{18.5.5 什么是指代消解？如何指代消解？}}{391}{subsection.19.5.5}
+\contentsline {subsection}{\tocsubsection {}{5.10}{18.5.10 如何评估人机交互系统的效果？}}{394}{subsection.19.5.10}
+\contentsline {section}{\tocsection {}{6}{18.6 如何设计个性化推荐系统？}}{394}{section.19.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{18.6.1 什么是个性化推荐系统？}}{394}{subsection.19.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.6}{18.6.6 用户画像}}{395}{subsection.19.6.6}
+\contentsline {subsection}{\tocsubsection {}{6.7}{18.6.7 GBDT粗排}}{395}{subsection.19.6.7}
+\contentsline {subsection}{\tocsubsection {}{6.8}{18.6.8 在线FM精排}}{395}{subsection.19.6.8}
+\contentsline {chapter}{\tocchapter {Chapter}{20}{第十九章 软件（算法）专利申请及权利保护}}{401}{chapter.20}
+\contentsline {section}{\tocsection {}{1}{19.1 为什么需要对软件（算法）进行保护？}}{401}{section.20.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{19.1.1 如果不保护自己的软件（算法）会怎样？}}{401}{subsection.20.1.1}
+\contentsline {section}{\tocsection {}{2}{19.2 软件或者系统该申请怎样的保护？}}{402}{section.20.2}
+\contentsline {section}{\tocsection {}{3}{19.3 如何保护自己的软件或算法？}}{402}{section.20.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{19.3.1 申请例子①}}{403}{subsection.20.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{19.3.2 申请例子②}}{404}{subsection.20.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3}{19.3.3 申请国内发明专利提示}}{404}{subsection.20.3.3}
+\contentsline {section}{\tocsection {}{4}{19.4 如何保护自己的代码？}}{405}{section.20.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{19.4.1 已经开源的算法代码怎么保护？}}{405}{subsection.20.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{19.4.2 论文中的算法实现代码怎么保护？}}{405}{subsection.20.4.2}
+\contentsline {section}{\tocsection {}{5}{19.5 如何申请软件（算法）专利（发明专利）？}}{405}{section.20.5}
+\contentsline {section}{\tocsection {}{6}{19.6 如何申请软件著作权？}}{406}{section.20.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{19.6.1 如何为机器学习的代码申请软著？}}{407}{subsection.20.6.1}
+\contentsline {section}{\tocsection {}{7}{19.7 如何申请非中国范围内的算法专利？}}{407}{section.20.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{19.7.1 美国专利申请流程}}{407}{subsection.20.7.1}
+\contentsline {paragraph}{\tocparagraph {}{}{19.7.1.1 巴黎公约途径}}{408}{section*.20}
+\contentsline {paragraph}{\tocparagraph {}{}{19.7.1.2 PCT 途径}}{408}{section*.21}
+\contentsline {subsection}{\tocsubsection {}{7.2}{19.7.2 能不能在美国申请算法专利，然后走 PCT 途径回国？}}{408}{subsection.20.7.2}
+\contentsline {subsection}{\tocsubsection {}{7.3}{19.7.3 申请国外的专利是否能自己进行？}}{408}{subsection.20.7.3}
+\contentsline {section}{\tocsection {}{8}{19.8 如何在写专利前进行适当检索？}}{408}{section.20.8}
