@@ -695,24 +695,3 @@
 \contentsline {subsection}{\tocsubsection {}{6.6}{18.6.6 用户画像}}{395}{subsection.19.6.6}
 \contentsline {subsection}{\tocsubsection {}{6.7}{18.6.7 GBDT粗排}}{395}{subsection.19.6.7}
 \contentsline {subsection}{\tocsubsection {}{6.8}{18.6.8 在线FM精排}}{395}{subsection.19.6.8}
-\contentsline {chapter}{\tocchapter {Chapter}{20}{第十九章 软件（算法）专利申请及权利保护}}{401}{chapter.20}
-\contentsline {section}{\tocsection {}{1}{19.1 为什么需要对软件（算法）进行保护？}}{401}{section.20.1}
-\contentsline {subsection}{\tocsubsection {}{1.1}{19.1.1 如果不保护自己的软件（算法）会怎样？}}{401}{subsection.20.1.1}
-\contentsline {section}{\tocsection {}{2}{19.2 软件或者系统该申请怎样的保护？}}{402}{section.20.2}
-\contentsline {section}{\tocsection {}{3}{19.3 如何保护自己的软件或算法？}}{402}{section.20.3}
-\contentsline {subsection}{\tocsubsection {}{3.1}{19.3.1 申请例子①}}{403}{subsection.20.3.1}
-\contentsline {subsection}{\tocsubsection {}{3.2}{19.3.2 申请例子②}}{404}{subsection.20.3.2}
-\contentsline {subsection}{\tocsubsection {}{3.3}{19.3.3 申请国内发明专利提示}}{404}{subsection.20.3.3}
-\contentsline {section}{\tocsection {}{4}{19.4 如何保护自己的代码？}}{405}{section.20.4}
-\contentsline {subsection}{\tocsubsection {}{4.1}{19.4.1 已经开源的算法代码怎么保护？}}{405}{subsection.20.4.1}
-\contentsline {subsection}{\tocsubsection {}{4.2}{19.4.2 论文中的算法实现代码怎么保护？}}{405}{subsection.20.4.2}
-\contentsline {section}{\tocsection {}{5}{19.5 如何申请软件（算法）专利（发明专利）？}}{405}{section.20.5}
-\contentsline {section}{\tocsection {}{6}{19.6 如何申请软件著作权？}}{406}{section.20.6}
-\contentsline {subsection}{\tocsubsection {}{6.1}{19.6.1 如何为机器学习的代码申请软著？}}{407}{subsection.20.6.1}
-\contentsline {section}{\tocsection {}{7}{19.7 如何申请非中国范围内的算法专利？}}{407}{section.20.7}
-\contentsline {subsection}{\tocsubsection {}{7.1}{19.7.1 美国专利申请流程}}{407}{subsection.20.7.1}
-\contentsline {paragraph}{\tocparagraph {}{}{19.7.1.1 巴黎公约途径}}{408}{section*.20}
-\contentsline {paragraph}{\tocparagraph {}{}{19.7.1.2 PCT 途径}}{408}{section*.21}
-\contentsline {subsection}{\tocsubsection {}{7.2}{19.7.2 能不能在美国申请算法专利，然后走 PCT 途径回国？}}{408}{subsection.20.7.2}
-\contentsline {subsection}{\tocsubsection {}{7.3}{19.7.3 申请国外的专利是否能自己进行？}}{408}{subsection.20.7.3}
-\contentsline {section}{\tocsection {}{8}{19.8 如何在写专利前进行适当检索？}}{408}{section.20.8}
