@@ -1,27 +1,24 @@
-\chapter{经典网络解读}\label{ux7b2cux56dbux7ae0-ux7ecfux5178ux7f51ux7edcux89e3ux8bfb}
+\chapter{经典网络解读}
+\label{ux7b2cux56dbux7ae0-ux7ecfux5178ux7f51ux7edcux89e3ux8bfb}
 
-\section{4.1 LeNet-5}\label{lenet-5}
+\section{LeNet-5}
+\label{lenet-5}
+\subsection{模型介绍}
+\label{ux6a21ux578bux4ecbux7ecd}
+​ LeNet-5是由LeCun提出的一种用于识别手写数字和机器印刷字符的卷积神经网络（Convolutional Neural Network，CNN）[1]，其命名来源于作者LeCun的名字，5则是其研究成果的代号，在LeNet-5之前还有LeNet-4和LeNet-1鲜为人知。
+LeNet-5阐述了图像中像素特征之间的相关性能够由参数共享的卷积操作所提取，同时使用卷积、下采样（池化）和非线性映射这样的组合结构，是当前流行的大多数深度图像识别网络的基础。
 
-\subsection{4.1.1 模型介绍}\label{ux6a21ux578bux4ecbux7ecd}
-
-​ LeNet-5是由\(LeCun\)
-提出的一种用于识别手写数字和机器印刷字符的卷积神经网络（Convolutional
-Neural
-Network，CNN）\(^{[1]}\)，其命名来源于作者\(LeCun\)的名字，5则是其研究成果的代号，在LeNet-5之前还有LeNet-4和LeNet-1鲜为人知。LeNet-5阐述了图像中像素特征之间的相关性能够由参数共享的卷积操作所提取，同时使用卷积、下采样（池化）和非线性映射这样的组合结构，是当前流行的大多数深度图像识别网络的基础。
-
-\subsection{4.1.2 模型结构}\label{ux6a21ux578bux7ed3ux6784}
+\subsection{模型结构}
+\label{ux6a21ux578bux7ed3ux6784}
 
 \begin{figure}
+  \label{fig:4.1}
 \centering
-\includegraphics{./img/ch4/image1.png}
-\caption{}
+\includegraphics[width=0.8\textwidth]{./img/ch4/image1.png}
+\caption{LeNet-5网络结构图}
 \end{figure}
-
-​ 图4.1 LeNet-5网络结构图
-
 ​
-如图4.1所示，LeNet-5一共包含7层（输入层不作为网络结构），分别由2个卷积层、2个下采样层和3个连接层组成，网络的参数配置如表4.1所示，其中下采样层和全连接层的核尺寸分别代表采样范围和连接矩阵的尺寸（如卷积核尺寸中的\(“5\times5\times1/1,6”\)表示核大小为\(5\times5\times1\)、步长为\(1​\)且核个数为6的卷积核）。
-
+如图\ref{fig:4.1}所示，LeNet-5一共包含7层（输入层不作为网络结构），分别由2个卷积层、2个下采样层和3个连接层组成，网络的参数配置如表4.1所示，其中下采样层和全连接层的核尺寸分别代表采样范围和连接矩阵的尺寸（如卷积核尺寸中的\(“5\times5\times1/1,6”\)表示核大小为\(5\times5\times1\)、步长为\(1​\)且核个数为6的卷积核）。
 ​ 表4.1 LeNet-5网络参数配置
 
 \begin{longtable}[]{ ccccc }
@@ -120,25 +117,20 @@ Network，CNN）\(^{[1]}\)，其命名来源于作者\(LeCun\)的名字，5则�
 \end{longtable}
 
 \begin{quote}
-​ \(^*\)
 在LeNet中，下采样操作和池化操作类似，但是在得到采样结果后会乘以一个系数和加上一个偏置项，所以下采样的参数个数是\((1+1)\times6​\)而不是零。
-
-​ \(^*\)
-\(C_3\)卷积层可训练参数并未直接连接\(S_2\)中所有的特征图（Feature
-Map），而是采用如图4.2所示的采样特征方式进行连接（稀疏连接），生成的16个通道特征图中分别按照相邻3个特征图、相邻4个特征图、非相邻4个特征图和全部6个特征图进行映射，得到的参数个数计算公式为\(6\times(25\times3+1)+6\times(25\times4+1)+3\times(25\times4+1)+1\times(25\times6+1)=1516\)，在原论文中解释了使用这种采样方式原因包含两点：限制了连接数不至于过大（当年的计算能力比较弱）;强制限定不同特征图的组合可以使映射得到的特征图学习到不同的特征模式。
+\(C_3\)卷积层可训练参数并未直接连接\(S_2\)中所有的特征图（Feature Map），而是采用如图4.2所示的采样特征方式进行连接（稀疏连接），生成的16个通道特征图中分别按照相邻3个特征图、相邻4个特征图、非相邻4个特征图和全部6个特征图进行映射，得到的参数个数计算公式为\(6\times(25\times3+1)+6\times(25\times4+1)+3\times(25\times4+1)+1\times(25\times6+1)=1516\)，在原论文中解释了使用这种采样方式原因包含两点：限制了连接数不至于过大（当年的计算能力比较弱）;强制限定不同特征图的组合可以使映射得到的特征图学习到不同的特征模式。
 \end{quote}
 
 \begin{figure}
+\label{FeatureMap}  
 \centering
-\includegraphics{./img/ch4/featureMap.jpg}
-\caption{FeatureMap}
+\includegraphics[width=0.8\textwidth]{./img/ch4/featureMap.jpg}
+\caption{\(S_2\)与\(C_3\)之间的特征图稀疏连接}
 \end{figure}
-
-​ 图4.2 \(S_2\)与\(C_3\)之间的特征图稀疏连接
 
 \begin{quote}
 ​ \(^*\)
-\(C_5\)卷积层在图4.1中显示为全连接层，原论文中解释这里实际采用的是卷积操作，只是刚好在\(5\times5\)卷积后尺寸被压缩为\(1\times1​\)，输出结果看起来和全连接很相似。
+\(C_5\)卷积层在图\ref{pic:4.1}中显示为全连接层，原论文中解释这里实际采用的是卷积操作，只是刚好在\(5\times5\)卷积后尺寸被压缩为\(1\times1​\)，输出结果看起来和全连接很相似。
 \end{quote}
 
 \subsection{4.1.3 模型特性}\label{ux6a21ux578bux7279ux6027}
@@ -170,7 +162,7 @@ Map），而是采用如图4.2所示的采样特征方式进行连接（稀疏�
 
 \begin{figure}
 \centering
-\includegraphics{./img/ch4/alexnet.png}
+\includegraphics[width=0.8\textwidth]{./img/ch4/alexnet.png}
 \caption{}
 \end{figure}
 
@@ -183,7 +175,7 @@ LRN），AlexNet一共包含8层，前5层由卷积层组成，而剩下的3层�
 
 ​ 表4.2 AlexNet网络参数配置
 
-\begin{longtable}[]{ ccccc }
+\begin{longtable}[]{ccccc}
 \toprule
 \begin{minipage}[b]{0.11\columnwidth}\centering\strut
 网络层\strut
@@ -362,13 +354,13 @@ LRN），AlexNet一共包含8层，前5层由卷积层组成，而剩下的3层�
 
 \begin{figure}
 \centering
-\includegraphics{./img/ch4/image21.png}
+\includegraphics[width=0.8\textwidth]{./img/ch4/image21.png}
 \caption{}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{./img/ch4/image21.jpeg}
+\includegraphics[width=0.8\textwidth]{./img/ch4/image21.jpeg}
 \caption{}
 \end{figure}
 
@@ -379,13 +371,13 @@ LRN），AlexNet一共包含8层，前5层由卷积层组成，而剩下的3层�
 
 \begin{figure}
 \centering
-\includegraphics{./img/ch4/zfnet-layer1.png}
+\includegraphics[width=0.8\textwidth]{./img/ch4/zfnet-layer1.png}
 \caption{}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{./img/ch4/zfnet-layer2.png}
+\includegraphics[width=0.8\textwidth]{./img/ch4/zfnet-layer2.png}
 \caption{}
 \end{figure}
 
@@ -463,7 +455,7 @@ ZFNet与AlexNet在结构上几乎相同，此部分虽属于模型特性，但�
 
 \subsection{4.4.2 模型结构}\label{ux6a21ux578bux7ed3ux6784-3}
 
-\includegraphics{./img/ch4/image23.png} ​ 图 4.6 NIN网络结构图
+\includegraphics[width=0.8\textwidth]{./img/ch4/image23.png} ​ 图 4.6 NIN网络结构图
 
 ​ NIN由三层的多层感知卷积层（MLPConv
 Layer）构成，每一层多层感知卷积层内部由若干层的局部全连接层和非线性激活函数组成，代替了传统卷积层中采用的线性卷积核。在网络推理（inference）时，这个多层感知器会对输入特征图的局部特征进行划窗计算，并且每个划窗的局部特征图对应的乘积的权重是共享的，这两点是和传统卷积操作完全一致的，最大的不同在于多层感知器对局部特征进行了非线性的映射，而传统卷积的方式是线性的。NIN的网络参数配置表4.4所示（原论文并未给出网络参数，表中参数为编者结合网络结构图和CIFAR-100数据集以\(3\times3\)卷积为例给出）。
@@ -595,7 +587,7 @@ ICLR）后至今被引用的次数已经超过1万4千余次。
 
 \begin{figure}
 \centering
-\includegraphics{./img/ch4/vgg16.png}
+\includegraphics[width=0.8\textwidth]{./img/ch4/vgg16.png}
 \caption{}
 \end{figure}
 
@@ -878,25 +870,25 @@ ICLR）后至今被引用的次数已经超过1万4千余次。
 ​
 GoogLeNet作为2014年ILSVRC在分类任务上的冠军，以6.65\%的错误率力压VGGNet等模型，在分类的准确率上面相比过去两届冠军ZFNet和AlexNet都有很大的提升。从名字\textbf{GoogLe}Net可以知道这是来自谷歌工程师所设计的网络结构，而名字中Goog\textbf{LeNet}更是致敬了LeNet\(^{[0]}\)。GoogLeNet中最核心的部分是其内部子网络结构Inception，该结构灵感来源于NIN，至今已经经历了四次版本迭代（Inception\(_{v1-4}\)）。
 
-\includegraphics{./img/ch4/img_inception_01.png} ​ 图 4.8
+\includegraphics[width=0.8\textwidth]{./img/ch4/img_inception_01.png} ​ 图 4.8
 Inception性能比较图
 
 \subsection{4.6.2 模型结构}\label{ux6a21ux578bux7ed3ux6784-5}
 
-\includegraphics{./img/ch4/image25.jpeg} ​ 图 4.9 GoogLeNet网络结构图 ​
+\includegraphics[width=0.8\textwidth]{./img/ch4/image25.jpeg} ​ 图 4.9 GoogLeNet网络结构图 ​
 如图4.9中所示，GoogLeNet相比于以前的卷积神经网络结构，除了在深度上进行了延伸，还对网络的宽度进行了扩展，整个网络由许多块状子网络的堆叠而成，这个子网络构成了Inception结构。图4.9为Inception的四个版本：\(Inception_{v1}​\)在同一层中采用不同的卷积核，并对卷积结果进行合并;\(Inception_{v2}​\)组合不同卷积核的堆叠形式，并对卷积结果进行合并;\(Inception_{v3}​\)则在\(v_2​\)基础上进行深度组合的尝试;\(Inception_{v4}​\)结构相比于前面的版本更加复杂，子网络中嵌套着子网络。
 
 \(Inception_{v1}\)
 
 \begin{figure}
 \centering
-\includegraphics{./img/ch4/image27.png}
+\includegraphics[width=0.8\textwidth]{./img/ch4/image27.png}
 \caption{}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{./img/ch4/image28.png}
+\includegraphics[width=0.8\textwidth]{./img/ch4/image28.png}
 \caption{}
 \end{figure}
 
@@ -904,19 +896,19 @@ Inception性能比较图
 
 \begin{figure}
 \centering
-\includegraphics{./img/ch4/image34.png}
+\includegraphics[width=0.8\textwidth]{./img/ch4/image34.png}
 \caption{}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{./img/ch4/image36.png}
+\includegraphics[width=0.8\textwidth]{./img/ch4/image36.png}
 \caption{}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{./img/ch4/image38.png}
+\includegraphics[width=0.8\textwidth]{./img/ch4/image38.png}
 \caption{}
 \end{figure}
 
@@ -924,7 +916,7 @@ Inception性能比较图
 
 \begin{figure}
 \centering
-\includegraphics{./img/ch4/image37.png}
+\includegraphics[width=0.8\textwidth]{./img/ch4/image37.png}
 \caption{}
 \end{figure}
 
@@ -932,19 +924,19 @@ Inception性能比较图
 
 \begin{figure}
 \centering
-\includegraphics{./img/ch4/image46.png}
+\includegraphics[width=0.8\textwidth]{./img/ch4/image46.png}
 \caption{}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{./img/ch4/image47.png}
+\includegraphics[width=0.8\textwidth]{./img/ch4/image47.png}
 \caption{}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{./img/ch4/image63.png}
+\includegraphics[width=0.8\textwidth]{./img/ch4/image63.png}
 \caption{}
 \end{figure}
 

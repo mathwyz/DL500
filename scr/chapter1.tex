@@ -42,7 +42,7 @@
   张量\(A\) 中坐标为\((i,j,k)\) 的元素记作\(A_{(i,j,k)}\).  
 \end{defination}
 \subsubsection{四者之间关系}
-\begin{quote}
+\begin{remark}
   标量是0阶张量，向量是一阶张量.
   举例：
   \begin{itemize}
@@ -50,7 +50,7 @@
   \item ​向量就是不但知道棍子的长度，还知道棍子指向前面还是后面.
   \item ​张量就是不但知道棍子的长度，也知道棍子指向前面还是后面，还能知道这棍子又向上/下和左/右偏转了多少.
   \end{itemize}
-\end{quote}
+\end{remark}
 
 \subsection{张量与矩阵的区别}
 \label{ux5f20ux91cfux4e0eux77e9ux9635ux7684ux533aux522b}
@@ -91,47 +91,47 @@
 \label{sec:1.4.1}
 
 ​
-定义一个向量为：\(\vec{a}=[-5, 6, 8, -10]\).
-任意一组向量设为\(\vec{x}=(x_1,x_2,...,x_N)\).
+定义一个向量为：\( {a}=[-5, 6, 8, -10]\).
+任意一组向量设为\( {x}=(x_1,x_2,...,x_N)\).
 其不同范数求解如下：
 
 \begin{defination}{向量的1范数}
   向量的各个元素的绝对值之和，既
   \begin{equation}
     \label{eq:1.4.1.1}
-    \Vert\vec{x}\Vert_1=\sum_{i=1}^N\vert{x_i}\vert,
+    \Vert {x}\Vert_1=\sum_{i=1}^N\vert{x_i}\vert,
     \footnote{加上了逗号.}
 \end{equation}
-上述向量\(\vec{a}\)的1范数结果就是：29.  
+上述向量\( {a}\)的1范数结果就是：29.  
 \end{defination}
 
 \begin{defination}{向量的2范数}
 向量的每个元素的平方和再开平方根，既
   \begin{equation}
   \label{eq:1.4.1.2}
-  \Vert\vec{x}\Vert_2=\sqrt{\sum_{i=1}^N{\vert{x_i}\vert}^2},
+  \Vert {x}\Vert_2=\sqrt{\sum_{i=1}^N{\vert{x_i}\vert}^2},
   \footnote{加上了逗号.}
 \end{equation}
-上述\(\vec{a}\) 的2范数结果就是：15.
+上述\( {a}\) 的2范数结果就是：15.
 \end{defination}
 
 \begin{defination}{向量的负无穷范数}
 向量的所有元素的绝对值中最小的,既
   \begin{equation}
     \label{eq:1.4.1.3}
-    \Vert\vec{x}\Vert_{-\infty}=\min{|{x_i}|},
+    \Vert {x}\Vert_{-\infty}=\min{|{x_i}|},
     \footnote{加上了逗号}
   \end{equation}
-上述向量\(\vec{a}\)的负无穷范数结果就是：5.
+上述向量\( {a}\)的负无穷范数结果就是：5.
 \end{defination}
 
 \begin{defination}{向量的正无穷范数}
   向量的所有元素的绝对值中最大的
   \begin{equation}
     \label{eq:1.4.1.4}
-\Vert\vec{x}\Vert_{+\infty}=\max{|{x_i}|},    
+\Vert {x}\Vert_{+\infty}=\max{|{x_i}|},    
 \end{equation}
-上述向量\(\vec{a}\)的正无穷范数结果就是：10.
+上述向量\( {a}\)的正无穷范数结果就是：10.
 \end{defination}
 
 \begin{defination}{向量的p范数}
@@ -139,7 +139,7 @@
   \footnote{加了一句向量的p范数定义为.}
 \begin{equation}
   \label{eq:1.4.1.5} 
-L_p=\Vert\vec{x}\Vert_p=\sqrt[p]{\sum_{i=1}^{N}|{x_i}|^p}, 
+L_p=\Vert {x}\Vert_p=\sqrt[p]{\sum_{i=1}^{N}|{x_i}|^p}, 
 \end{equation}  
 \end{defination}
 
@@ -218,7 +218,7 @@ L_p=\Vert\vec{x}\Vert_p=\sqrt[p]{\sum_{i=1}^{N}|{x_i}|^p},
 
 
 \begin{defination}{矩阵的$L_{21}$范数}
-  矩阵先以每一列为单位，求每一列的F范数（也可认为是向量的2范数），然后再将得到的结果求L1范数（也可认为是向量的1范数），很容易看出它是介于L1和L2之间的一种范数，上述矩阵\(A\)最终结果就是：17.1559.
+  矩阵先以每一列为单位，求每一列的F范数（也可认为是向量的2范数），然后再将得到的结果求L1范数（也可认为是向量的1范数），很容易看出它是介于L1和L2之间的一种范数，上述矩阵\(A\) 最终结果就是：17.1559.
 \end{defination}
 
 
@@ -229,7 +229,6 @@ L_p=\Vert\vec{x}\Vert_p=\sqrt[p]{\sum_{i=1}^{N}|{x_i}|^p},
 \Vert A\Vert_p=\sqrt[p]{(\sum_{i=1}^m\sum_{j=1}^n{| a_{ij}|}^p)},    
   \end{equation}
 \end{defination}
-  \textbf{}
 \end{itemize}
 
 \subsection{如何判断一个矩阵为正定}
@@ -262,338 +261,372 @@ L_p=\Vert\vec{x}\Vert_p=\sqrt[p]{\sum_{i=1}^{N}|{x_i}|^p},
 \subsubsection{导数定义}
 \label{sec:2.1.1}
 
-导数(derivative)代表了在自变量变化趋于无穷小的时候，函数值的变化与自变量的变化的比值.几何意义是这个点的切线.物理意义是该时刻的（瞬时）变化率.
-​
+导数(derivative)代表了在自变量变化趋于无穷小的时候，函数值的变化与自变量的变化的比值.\footnote{这个定义是牛顿时期的定义，高数上的是用$\epsilon ,N $语言来写的.}
+几何意义是这个点的切线.
+物理意义是该时刻的（瞬时）变化率.
 
-\emph{注意}：在一元函数中，只有一个自变量变动，也就是说只存在一个方向的变化率，这也就是为什么一元函数没有偏导数的原因.在物理学中有平均速度和瞬时速度之说.平均速度有
-
-\[
-v=\frac{s}{t}
+\begin{notes}
+  在一元函数中，只有一个自变量变动，也就是说只存在一个方向的变化率，这也就是为什么一元函数没有偏导数的原因.
+  在物理学中有平均速度和瞬时速度之说.
+  平均速度有
+  \[
+v=\frac{s}{t},
 \]
 
-其中\(v\)表示平均速度，\(s\)表示路程，\(t\)表示时间.这个公式可以改写为
-
+其中\(v\) 表示平均速度，\(s\) 表示路程，\(t\) 表示时间.
+这个公式可以改写为
 \[
-\bar{v}=\frac{\Delta s}{\Delta t}=\frac{s(t_0+\Delta t)-s(t_0)}{\Delta t}
+\bar{v}=\frac{\Delta s}{\Delta t}=\frac{s(t_0+\Delta t)-s(t_0)}{\Delta t},
 \]
-
-其中\(\Delta s\)表示两点之间的距离，而\(\Delta t\)表示走过这段距离需要花费的时间.当\(\Delta t\)趋向于0（\(\Delta t \to 0\)）时，也就是时间变得很短时，平均速度也就变成了在\(t_0\)时刻的瞬时速度，表示成如下形式：
-
+其中\(\Delta s\) 表示两点之间的距离，而\(\Delta t\) 表示走过这段距离需要花费的时间.当\(\Delta t\) 趋向于0（\(\Delta t \to 0\)）时，也就是时间变得很短时，平均速度也就变成了在\(t_0\) 时刻的瞬时速度，表示成如下形式：
 \[
 v(t_0)=\lim_{\Delta t \to 0}{\bar{v}}=\lim_{\Delta t \to 0}{\frac{\Delta s}{\Delta t}}=\lim_{\Delta t \to 0}{\frac{s(t_0+\Delta t)-s(t_0)}{\Delta t}}
 \]
-
 实际上，上式表示的是路程\(s\)关于时间\(t\)的函数在\(t=t_0\)处的导数.一般的，这样定义导数：如果平均变化率的极限存在，即有
-
 \[
 \lim_{\Delta x \to 0}{\frac{\Delta y}{\Delta x}}=\lim_{\Delta x \to 0}{\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}}
 \]
-
 则称此极限为函数 \(y=f(x)\) 在点 \(x_0\) 处的导数.记作 \(f'(x_0)\) 或
 \(y'\vert_{x=x_0}\) 或 \(\frac{dy}{dx}\vert_{x=x_0}\) 或
 \(\frac{df(x)}{dx}\vert_{x=x_0}\).
-
 通俗地说，导数就是曲线在某一点切线的斜率.
-
-\textbf{偏导数}:
-
-既然谈到偏导数(partial
-derivative)，那就至少涉及到两个自变量.以两个自变量为例，\(z=f(x,y)​\)，从导数到偏导数，也就是从曲线来到了曲面.曲线上的一点，其切线只有一条.但是曲面上的一点，切线有无数条.而偏导数就是指多元函数沿着坐标轴的变化率.
-
-\emph{注意}：直观地说，偏导数也就是函数在某一点上沿坐标轴正方向的的变化率.
-
-设函数\(z=f(x,y)​\)在点\((x_0,y_0)​\)的领域内有定义，当\(y=y_0​\)时，\(z​\)可以看作关于\(x​\)的一元函数\(f(x,y_0)​\)，若该一元函数在\(x=x_0​\)处可导，即有
-
+\end{notes}
+\subsubsection{偏导数}
+\label{sec:2.1.2}
+既然谈到偏导数(partial derivative)，那就至少涉及到两个自变量.
+以两个自变量为例，\(z=f(x,y)​\) ， 从导数到偏导数，也就是从曲线来到了曲面.
+曲线上的一点，其切线只有一条.
+但是曲面上的一点，切线有无数条.
+而偏导数就是指多元函数沿着坐标轴的变化率.
+\begin{note}
+直观地说，偏导数也就是函数在某一点上沿坐标轴正方向的的变化率.
+设函数\(z=f(x,y)​\) 在点\((x_0,y_0)​\) 的领域内有定义，当\(y=y_0​\)时，\(z​\)可以看作关于\(x​\)的一元函数\(f(x,y_0)​\)，若该一元函数在\(x=x_0​\)处可导，即有
 \[
-\lim_{\Delta x \to 0}{\frac{f(x_0+\Delta x,y_0)-f(x_0,y_0)}{\Delta x}}=A
+\lim_{\Delta x \to 0}{\frac{f(x_0+\Delta x,y_0)-f(x_0,y_0)}{\Delta x}}=A,
 \]
-
-函数的极限\(A\)存在.那么称\(A\)为函数\(z=f(x,y)\)在点\((x_0,y_0)\)处关于自变量\(x\)的偏导数，记作\(f_x(x_0,y_0)\)或\(\frac{\partial z}{\partial x}\vert_{y=y_0}^{x=x_0}\)或\(\frac{\partial f}{\partial x}\vert_{y=y_0}^{x=x_0}\)或\(z_x\vert_{y=y_0}^{x=x_0}\).
+函数的极限\(A\)存在.
+那么称\(A\)为函数\(z=f(x,y)\)在点\((x_0,y_0)\)处关于自变量\(x\)的偏导数，记作\(f_x(x_0,y_0)\)或\(\frac{\partial z}{\partial x}\vert_{y=y_0}^{x=x_0}\)或\(\frac{\partial f}{\partial x}\vert_{y=y_0}^{x=x_0}\)或\(z_x\vert_{y=y_0}^{x=x_0}\).
 
 偏导数在求解时可以将另外一个变量看做常数，利用普通的求导方式求解，比如\(z=3x^2+xy\)关于\(x\)的偏导数就为\(z_x=6x+y\)，这个时候\(y\)相当于\(x\)的系数.
 
 某点\((x_0,y_0)\)处的偏导数的几何意义为曲面\(z=f(x,y)\)与面\(x=x_0\)或面\(y=y_0\)交线在\(y=y_0\)或\(x=x_0\)处切线的斜率.
-
+\end{note}
 \subsection{导数和偏导数有什么区别？}\label{ux5bfcux6570ux548cux504fux5bfcux6570ux6709ux4ec0ux4e48ux533aux522b}
-
 导数和偏导没有本质区别，如果极限存在，都是当自变量的变化量趋于0时，函数值的变化量与自变量变化量比值的极限.
+\footnote{偏导数与任意方向的导数吗?}
 
-\begin{quote}
+\begin{remark}
+  对导数和偏导数有:
 \begin{itemize}
- 
-\item
-  一元函数，一个\(y\)对应一个\(x\)，导数只有一个.\\
-\item
-  二元函数，一个\(z\)对应一个\(x\)和一个\(y\)，有两个导数：一个是\(z\)对\(x\)的导数，一个是\(z\)对\(y\)的导数，称之为偏导.\\
-\item
-  求偏导时要注意，对一个变量求导，则视另一个变量为常数，只对改变量求导，从而将偏导的求解转化成了一元函数的求导.
+\item  一元函数，一个\(y\)对应一个\(x\)，导数只有一个.
+\item  二元函数，一个\(z\)对应一个\(x\)和一个\(y\)，有两个导数：一个是\(z\)对\(x\)的导数，一个是\(z\)对\(y\)的导数，称之为偏导.
+  \footnote{沿着任意方向都有导数存在的.}
+\item  求偏导时要注意，对一个变量求导，则视另一个变量为常数，只对改变量求导，从而将偏导的求解转化成了一元函数的求导.
 \end{itemize}
-\end{quote}
+\end{remark}
 
-\section{特征值和特征向量}\label{ux7279ux5f81ux503cux548cux7279ux5f81ux5411ux91cf}
-
-\subsection{特征值分解与特征向量}\label{ux7279ux5f81ux503cux5206ux89e3ux4e0eux7279ux5f81ux5411ux91cf}
-
+\section{特征值和特征向量}
+\label{ux7279ux5f81ux503cux548cux7279ux5f81ux5411ux91cf}
+\subsection{特征值分解与特征向量}
+\label{ux7279ux5f81ux503cux5206ux89e3ux4e0eux7279ux5f81ux5411ux91cf}
 \begin{itemize}
-\item
-  特征值分解可以得到特征值(eigenvalues)与特征向量(eigenvectors)；
-\item
-  特征值表示的是这个特征到底有多重要，而特征向量表示这个特征是什么.
+\item  特征值分解可以得到特征值(eigenvalues)与特征向量(eigenvectors);
+\item  特征值表示的是这个特征到底有多重要，而特征向量表示这个特征是什么.
 \end{itemize}
-
-如果说一个向量\(\vec{v}\)是方阵\(A\)的特征向量，将一定可以表示成下面的形式：
-
+如果说一个向量\(\nu \)是方阵\(A\)的特征向量，将一定可以表示成下面的形式：
+\footnote{向量改成了$\nu$这里改成了上下一致的.}
 \[
 A\nu = \lambda \nu
 \]
-
-\(\lambda\)为特征向量\(\vec{v}\)对应的特征值.特征值分解是将一个矩阵分解为如下形式：
-
+\(\lambda\)为特征向量\(\nu\)对应的特征值.
+特征值分解是将一个矩阵分解为如下形式：
 \[
-A=Q\sum Q^{-1}
+  A=Q\Sigma Q^{-1},
+  \footnote{没有加逗号，$\Sigma$和$\sum$有区别.}
 \]
-
-其中，\(Q\)是这个矩阵\(A\)的特征向量组成的矩阵，\(\sum\)是一个对角矩阵，每一个对角线元素就是一个特征值，里面的特征值是由大到小排列的，这些特征值所对应的特征向量就是描述这个矩阵变化方向（从主要的变化到次要的变化排列）.也就是说矩阵\(A\)的信息可以由其特征值和特征向量表示.
-
-\subsection{奇异值与特征值有什么关系}\label{ux5947ux5f02ux503cux4e0eux7279ux5f81ux503cux6709ux4ec0ux4e48ux5173ux7cfb}
-
-那么奇异值和特征值是怎么对应起来的呢？我们将一个矩阵\(A\)的转置乘以\(A\)，并对\(A^TA​\)求特征值，则有下面的形式：
-
+其中，\(Q\)是这个矩阵\(A\)的特征向量组成的矩阵，\(\Sigma\)是一个对角矩阵，每一个对角线元素就是一个特征值，里面的特征值是由大到小排列的，这些特征值所对应的特征向量就是描述这个矩阵变化方向（从主要的变化到次要的变化排列）.
+也就是说矩阵\(A\)的信息可以由其特征值和特征向量表示.
+\subsection{奇异值与特征值有什么关系}
+\label{ux5947ux5f02ux503cux4e0eux7279ux5f81ux503cux6709ux4ec0ux4e48ux5173ux7cfb}
+那么奇异值和特征值是怎么对应起来的呢？
+我们将一个矩阵\(A\)的转置乘以\(A\)，并对\(A^TA​\)求特征值，则有下面的形式：
 \[
 (A^TA)V = \lambda V
 \]
 
-这里\(V​\)就是上面的右奇异向量，另外还有：
-
+这里\(V​\)就是矩阵$A$的右奇异向量，另外还有：
 \[
 \sigma_i = \sqrt{\lambda_i}, u_i=\frac{1}{\sigma_i}AV
 \]
-
-这里的\(\sigma​\)就是奇异值，\(u​\)就是上面说的左奇异向量.【证明那个哥们也没给】
-​奇异值\(\sigma​\)跟特征值类似，在矩阵\(\sum​\)中也是从大到小排列，而且\(\sigma​\)的减少特别的快，在很多情况下，前10\%甚至1\%的奇异值的和就占了全部的奇异值之和的99\%以上了.也就是说，我们也可以用前\(r​\)（\(r​\)远小于\(m、n​\)）个的奇异值来近似描述矩阵，即部分奇异值分解：
+其中\(\sigma​\)就是奇异值，\(u​\)就是上面说的左奇异向量.
+\footnote{证明那个哥们也没给}.
+​奇异值\(\sigma​\)跟特征值类似，在矩阵\(\Sigma​\)中也是从大到小排列，而且\(\sigma​\)的减少特别的快，在很多情况下，前$10\%$甚至$1\%$的奇异值的和就占了全部的奇异值之和的$99\%$以上了.
+也就是说，我们也可以用前\(r​\)（\(r​\)远小于\(m、n​\)）个的奇异值来近似描述矩阵，即部分奇异值分解：
 \[
-A_{m\times n}\approx U_{m \times r}\sum_{r\times r}V_{r \times n}^T
+A_{m\times n}\approx U_{m \times r}\Sigma_{r\times r}V_{r \times n}^T.
 \]
 
 右边的三个矩阵相乘的结果将会是一个接近于\(A\)的矩阵，在这儿，\(r\)越接近于\(n\)，则相乘的结果越接近于\(A\).
 
-\section{概率分布与随机变量}\label{ux6982ux7387ux5206ux5e03ux4e0eux968fux673aux53d8ux91cf}
+\section{概率分布与随机变量}
+\label{ux6982ux7387ux5206ux5e03ux4e0eux968fux673aux53d8ux91cf}
+\subsection{机器学习为什么要使用概率}
+\label{ux673aux5668ux5b66ux4e60ux4e3aux4ec0ux4e48ux8981ux4f7fux7528ux6982ux7387}
 
-\subsection{机器学习为什么要使用概率}\label{ux673aux5668ux5b66ux4e60ux4e3aux4ec0ux4e48ux8981ux4f7fux7528ux6982ux7387}
-
-事件的概率是衡量该事件发生的可能性的量度.虽然在一次随机试验中某个事件的发生是带有偶然性的，但那些可在相同条件下大量重复的随机试验却往往呈现出明显的数量规律.\\
-​机器学习除了处理不确定量，也需处理随机量.不确定性和随机性可能来自多个方面，使用概率论来量化不确定性.\\
+事件的概率是衡量该事件发生的可能性的量度.
+虽然在一次随机试验中某个事件的发生是带有偶然性的，但那些可在相同条件下大量重复的随机试验却往往呈现出明显的统计规律.
+\footnote{数量规律改成了统计规律.}
+\footnote{​机器学习除了处理不确定量，也需处理随机量.
+  不确定性和随机性可能来自多个方面，使用概率论来量化不确定性.
+  这句是病句，删了.}
 ​概率论在机器学习中扮演着一个核心角色，因为机器学习算法的设计通常依赖于对数据的概率假设.
+\begin{remark}
+  例如在机器学习（Andrew Ng）的课中，会有一个朴素贝叶斯假设,它就是条件独立的一个例子.
+  该学习算法对内容做出假设，用来分辨电子邮件是否为垃圾邮件.
+  假设无论邮件是否为垃圾邮件，单词$x$出现在邮件中的概率条件独立于单词$y$.
+  很明显这个假设不是不失一般性的，因为某些单词几乎总是同时出现.
+  然而，最终结果是，这个简单的假设对结果的影响并不大，且无论如何都可以让我们快速判别垃圾邮件.
+\end{remark}
 
-\begin{quote}
-​ 例如在机器学习（Andrew
-Ng）的课中，会有一个朴素贝叶斯假设就是条件独立的一个例子.该学习算法对内容做出假设，用来分辨电子邮件是否为垃圾邮件.假设无论邮件是否为垃圾邮件，单词x出现在邮件中的概率条件独立于单词y.很明显这个假设不是不失一般性的，因为某些单词几乎总是同时出现.然而，最终结果是，这个简单的假设对结果的影响并不大，且无论如何都可以让我们快速判别垃圾邮件.
-\end{quote}
+\subsection{变量与随机变量有什么区别}
+\label{ux53d8ux91cfux4e0eux968fux673aux53d8ux91cfux6709ux4ec0ux4e48ux533aux522b}
 
-\subsection{变量与随机变量有什么区别}\label{ux53d8ux91cfux4e0eux968fux673aux53d8ux91cfux6709ux4ec0ux4e48ux533aux522b}
+\subsubsection{随机变量}
+\label{sec:4.2.1}
+\begin{defination}
+  在一定条件下，并不总是出现相同结果的现象称为随机现象.
+\end{defination}
+\begin{defination}
+  随机变量表示随机现象中各种结果的实值函数（一切可能的样本点）.
+  例如某一时间内公共汽车站等车乘客人数，电话交换台在一定时间内收到的呼叫次数等，都是随机变量的实例.  
+\end{defination}
+\begin{note}
+​随机变量与模糊变量的不确定性的本质差别在于，后者的测定结果仍具有不确定性，即模糊性.  
+\end{note}
 
-\textbf{随机变量}（random variable）
+\subsubsection{变量与随机变量的区别}
+\label{sec:4.2.2}
+​当变量的取值的概率不是1时,变量就变成了随机变量；
+当随机变量取值的概率为1时,随机变量就变成了变量.
+\footnote{感觉有问题.}
 
-表示随机现象（在一定条件下，并不总是出现相同结果的现象称为随机现象）中各种结果的实值函数（一切可能的样本点）.例如某一时间内公共汽车站等车乘客人数，电话交换台在一定时间内收到的呼叫次数等，都是随机变量的实例.\\
-​随机变量与模糊变量的不确定性的本质差别在于，后者的测定结果仍具有不确定性，即模糊性.
-
-\textbf{变量与随机变量的区别：}\\
-​当变量的取值的概率不是1时,变量就变成了随机变量；当随机变量取值的概率为1时,随机变量就变成了变量.
-
-\begin{quote}
-比如：\\
-​
+\begin{example}
 当变量\(x\)值为100的概率为1的话,那么\(x=100\)就是确定了的,不会再有变化,除非有进一步运算.
-​
-当变量\(x\)的值为100的概率不为1,比如为50的概率是0.5,为100的概率是0.5,那么这个变量就是会随不同条件而变化的,是随机变量,取到50或者100的概率都是0.5,即50\%.
-\end{quote}
+​当变量\(x\)的值为100的概率不为1,比如为50的概率是0.5,为100的概率是0.5,那么这个变量就是会随不同条件而变化的,是随机变量,取到50或者100的概率都是0.5,即$50\%$.
+\end{example}
+\subsection{随机变量与概率分布的联系}
+\label{ux968fux673aux53d8ux91cfux4e0eux6982ux7387ux5206ux5e03ux7684ux8054ux7cfb}
 
-\subsection{随机变量与概率分布的联系}\label{ux968fux673aux53d8ux91cfux4e0eux6982ux7387ux5206ux5e03ux7684ux8054ux7cfb}
-
-一个随机变量仅仅表示一个可能取得的状态，还必须给定与之相伴的概率分布来制定每个状态的可能性.用来描述随机变量或一簇随机变量的每一个可能的状态的可能性大小的方法，就是
-\textbf{概率分布(probability distribution)}.
+\begin{defination}
+一个随机变量仅仅表示一个可能取得的状态，还必须给定与之相伴的概率分布来制定每个状态的可能性.
+用来描述随机变量或一簇随机变量的每一个可能的状态的可能性大小的方法，就是 {概率分布(probability distribution)}.  
+\end{defination}
 
 随机变量可以分为离散型随机变量和连续型随机变量.
-
 相应的描述其概率分布的函数是
-
-概率质量函数(Probability Mass Function,
-PMF):描述离散型随机变量的概率分布，通常用大写字母 \(P\)表示.
-
-概率密度函数(Probability Density Function,
-PDF):描述连续型随机变量的概率分布，通常用小写字母\(p\)表示.
-
-\subsection{离散型随机变量和概率质量函数}\label{ux79bbux6563ux578bux968fux673aux53d8ux91cfux548cux6982ux7387ux8d28ux91cfux51fdux6570}
-
-PMF 将随机变量能够取得的每个状态映射到随机变量取得该状态的概率.
-
 \begin{itemize}
- 
-\item
-  一般而言，\(P(x)​\) 表示时\(X=x​\)的概率.
-\item
-  有时候为了防止混淆，要明确写出随机变量的名称\(P(​\)x\(=x)​\)
-\item
-  有时候需要先定义一个随机变量，然后制定它遵循的概率分布x服从\(P(​\)x​\()​\)
+\item 概率质量函数(Probability Mass Function,PMF):描述离散型随机变量的概率分布，通常用大写字母 \(P\)表示.
+\item 概率密度函数(Probability Density Function,PDF):描述连续型随机变量的概率分布，通常用小写字母\(p\)表示.
 \end{itemize}
 
-PMF 可以同时作用于多个随机变量，即联合概率分布(joint probability
-distribution) \(P(X=x,Y=y)\)*表示
-\(X=x\)和\(Y=y\)同时发生的概率，也可以简写成 \(P(x,y)\).
+\subsection{离散型随机变量和概率质量函数}
+\label{ux79bbux6563ux578bux968fux673aux53d8ux91cfux548cux6982ux7387ux8d28ux91cfux51fdux6570}
+\begin{defination}{PMF}
+  将随机变量能够取得的每个状态映射到随机变量取得该状态的概率.
+\end{defination}
+\begin{itemize}
+\item  一般而言，\(P(x)​\) 表示时\(X=x​\)的概率.
+\item  有时候为了防止混淆，要明确写出随机变量的名称\(P(​\)x\(=x)​\).
+\item  有时候需要先定义一个随机变量，然后制定它遵循的概率分布x服从\(P(​x​)​\).
+\end{itemize}
+
+PMF可以同时作用于多个随机变量，即联合概率分布(joint probability distribution) \(P(X=x,Y=y)\) 表示\(X=x\)和\(Y=y\)同时发生的概率，也可以简写成 \(P(x,y)\).
 
 如果一个函数\(P​\)是随机变量 \(X​\) 的 PMF， 那么它必须满足如下三个条件
-
 \begin{itemize}
- 
-\item
-  \(P​\)的定义域必须是的所有可能状态的集合
-\item
-  \(∀x∈​\)x, \(0 \leq P(x) \leq 1 ​\).
-\item
-  \(∑_{x∈X} P(x)=1\). 我们把这一条性质称之为 归一化的(normalized)
+\item  \(P​\)的定义域必须是的所有可能状态的集合.
+\item  \(∀x∈​X\), \(0 \leqslant P(x) \leqslant 1 ​\).
+\item  \(∑_{x∈X} P(x)=1\). 我们把这一条性质称之为 归一化的(normalized).
 \end{itemize}
 
-\subsection{连续型随机变量和概率密度函数}\label{ux8fdeux7eedux578bux968fux673aux53d8ux91cfux548cux6982ux7387ux5bc6ux5ea6ux51fdux6570}
-
-如果一个函数\(p​\)是x的PDF，那么它必须满足如下几个条件
-
+\subsection{连续型随机变量和概率密度函数}
+\label{ux8fdeux7eedux578bux968fux673aux53d8ux91cfux548cux6982ux7387ux5bc6ux5ea6ux51fdux6570}
+\begin{defination}
+如果一个函数\(p​\)是$x$的PDF，那么它必须满足如下几个条件
 \begin{itemize}
- 
-\item
-  \(p\)的定义域必须是x的所有可能状态的集合.
-\item
-  \(∀x∈X,p(x)≥0\). 注意，我们并不要求\$ p(x)≤1\$，因为此处
-  \(p(x)\)不是表示的对应此状态具体的概率，而是概率的一个相对大小(密度).具体的概率，需要积分去求.
-\item
-  \(∫p(x)dx=1\), 积分下来，总和还是1，概率之和还是1.
-\end{itemize}
+ \item  \(p\)的定义域必须是x的所有可能状态的集合.
+ \item  \(∀x∈X,p(x)≥0\).
+   注意，我们并不要求$ p(x)≤1$，因为此处  \(p(x)\)不是表示的对应此状态具体的概率，而是概率的一个相对大小(密度).\footnote{有问题.}
+   具体的概率，需要积分去求.
+\item  \(∫p(x)dx=1\), 积分下来，总和还是1，概率之和还是1.
+\end{itemize}  
+\end{defination}
 
-注：PDF\(p(x)\)并没有直接对特定的状态给出概率，给出的是密度，相对的，它给出了落在面积为
-\(δx\)的无线小的区域内的概率为$ p(x)δx$.
-由此，我们无法求得具体某个状态的概率，我们可以求得的是 某个状态 \(x\)
-落在 某个区间\([a,b]\)内的概率为$ \int_{a}^{b}p(x)dx$.
+\begin{remark}
+  PDF\(p(x)\)并没有直接对特定的状态给出概率，给出的是密度，相对的，它给出了落在面积为\(δx\)的无线小的区域内的概率为$ p(x)δx$.
+由此，我们无法求得具体某个状态的概率，我们可以求得的是某个状态 \(x\)落在某个区间\([a,b]\)内的概率为$ \int_{a}^{b}p(x)dx$.
+\end{remark}
 
-\subsection{举例理解条件概率}\label{ux4e3eux4f8bux7406ux89e3ux6761ux4ef6ux6982ux7387}
-
+\subsection{举例理解条件概率}
+\label{ux4e3eux4f8bux7406ux89e3ux6761ux4ef6ux6982ux7387}
+\begin{theorem}
 条件概率公式如下：
 \[
 P(A|B) = P(A\cap B) / P(B)
-\]
-说明：在同一个样本空间\(\Omega\)中的事件或者子集\(A\)与\(B\)，如果随机从\(\Omega\)中选出的一个元素属于\(B\)，那么下一个随机选择的元素属于\(A\)
-的概率就定义为在\(B\)的前提下\(A\)的条件概率.条件概率文氏图示意如图1.1所示.\\
-\includegraphics{./img/ch1/conditional_probability.jpg}
+\]  
+\end{theorem}
+\begin{remark}
+  在同一个样本空间\(\Omega\)中的事件或者子集\(A\)与\(B\)，如果随机从\(\Omega\)中选出的一个元素属于\(B\)，那么下一个随机选择的元素属于\(A\)的概率就定义为在\(B\)的前提下\(A\)的条件概率.
+\end{remark}
+条件概率文氏图示意如图\ref{fig:0101}所示.
 
-图1.1 条件概率文氏图示意
+\begin{figure}
+  \centering
+  \includegraphics[width=10cm,heigth=7cm]{./img/ch1/conditional_probability.jpg}  
+  \caption{文氏图}
+  \label{fig:0101}
+\end{figure}
+根据文氏图，可以很清楚地看到在事件B发生的情况下，事件A发生的概率就是\(P(A\bigcap B)\)除以\(P(B)\).
+\begin{example}
+  一对夫妻有两个小孩，已知其中一个是女孩，则另一个是女孩子的概率是多少？（面试、笔试都碰到过）.
+\end{example}
+\begin{solve*}
+   {穷举法}：已知其中一个是女孩，那么样本空间为男女，女女，女男，则另外一个仍然是女生的概率就是1/3.
+  
+     {条件概率法}：\(P(女|女)=P(女女)/P(女)\),夫妻有两个小孩，那么它的样本空间为女女，男女，女男，男男，则\(P(女女)\)为1/4，\(P（女）= 1-P(男男)=3/4\),所以最后\(1/3\).
 
-根据文氏图，可以很清楚地看到在事件B发生的情况下，事件A发生的概率就是\(P(A\bigcap B)\)除以\(P(B)\).\\
-​举例：一对夫妻有两个小孩，已知其中一个是女孩，则另一个是女孩子的概率是多少？（面试、笔试都碰到过）\\
-​\textbf{穷举法}：已知其中一个是女孩，那么样本空间为男女，女女，女男，则另外一个仍然是女生的概率就是1/3.\\
-​\textbf{条件概率法}：\(P(女|女)=P(女女)/P(女)\),夫妻有两个小孩，那么它的样本空间为女女，男女，女男，男男，则\(P(女女)\)为1/4，\(P（女）= 1-P(男男)=3/4\),所以最后\(1/3\).\\
-这里大家可能会误解，男女和女男是同一种情况，但实际上类似姐弟和兄妹是不同情况.
+    这里大家可能会误解，男女和女男是同一种情况，但实际上类似姐弟和兄妹是不同情况.    
+\end{solve*}
 
-\subsection{联合概率与边缘概率联系区别}\label{ux8054ux5408ux6982ux7387ux4e0eux8fb9ux7f18ux6982ux7387ux8054ux7cfbux533aux522b}
+\subsection{联合概率与边缘概率联系区别}
+\label{ux8054ux5408ux6982ux7387ux4e0eux8fb9ux7f18ux6982ux7387ux8054ux7cfbux533aux522b}
 
-\textbf{区别：}\\
-​联合概率：联合概率指类似于\(P(X=a,Y=b)\)这样，包含多个条件，且所有条件同时成立的概率.联合概率是指在多元的概率分布中多个随机变量分别满足各自条件的概率.\\
-​边缘概率：边缘概率是某个事件发生的概率，而与其它事件无关.边缘概率指类似于\(P(X=a)\)，\(P(Y=b)\)这样，仅与单个随机变量有关的概率.
+\subsubsection{区别}
+\label{sec:4.7.1}
+​联合概率：联合概率指类似于\(P(X=a,Y=b)\)这样，包含多个条件，且所有条件同时成立的概率.
+联合概率是指在多元的概率分布中多个随机变量分别满足各自条件的概率.
+​边缘概率：边缘概率是某个事件发生的概率，而与其它事件无关.
+边缘概率指类似于\(P(X=a)\)，\(P(Y=b)\)这样，仅与单个随机变量有关的概率.
 
-\textbf{联系：}\\
+\subsubsection{联系}
+\label{sec:4.7.2}
 ​联合分布可求边缘分布，但若只知道边缘分布，无法求得联合分布.
 
-\subsection{条件概率的链式法则}\label{ux6761ux4ef6ux6982ux7387ux7684ux94feux5f0fux6cd5ux5219}
+\subsection{条件概率的链式法则}
+\label{ux6761ux4ef6ux6982ux7387ux7684ux94feux5f0fux6cd5ux5219}
+由条件概率的定义，可直接得出下面的乘法公式：
+\begin{theorem}{​乘法公式}
+  设\(A, B\)是两个事件，并且\(P(A) > 0\), 则有
+  \[
+P(AB) = P(B|A)P(A),
+\]f
+\end{theorem}
+\begin{note}
+  \[
+P(ABC)=P(C|AB)P(B|A)P(A),
+\] 
+\end{note}
 
-由条件概率的定义，可直接得出下面的乘法公式：\\
-​乘法公式 设\(A, B\)是两个事件，并且\(P(A) > 0\), 则有 \[
-P(AB) = P(B|A)P(A)
-\] 推广 \[
-P(ABC)=P(C|AB)P(B|A)P(A)
-\] 一般地，用归纳法可证：若\(P(A_1A_2...A_n)>0\)，则有 \[
+\begin{note}
+  一般地，用归纳法可证：若\(P(A_1A_2...A_n)>0\)，则有
+  \[
 P(A_1A_2...A_n)=P(A_n|A_1A_2...A_{n-1})P(A_{n-1}|A_1A_2...A_{n-2})...P(A_2|A_1)P(A_1)
-=P(A_1)\prod_{i=2}^{n}P(A_i|A_1A_2...A_{i-1})
+=P(A_1)\prod_{i=2}^{n}P(A_i|A_1A_2...A_{i-1}),
 \]
 任何多维随机变量联合概率分布，都可以分解成只有一个变量的条件概率相乘形式.
+\end{note}
 
-\subsection{独立性和条件独立性}\label{ux72ecux7acbux6027ux548cux6761ux4ef6ux72ecux7acbux6027}
+\subsection{独立性和条件独立性}
+\label{ux72ecux7acbux6027ux548cux6761ux4ef6ux72ecux7acbux6027}
 
-\textbf{独立性}
-​两个随机变量\(x\)和\(y\)，概率分布表示成两个因子乘积形式，一个因子只包含\(x\)，另一个因子只包含\(y\)，两个随机变量相互独立(independent).\\
-​条件有时为不独立的事件之间带来独立，有时也会把本来独立的事件，因为此条件的存在，而失去独立性.\\
-​举例：\(P(XY)=P(X)P(Y)\), 事件\(X\)和事件\(Y\)独立.此时给定\(Z\)， \[
-P(X,Y|Z) \not = P(X|Z)P(Y|Z)
+\subsubsection{独立性}
+\label{sec:4.9.1}
+​两个随机变量\(x\)和\(y\)，概率分布表示成两个因子乘积形式，一个因子只包含\(x\)，另一个因子只包含\(y\)，两个随机变量相互独立(independent).
+
+​条件有时为不独立的事件之间带来独立，有时也会把本来独立的事件，因为此条件的存在，而失去独立性.
+\begin{example}
+  \(P(XY)=P(X)P(Y)\), 事件\(X\)和事件\(Y\)独立.此时给定\(Z\)， \[
+P(X,Y|Z) \not = P(X|Z)P(Y|Z),
 \]
 事件独立时，联合概率等于概率的乘积.这是一个非常好的数学性质，然而不幸的是，无条件的独立是十分稀少的，因为大部分情况下，事件之间都是互相影响的.
+\end{example}
 
-\textbf{条件独立性}\\
-​给定\(Z\)的情况下,\(X\)和\(Y\)条件独立，当且仅当 \[
-X\bot Y|Z \iff P(X,Y|Z) = P(X|Z)P(Y|Z)
-\] \(X\)和\(Y\)的关系依赖于\(Z\)，而不是直接产生.
+\subsubsection{条件独立性}
+\label{sec:4.9.2}
+​给定\(Z\)的情况下,\(X\)和\(Y\)条件独立，当且仅当
+\[
+X\bot Y|Z \iff P(X,Y|Z) = P(X|Z)P(Y|Z),
+\]
+\(X\)和\(Y\)的关系依赖于\(Z\)，而不是直接产生.
 
-\begin{quote}
-\textbf{举例}定义如下事件：\\
-\(X\)：明天下雨；\\
-\(Y\)：今天的地面是湿的；\\
-\(Z\)：今天是否下雨；\\
+\begin{example}
+  定义如下事件：
+  \begin{enumerate}
+  \item \(X\)：明天下雨；
+  \item \(Y\)：今天的地面是湿的；
+  \item \(Z\)：今天是否下雨；    
+  \end{enumerate}
 \(Z\)事件的成立，对\(X\)和\(Y\)均有影响，然而，在\(Z\)事件成立的前提下，今天的地面情况对明天是否下雨没有影响.
-\end{quote}
+\end{example}
 
-\section{常见概率分布}\label{ux5e38ux89c1ux6982ux7387ux5206ux5e03}
-
-\subsection{ Bernoulli分布}\label{bernoulliux5206ux5e03}
-
-\textbf{Bernoulli分布}(伯努利分布，0-1分布)是单个二值随机变量分布,
-单参数\(\phi\)∈{[}0,1{]}控制,\(\phi\)给出随机变量等于1的概率.
+\section{常见概率分布}
+\label{ux5e38ux89c1ux6982ux7387ux5206ux5e03}
+\subsection{ Bernoulli分布}
+\label{bernoulliux5206ux5e03}
+Bernoulli分布(伯努利分布，0-1分布)是单个二值随机变量分布,
+单参数\(\phi∈[0,1]\)控制,\(\phi\)给出随机变量等于1的概率.
 主要性质有: 
 \begin{align*}
-P(x=1) &= \phi \\
-P(x=0) &= 1-\phi  \\
-概率质量函数：P(x=x) &= \phi^x(1-\phi)^{1-x} \\
+P(x=1) &= \phi ,\\
+P(x=0) &= 1-\phi  ,\\
+概率质量函数：P(x=x) &= \phi^x(1-\phi)^{1-x} ,\\
 \end{align*}
  其期望和方差为： 
 \begin{align*}
-E_x[x] &= \phi \\
-Var_x(x) &= \phi{(1-\phi)}
+E_x(x) &= \phi, \\
+Var_x(x) &= \phi{(1-\phi)},
 \end{align*}
- \textbf{适用范围}:
-\textbf{伯努利分布}适合对\textbf{离散型}随机变量建模.
+伯努利分布适合对离散型随机变量建模.
 
-\textbf{Multinoulli分布}也叫\textbf{范畴分布},
-是单个\emph{k}值随机分布,经常用来表示\textbf{对象分类的分布}.
-其中\(k\)是有限值.Multinoulli分布由向量\(\vec{p}\in[0,1]^{k-1}\)参数化,每个分量\(p_i\)表示第\(i\)个状态的概率,
-且\(p_k=1-1^Tp\).这里\(1^T\)表示元素全为1的列向量的转置，其实就是对于向量p中除了k的概率之和.可以重写为\(p_k=1-\sum_{0}^{k-1}p_i\)
+\subsection{Multinoulli分布}
+\label{sec:5.2}
+Multinoulli分布也叫范畴分布,是单个$k$值随机分布,经常用来表示 {对象分类的分布}.
+其中\(k\)是有限值.Multinoulli分布由向量\(p\in[0,1]^{k-1}\)参数化,每个分量\(p_i\)表示第\(i\)个状态的概率,且\(p_k=1-1^Tp\).这里\(1^T\)表示元素全为1的列向量的转置，其实就是对于向量p中除了k的概率之和.
+可以重写为\(p_k=1-\sum_{0}^{k-1}p_i\).
 .
 
-补充二项分布、多项分布：
-
-二项分布，通俗点硬币抛多次.二项分布(Binomial
-distribution)是\textbf{n重伯努利试验}成功次数的离散概率分布.
-
+\subsection{二项分布}
+通俗点硬币抛多次.二项分布(Binomial
+distribution)是 {n重伯努利试验}成功次数的离散概率分布.
+\subsection{多项式分布}
 多项式分布(Multinomial
 Distribution)是二项式分布的推广.二项式做n次伯努利实验，规定了每次试验的结果只有两个，如果现在还是做n次试验，只不过每次试验的结果可以有多m个，且m个结果发生的概率互斥且和为1，则发生其中一个结果X次的概率就是多项式分布.
-
-\subsection{ 高斯分布}\label{ux9ad8ux65afux5206ux5e03}
-
-高斯也叫正态分布(Normal Distribution), 概率度函数如下:\\
+\subsection{ 高斯分布}
+\label{ux9ad8ux65afux5206ux5e03}
+高斯分布\footnote{高斯改成高斯分布}.
+也叫正态分布(Normal Distribution), 概率度函数如下:
 \[
-N(x;\mu,\sigma^2) = \sqrt{\frac{1}{2\pi\sigma^2}}exp\left ( -\frac{1}{2\sigma^2}(x-\mu)^2 \right )
-\] 其中, \(\mu​\)和\(\sigma​\)分别是均值和方差,
-中心峰值x坐标由\(\mu​\)给出, 峰的宽度受\(\sigma​\)控制,
-最大点在\(x=\mu​\)处取得, 拐点为\(x=\mu\pm\sigma​\)
-
-正态分布中，±1\(\sigma\)、±2\(\sigma\)、±3\(\sigma\)下的概率分别是68.3\%、95.5\%、99.73\%，这3个数最好记住.
-
-此外, 令\(\mu=0,\sigma=1​\)高斯分布即简化为标准正态分布: \[
-N(x;\mu,\sigma^2) = \sqrt{\frac{1}{2\pi}}exp\left ( -\frac{1}{2}x^2 \right )
-\] 对概率密度函数高效求值: \[
-N(x;\mu,\beta^{-1})=\sqrt{\frac{\beta}{2\pi}}exp\left(-\frac{1}{2}\beta(x-\mu)^2\right)
+N(x;\mu,\sigma^2) = \sqrt{\frac{1}{2\pi\sigma^2}}e ^{\left ( -\frac{1}{2\sigma^2}(x-\mu)^2 \right )},
 \]
+其中, \(\mu​\)和\(\sigma​\)分别是均值和方差,
+中心峰值x坐标由\(\mu​\)给出, 峰的宽度受\(\sigma​\)控制,最大点在\(x=\mu​\)处取得, 拐点为\(x=\mu\pm\sigma​\)
 
+正态分布中，±\(\sigma\)
+\footnote{±1\(\sigma\)改成了±\(\sigma\)}
+、±2\(\sigma\)、±3\(\sigma\)下的概率分别是$68.3\%、95.5\%、99.73\%$,这3个数最好记住.
+
+此外, 令\(\mu=0,\sigma=1​\)高斯分布即简化为标准正态分布:
+\[
+N(x;\mu,\sigma^2) = \sqrt{\frac{1}{2\pi}}e^{\left ( -\frac{1}{2}x^2 \right )},
+\]
+对概率密度函数高效求值:
+\[
+N(x;\mu,\beta^{-1})=\sqrt{\frac{\beta}{2\pi}}e^{\left(-\frac{1}{2}\beta(x-\mu)^2\right)},
+\]
 其中，\(\beta=\frac{1}{\sigma^2}\)通过参数\(\beta∈（0，\infty）​\)来控制分布精度.
-
-\subsection{何时采用正态分布}\label{ux4f55ux65f6ux91c7ux7528ux6b63ux6001ux5206ux5e03}
-
+\begin{remark}
 问: 何时采用正态分布? 答: 缺乏实数上分布的先验知识, 不知选择何种形式时,
 默认选择正态分布总是不会错的, 理由如下:
-
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
  
@@ -604,158 +637,167 @@ N(x;\mu,\beta^{-1})=\sqrt{\frac{\beta}{2\pi}}exp\left(-\frac{1}{2}\beta(x-\mu)^2
 \item
   正态分布是具有相同方差的所有概率分布中, 不确定性最大的分布, 换句话说,
   正态分布是对模型加入先验知识最少的分布.
-\end{enumerate}
+\end{enumerate}  
+\end{remark}
 
-正态分布的推广: 正态分布可以推广到\(R^n\)空间,
-此时称为\textbf{多位正态分布}, 其参数是一个正定对称矩阵\(\Sigma​\): \[
-N(x;\vec\mu,\Sigma)=\sqrt{\frac{1}{(2\pi)^ndet(\Sigma)}}exp\left(-\frac{1}{2}(\vec{x}-\vec{\mu})^T\Sigma^{-1}(\vec{x}-\vec{\mu})\right)
+正态分布可以推广到\(R^n\)空间,此时称为 {多维正态分布}, 其参数是一个正定对称矩阵\(\Sigma​\):
+\[
+N(x; \mu,\Sigma)=\sqrt{\frac{1}{(2\pi)^ndet(\Sigma)}}exp\left(-\frac{1}{2}( {x}- {\mu})^T\Sigma^{-1}( {x}- {\mu})\right),
 \] 对多为正态分布概率密度高效求值: \[
-N(x;\vec{\mu},\vec\beta^{-1}) = \sqrt{det(\vec\beta)}{(2\pi)^n}exp\left(-\frac{1}{2}(\vec{x}-\vec\mu)^T\beta(\vec{x}-\vec\mu)\right)
-\] 此处，\(\vec\beta\)是一个精度矩阵.
+N(x; {\mu}, \beta^{-1}) = \sqrt{det( \beta)}{(2\pi)^n}exp\left(-\frac{1}{2}( {x}- \mu)^T\beta( {x}- \mu)\right),
+\] 此处，\( \beta\)是一个精度矩阵.
 
-\subsection{ 指数分布}\label{ux6307ux6570ux5206ux5e03}
+\subsection{ 指数分布}
+\label{ux6307ux6570ux5206ux5e03}
+深度学习中, 指数分布用来描述在\(x=0​\)点处取得边界点的分布,指数分布定义如下:
+\[
+p(x;\lambda)=\lambda I_{x\geq 0}e^{-\lambda{x}},
+\]
+指数分布用指示函数\(I_{x\geq 0}​\)来使\(x​\)取负值时的概率为零.
 
-深度学习中, 指数分布用来描述在\(x=0​\)点处取得边界点的分布,
-指数分布定义如下: \[
-p(x;\lambda)=\lambda I_{x\geq 0}exp(-\lambda{x})
-\] 指数分布用指示函数\(I_{x\geq 0}​\)来使\(x​\)取负值时的概率为零.
-
-\subsection{ Laplace分布（拉普拉斯分布）}\label{laplace-ux5206ux5e03ux62c9ux666eux62c9ux65afux5206ux5e03}
-
-一个联系紧密的概率分布是 Laplace 分布（Laplace
-distribution），它允许我们在任意一点 \(\mu\)处设置概率质量的峰值 \[
-Laplace(x;\mu;\gamma)=\frac{1}{2\gamma}exp\left(-\frac{|x-\mu|}{\gamma}\right)
+\subsection{ Laplace分布（拉普拉斯分布）}
+\label{laplace-ux5206ux5e03ux62c9ux666eux62c9ux65afux5206ux5e03}
+一个联系紧密的概率分布是 Laplace 分布（Laplace distribution），它允许我们在任意一点 \(\mu\) 处设置概率质量的峰值
+\[
+Laplace(x;\mu;\gamma)=\frac{1}{2\gamma}exp\left(-\frac{|x-\mu|}{\gamma}\right),
 \]
 
-\subsection{Dirac分布和经验分布}\label{diracux5206ux5e03ux548cux7ecfux9a8cux5206ux5e03}
+\subsection{Dirac分布和经验分布}
+\label{diracux5206ux5e03ux548cux7ecfux9a8cux5206ux5e03}
 
 Dirac分布可保证概率分布中所有质量都集中在一个点上.
-Diract分布的狄拉克\(\delta​\)函数(也称为\textbf{单位脉冲函数})定义如下:
+Diract分布的狄拉克\(\delta​\)函数(也称为 {单位脉冲函数})定义如下:
 \[
 p(x)=\delta(x-\mu), x\neq \mu
 \]
-
 \[
 \int_{a}^{b}\delta(x-\mu)dx = 1, a < \mu < b
 \]
-
 Dirac 分布经常作为 经验分布（empirical distribution）的一个组成部分出现
 \[
-\hat{p}(\vec{x})=\frac{1}{m}\sum_{i=1}^{m}\delta(\vec{x}-{\vec{x}}^{(i)})
+\hat{p}( {x})=\frac{1}{m}\sum_{i=1}^{m}\delta( {x}-{ {x}}^{(i)})
 \] , 其中, m个点\(x^{1},...,x^{m}\)是给定的数据集,
-\textbf{经验分布}将概率密度\(\frac{1}{m}​\)赋给了这些点.
+ {经验分布}将概率密度\(\frac{1}{m}​\)赋给了这些点.
 
 当我们在训练集上训练模型时,
-可以认为从这个训练集上得到的经验分布指明了\textbf{采样来源}.
+可以认为从这个训练集上得到的经验分布指明了 {采样来源}.
 
-\textbf{适用范围}: 狄拉克δ函数适合对\textbf{连续型}随机变量的经验分布.
+狄拉克$δ$函数适合对 {连续型}随机变量的经验分布.
 
-\begin{quote}
-\end{quote}
+\section{期望、方差、协方差、相关系数}
+\label{ux671fux671bux65b9ux5deeux534fux65b9ux5deeux76f8ux5173ux7cfbux6570}
+\subsection{ 期望}
+\label{ux671fux671b}
+在概率论和统计学中，数学期望（或均值，亦简称期望）是试验中每次可能结果的概率乘以其结果的总和.
+它反映随机变量平均取值的大小.
 
-\section{期望、方差、协方差、相关系数}\label{ux671fux671bux65b9ux5deeux534fux65b9ux5deeux76f8ux5173ux7cfbux6570}
+\subsubsection{线性运算}
+\label{sec:6.1.1}
+\begin{equation}
+  \label{eq:0601}
+ E(ax+by+c) = aE(x)+bE(y)+c.
+\end{equation}
+\subsubsection{ 推广形式}
+\label{sec:6.1.2}
+\begin{equation}
+  \label{eq:0602}
+  E(\sum_{k=1}^{n}{a_ix_i+c}) = \sum_{k=1}^{n}{a_iE(x_i)+c}.
+\end{equation}
+\subsubsection{函数期望}
+\label{sec:6.1.3}
+设\(f(x)\)为\(x\)的函数，则\(f(x)\)的期望为
 
-\subsection{ 期望}\label{ux671fux671b}
+离散函数： \(E(f(x))=\sum_{k=1}^{n}{f(x_k)P(x_k)}\)
 
-在概率论和统计学中，数学期望（或均值，亦简称期望）是试验中每次可能结果的概率乘以其结果的总和.它反映随机变量平均取值的大小.
+连续函数： \(E(f(x))=\int_{-\infty}^{+\infty}{f(x)p(x)dx}\)
 
-\begin{itemize}
+\begin{remark}
+   函数的期望大于等于期望的函数（Jensen（詹森）不等式，即
+   \begin{equation*}
+     E(f(x))\geqslant f(E(x)),
+   \end{equation*}
+ \end{remark}
  
-\item
-  线性运算： \(E(ax+by+c) = aE(x)+bE(y)+c\)\\
-\item
-  推广形式：
-  \(E(\sum_{k=1}^{n}{a_ix_i+c}) = \sum_{k=1}^{n}{a_iE(x_i)+c}\)
-\item
-  函数期望：设\(f(x)\)为\(x\)的函数，则\(f(x)\)的期望为
+ \begin{remark}
+一般情况下，乘积的期望不等于期望的乘积.     
+\end{remark}
 
-  \begin{itemize}
-   
-  \item
-    离散函数： \(E(f(x))=\sum_{k=1}^{n}{f(x_k)P(x_k)}\)
-  \item
-    连续函数： \(E(f(x))=\int_{-\infty}^{+\infty}{f(x)p(x)dx}\)
-  \end{itemize}
-\end{itemize}
 
-\begin{quote}
-注意：
-
-\begin{itemize}
- \item
-  函数的期望大于等于期望的函数（Jensen（詹森）不等式，即\(E(f(x))\geqslant f(E(x))\)\\
-\item
-  一般情况下，乘积的期望不等于期望的乘积.\\
-\item
-  如果\(X\)和\(Y\)相互独立，则\(E(xy)=E(x)E(y)​\).
-\end{itemize}
-\end{quote}
-
-\subsection{方差}\label{ux65b9ux5dee}
-
-概率论中方差用来度量随机变量和其数学期望（即均值）之间的偏离程度.方差是一种特殊的期望.定义为：
-
+   \begin{remark}
+     如果\(X\)和\(Y\)相互独立，则
+     \begin{equation}
+       \label{eq:0604}
+       E(xy)=E(x)E(y)​.
+     \end{equation}
+   \end{remark}
+   \subsection{方差}
+   \label{ux65b9ux5dee}
+   \begin{defination}
+   概率论中方差用来度量随机变量和其数学期望（即均值）之间的偏离程度.
+   方差是一种特殊的期望.
+   \footnote{数学期望是均值是错的.}
+   定义为：
 \[
 Var(x) = E((x-E(x))^2)
-\]
+\]     
+   \end{defination}
 
-\begin{quote}
-方差性质：
+\begin{remark}
+  方差性质：
+  
+1）\(Var(x) = E(x^2) -E(x)^2\);
 
-1）\(Var(x) = E(x^2) -E(x)^2\)\\
-2）常数的方差为0;\\
-3）方差不满足线性性质;\\
-4）如果\(X\)和\(Y\)相互独立, \(Var(ax+by)=a^2Var(x)+b^2Var(y)\)
-\end{quote}
+2）常数的方差为0;
 
-\subsection{ 协方差}\label{ux534fux65b9ux5dee}
+3）方差不满足线性性质;
 
+4）如果\(X\)和\(Y\)相互独立, \(Var(ax+by)=a^2Var(x)+b^2Var(y)\).
+\end{remark}
+
+\subsection{ 协方差}
+\label{ux534fux65b9ux5dee}
+\begin{defination}
 协方差是衡量两个变量线性相关性强度及变量尺度.
-两个随机变量的协方差定义为： \[
-Cov(x,y)=E((x-E(x))(y-E(y)))
-\]
-
+两个随机变量的协方差定义为：
+\[
+Cov(x,y)=E((x-E(x))(y-E(y))).
+\]  
+\end{defination}
 方差是一种特殊的协方差.当\(X=Y\)时，\(Cov(x,y)=Var(x)=Var(y)\).
-
-\begin{quote}
+\begin{remark}
 协方差性质：
 
-1）独立变量的协方差为0.\\
+1）独立变量的协方差为0.
+
 2）协方差计算公式：
-\end{quote}
 
 \[
-Cov(\sum_{i=1}^{m}{a_ix_i}, \sum_{j=1}^{m}{b_jy_j}) = \sum_{i=1}^{m} \sum_{j=1}^{m}{a_ib_jCov(x_iy_i)}
+Cov(\sum_{i=1}^{m}{a_ix_i}, \sum_{j=1}^{m}{b_jy_j}) = \sum_{i=1}^{m} \sum_{j=1}^{m}{a_ib_jCov(x_iy_i)}.
 \]
 
-\begin{quote}
 3）特殊情况：
-\end{quote}
+
 
 \[
-Cov(a+bx, c+dy) = bdCov(x, y)
+Cov(a+bx, c+dy) = bdCov(x, y).
 \]
 
-\subsection{ 相关系数}\label{ux76f8ux5173ux7cfbux6570}
+\subsection{ 相关系数}
+\label{ux76f8ux5173ux7cfbux6570}
 
-相关系数是研究变量之间线性相关程度的量.两个随机变量的相关系数定义为：
+\begin{defination}
+相关系数是研究变量之间线性相关程度的量.
+两个随机变量的相关系数定义为：
 \[
 Corr(x,y) = \frac{Cov(x,y)}{\sqrt{Var(x)Var(y)}}
-\]
+\]  
+\end{defination}
 
-\begin{quote}
-相关系数的性质：\\
-1）有界性.相关系数的取值范围是 {[}-1,1{]}，可以看成无量纲的协方差.\\
-2）值越接近1，说明两个变量正相关性（线性）越强.越接近-1，说明负相关性越强，当为0时，表示两个变量没有相关性.
-\end{quote}
-
-% \section{参考文献}\label{ux53c2ux8003ux6587ux732e}
-
-% {[}1{]}Ian，Goodfellow，Yoshua，Bengio，Aaron\ldots{}深度学习{[}M{]}，人民邮电出版，2017
-
-% {[}2{]}周志华.机器学习{[}M{]}.清华大学出版社，2016.
-
-% {[}3{]}同济大学数学系.高等数学（第七版）{[}M{]}，高等教育出版社，2014.
-
-% {[}4{]}盛骤，试式千，潘承毅等编.
-% 概率论与数理统计（第4版）{[}M{]}，高等教育出版社，2008
+\begin{remark}
+  相关系数的性质：
+  
+  1）有界性.相关系数的取值范围是 {[}-1,1{]}，可以看成无量纲的协方差.
+  
+  2）值越接近1，说明两个变量正相关性（线性）越强.越接近-1，说明负相关性越强，当为0时，表示两个变量没有相关性.
+  
+\end{remark}
