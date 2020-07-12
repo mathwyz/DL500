@@ -40,7 +40,7 @@
 \label{ux5404ux79cdux5e38ux89c1ux7b97ux6cd5ux56feux793a}
 日常使用机器学习的任务中，我们经常会遇见各种算法，图\ref{fig:2.5.2},
 图\ref{fig:2.5.3}，图\ref{fig:2.5.4}，图\ref{fig:2.5.5}是各种常见算法的图示。
-
+\footnote{图片大小，位置，表格形式还需要再定.}
 \begin{longtable}[]{ccc}
   \label{fig:2.5.2}
 \toprule
@@ -213,137 +213,204 @@ f(x)=x^2,g(x)=2x+1
 \label{ux673aux5668ux5b66ux4e60ux5b66ux4e60ux65b9ux5f0f}
 根据数据类型的不同，对一个问题的建模有不同的方式。
 依据不同的学习方式和输入数据，机器学习主要分为以下四种学习方式。
-
-\subsection{ 监督学习}\label{ux76d1ux7763ux5b66ux4e60}
-
-​
-特点：监督学习是使用已知正确答案的示例来训练网络。已知数据和其一一对应的标签，训练一个预测模型，将输入数据映射到标签的过程。
+\subsection{ 监督学习}
+\label{ux76d1ux7763ux5b66ux4e60}
+ 特点：监督学习是使用已知正确答案的示例来训练网络。
+已知数据和其一一对应的标签，训练一个预测模型，将输入数据映射到标签的过程。
 
 ​ 常见应用场景：监督式学习的常见应用场景如分类问题和回归问题。
 
-​ 算法举例：常见的有监督机器学习算法包括支持向量机(Support Vector
-Machine, SVM)，朴素贝叶斯(Naive Bayes)，逻辑回归(Logistic
-Regression)，K近邻(K-Nearest Neighborhood, KNN)，决策树(Decision
-Tree)，随机森林(Random Forest)，AdaBoost以及线性判别分析(Linear
-Discriminant Analysis, LDA)等。深度学习(Deep
-Learning)也是大多数以监督学习的方式呈现。
+​ 算法举例：常见的有监督机器学习算法包括支持向量机(Support Vector Machine, SVM)，朴素贝叶斯(Naive Bayes)，逻辑回归(Logistic Regression)，K近邻(K-Nearest Neighborhood, KNN)，决策树(Decision Tree)，随机森林(Random Forest)，AdaBoost以及线性判别分析(Linear Discriminant Analysis, LDA)等。
+深度学习(Deep Learning)也是大多数以监督学习的方式呈现。
+\subsection{非监督式学习}
+\label{ux975eux76d1ux7763ux5f0fux5b66ux4e60}
+定义：在非监督式学习中，数据并不被特别标识，适用于你具有数据集但无标签的情况。
+学习模型是为了推断出数据的一些内在结构。
 
-\subsection{非监督式学习}\label{ux975eux76d1ux7763ux5f0fux5b66ux4e60}
+常见应用场景：常见的应用场景包括关联规则的学习以及聚类等。
 
-​
-定义：在非监督式学习中，数据并不被特别标识，适用于你具有数据集但无标签的情况。学习模型是为了推断出数据的一些内在结构。
+​算法举例：常见算法包括Apriori算法以及k-Means算法。
 
-​ 常见应用场景：常见的应用场景包括关联规则的学习以及聚类等。
-
-​ 算法举例：常见算法包括Apriori算法以及k-Means算法。
-
-\subsection{半监督式学习}\label{ux534aux76d1ux7763ux5f0fux5b66ux4e60}
-
-​
+\subsection{半监督式学习}
+\label{ux534aux76d1ux7763ux5f0fux5b66ux4e60}
 特点：在此学习方式下，输入数据部分被标记，部分没有被标记，这种学习模型可以用来进行预测。
-
 ​
 常见应用场景：应用场景包括分类和回归，算法包括一些对常用监督式学习算法的延伸，通过对已标记数据建模，在此基础上，对未标记数据进行预测。
 
-​ 算法举例：常见算法如图论推理算法（Graph
-Inference）或者拉普拉斯支持向量机（Laplacian SVM）等。
-
-\subsection{弱监督学习}\label{ux5f31ux76d1ux7763ux5b66ux4e60}
-
-​
+​ 算法举例：常见算法如图论推理算法（Graph Inference）或者拉普拉斯支持向量机（Laplacian SVM）等。
+\subsection{弱监督学习}
+\label{ux5f31ux76d1ux7763ux5b66ux4e60}
 特点：弱监督学习可以看做是有多个标记的数据集合，次集合可以是空集，单个元素，或包含多种情况（没有标记，有一个标记，和有多个标记）的多个元素。
-数据集的标签是不可靠的，这里的不可靠可以是标记不正确，多种标记，标记不充分，局部标记等。已知数据和其一一对应的弱标签，训练一个智能算法，将输入数据映射到一组更强的标签的过程。标签的强弱指的是标签蕴含的信息量的多少，比如相对于分割的标签来说，分类的标签就是弱标签。
+数据集的标签是不可靠的，这里的不可靠可以是标记不正确，多种标记，标记不充分，局部标记等。
+已知数据和其一一对应的弱标签，训练一个智能算法，将输入数据映射到一组更强的标签的过程。
+标签的强弱指的是标签蕴含的信息量的多少，比如相对于分割的标签来说，分类的标签就是弱标签。
 
-​
 算法举例：举例，给出一张包含气球的图片，需要得出气球在图片中的位置及气球和背景的分割线，这就是已知弱标签学习强标签的问题。
 
-​ 在企业数据应用的场景下，
+​在企业数据应用的场景下，
 人们最常用的可能就是监督式学习和非监督式学习的模型。
-在图像识别等领域，由于存在大量的非标识的数据和少量的可标识数据，
-目前半监督式学习是一个很热的话题。
+在图像识别等领域，由于存在大量的非标识的数据和少量的可标识数据，目前半监督式学习是一个很热的话题。
 
-\subsection{监督学习有哪些步骤}\label{ux76d1ux7763ux5b66ux4e60ux6709ux54eaux4e9bux6b65ux9aa4}
+\subsection{监督学习有哪些步骤}
+\label{ux76d1ux7763ux5b66ux4e60ux6709ux54eaux4e9bux6b65ux9aa4}
 
-​
-监督学习是使用已知正确答案的示例来训练网络，每组训练数据有一个明确的标识或结果。想象一下，我们可以训练一个网络，让其从照片库中（其中包含气球的照片）识别出气球的照片。以下就是我们在这个假设场景中所要采取的步骤。
+监督学习是使用已知正确答案的示例来训练网络，每组训练数据有一个明确的标识或结果。
+想象一下，我们可以训练一个网络，让其从照片库中（其中包含气球的照片）识别出气球的照片。
+以下就是我们在这个假设场景中所要采取的步骤。
 
 \textbf{步骤1：数据集的创建和分类} ​
-首先，浏览你的照片（数据集），确定所有包含气球的照片，并对其进行标注。然后，将所有照片分为训练集和验证集。目标就是在深度网络中找一函数，这个函数输入是任意一张照片，当照片中包含气球时，输出1，否则输出0。
+首先，浏览你的照片（数据集），确定所有包含气球的照片，并对其进行标注。
+然后，将所有照片分为训练集和验证集。
+目标就是在深度网络中找一函数，这个函数输入是任意一张照片，当照片中包含气球时，输出1，否则输出0。
 
 \textbf{步骤2：数据增强（Data Augmentation）} ​
-当原始数据搜集和标注完毕，一般搜集的数据并不一定包含目标在各种扰动下的信息。数据的好坏对于机器学习模型的预测能力至关重要，因此一般会进行数据增强。对于图像数据来说，数据增强一般包括，图像旋转，平移，颜色变换，裁剪，仿射变换等。
+当原始数据搜集和标注完毕，一般搜集的数据并不一定包含目标在各种扰动下的信息。
+数据的好坏对于机器学习模型的预测能力至关重要，因此一般会进行数据增强。
+对于图像数据来说，数据增强一般包括，图像旋转，平移，颜色变换，裁剪，仿射变换等。
 
 \textbf{步骤3：特征工程（Feature Engineering）} ​
-一般来讲，特征工程包含特征提取和特征选择。常见的手工特征(Hand-Crafted
-Feature)有尺度不变特征变换(Scale-Invariant Feature Transform,
-SIFT)，方向梯度直方图(Histogram of Oriented Gradient,
-HOG)等。由于手工特征是启发式的，其算法设计背后的出发点不同，将这些特征组合在一起的时候有可能会产生冲突，如何将组合特征的效能发挥出来，使原始数据在特征空间中的判别性最大化，就需要用到特征选择的方法。在深度学习方法大获成功之后，人们很大一部分不再关注特征工程本身。因为，最常用到的卷积神经网络(Convolutional
-Neural Networks,
-CNNs)本身就是一种特征提取和选择的引擎。研究者提出的不同的网络结构、正则化、归一化方法实际上就是深度学习背景下的特征工程。
+一般来讲，特征工程包含特征提取和特征选择。常见的手工特征(Hand-Crafted Feature)有尺度不变特征变换(Scale-Invariant Feature Transform,SIFT)，方向梯度直方图(Histogram of Oriented Gradient,HOG)等。
+由于手工特征是启发式的，其算法设计背后的出发点不同，将这些特征组合在一起的时候有可能会产生冲突，如何将组合特征的效能发挥出来，使原始数据在特征空间中的判别性最大化，就需要用到特征选择的方法。
+在深度学习方法大获成功之后，人们很大一部分不再关注特征工程本身。
+因为，最常用到的卷积神经网络(Convolutional Neural Networks,CNNs)本身就是一种特征提取和选择的引擎。
+研究者提出的不同的网络结构、正则化、归一化方法实际上就是深度学习背景下的特征工程。
 
 \textbf{步骤4：构建预测模型和损失} ​
 将原始数据映射到特征空间之后，也就意味着我们得到了比较合理的输入。下一步就是构建合适的预测模型得到对应输入的输出。而如何保证模型的输出和输入标签的一致性，就需要构建模型预测和标签之间的损失函数，常见的损失函数(Loss
 Function)有交叉熵、均方差等。通过优化方法不断迭代，使模型从最初的初始化状态一步步变化为有预测能力的模型的过程，实际上就是学习的过程。
 
 \textbf{步骤5：训练} ​
-选择合适的模型和超参数进行初始化，其中超参数比如支持向量机中核函数、误差项惩罚权重等。当模型初始化参数设定好后，将制作好的特征数据输入到模型，通过合适的优化方法不断缩小输出与标签之间的差距，当迭代过程到了截止条件，就可以得到训练好的模型。优化方法最常见的就是梯度下降法及其变种，使用梯度下降法的前提是优化目标函数对于模型是可导的。
+选择合适的模型和超参数进行初始化，其中超参数比如支持向量机中核函数、误差项惩罚权重等。
+当模型初始化参数设定好后，将制作好的特征数据输入到模型，通过合适的优化方法不断缩小输出与标签之间的差距，当迭代过程到了截止条件，就可以得到训练好的模型。
+优化方法最常见的就是梯度下降法及其变种，使用梯度下降法的前提是优化目标函数对于模型是可导的。
 
 \textbf{步骤6：验证和模型选择} ​
-训练完训练集图片后，需要进行模型测试。利用验证集来验证模型是否可以准确地挑选出含有气球在内的照片。
+训练完训练集图片后，需要进行模型测试。
+利用验证集来验证模型是否可以准确地挑选出含有气球在内的照片。
 ​
 在此过程中，通常会通过调整和模型相关的各种事物（超参数）来重复步骤2和3，诸如里面有多少个节点，有多少层，使用怎样的激活函数和损失函数，如何在反向传播阶段积极有效地训练权值等等。
 
 \textbf{步骤7：测试及应用} ​
-当有了一个准确的模型，就可以将该模型部署到你的应用程序中。你可以将预测功能发布为API（Application
-Programming Interface,
-应用程序编程接口）调用，并且你可以从软件中调用该API，从而进行推理并给出相应的结果。
+当有了一个准确的模型，就可以将该模型部署到你的应用程序中。
+你可以将预测功能发布为API（Application Programming Interface, 应用程序编程接口）调用，并且你可以从软件中调用该API，从而进行推理并给出相应的结果。
 
-\section{ 分类算法}\label{ux5206ux7c7bux7b97ux6cd5}
-
-​
-分类算法和回归算法是对真实世界不同建模的方法。分类模型是认为模型的输出是离散的，例如大自然的生物被划分为不同的种类，是离散的。回归模型的输出是连续的，例如人的身高变化过程是一个连续过程，而不是离散的。
-
-​
+\section{ 分类算法}
+\label{ux5206ux7c7bux7b97ux6cd5}
+分类算法和回归算法是对真实世界不同建模的方法。
+分类模型是认为模型的输出是离散的，例如大自然的生物被划分为不同的种类，是离散的。
+回归模型的输出是连续的，例如人的身高变化过程是一个连续过程，而不是离散的。
 因此，在实际建模过程时，采用分类模型还是回归模型，取决于你对任务（真实世界）的分析和理解。
 
-\subsection{常用分类算法的优缺点？}\label{ux5e38ux7528ux5206ux7c7bux7b97ux6cd5ux7684ux4f18ux7f3aux70b9}
+\subsection{常用分类算法的优缺点？}
+\label{ux5e38ux7528ux5206ux7c7bux7b97ux6cd5ux7684ux4f18ux7f3aux70b9}
 
 ​ 接下来我们介绍常用分类算法的优缺点，如表2-1所示。
 
 ​ 表2-1 常用分类算法的优缺点
 
 \begin{longtable}[]{lll}
-%\toprule
-\begin{minipage}[b]{0.04\columnwidth}\raggedright\strut
-算法\strut
-\end{minipage} & \begin{minipage}[b]{0.04\columnwidth}\raggedright\strut
-优点\strut
-\end{minipage} & \begin{minipage}[b]{0.04\columnwidth}\raggedright\strut
-缺点\strut
-\end{minipage}\tabularnewline
-%\midrule
-%\endhead
-\begin{minipage}[t]{0.04\columnwidth}\raggedright\strut
-Bayes 贝叶斯分类法\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright\strut
-1）所需估计的参数少，对于缺失数据不敏感。2）有着坚实的数学基础，以及稳定的分类效率。\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright\strut
-1）需要假设属性之间相互独立，这往往并不成立。（喜欢吃番茄、鸡蛋，却不喜欢吃番茄炒蛋）。2）需要知道先验概率。3）分类决策存在错误率。\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.04\columnwidth}\raggedright\strut
-Decision Tree决策树\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright\strut
-1）不需要任何领域知识或参数假设。2）适合高维数据。3）简单易于理解。4）短时间内处理大量数据，得到可行且效果较好的结果。5）能够同时处理数据型和常规性属性。\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright\strut
-1）对于各类别样本数量不一致数据，信息增益偏向于那些具有更多数值的特征。2）易于过拟合。3）忽略属性之间的相关性。4）不支持在线学习。\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.04\columnwidth}\raggedright\strut
-SVM支持向量机\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright\strut
-1）可以解决小样本下机器学习的问题。2）提高泛化性能。3）可以解决高维、非线性问题。超高维文本分类仍受欢迎。4）避免神经网络结构选择和局部极小的问题。\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright\strut
-1）对缺失数据敏感。2）内存消耗大，难以解释。3）运行和调参略烦人。\strut
-\end{minipage}\tabularnewline
+\toprule
+\begin{minipage}[b]{0.04\columnwidth}
+  \raggedright
+  \strut
+  算法
+  \strut
+\end{minipage}
+&
+\begin{minipage}[b]{0.04\columnwidth}
+  \raggedright
+  \strut
+  优点
+  \strut
+\end{minipage}
+&
+\begin{minipage}[b]{0.04\columnwidth}
+  \raggedright
+  \strut
+  缺点
+  \strut
+\end{minipage}
+\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.04\columnwidth}
+  \raggedright
+  \strut
+  Bayes 贝叶斯分类法
+  \strut
+\end{minipage}
+&
+\begin{minipage}[t]{0.04\columnwidth}
+  \raggedright
+  \strut
+  1）所需估计的参数少，对于缺失数据不敏感。
+  2）有着坚实的数学基础，以及稳定的分类效率。
+  \strut
+\end{minipage}
+&
+\begin{minipage}[t]{0.04\columnwidth}
+  \raggedright
+  \strut
+  1）需要假设属性之间相互独立，这往往并不成立。（喜欢吃番茄、鸡蛋，却不喜欢吃番茄炒蛋）。
+  2）需要知道先验概率。
+  3）分类决策存在错误率。
+  \strut
+\end{minipage}
+\tabularnewline
+\begin{minipage}[t]{0.04\columnwidth}
+  \raggedright
+  \strut
+  Decision Tree决策树
+  \strut
+\end{minipage}
+&
+\begin{minipage}[t]{0.04\columnwidth}
+  \raggedright
+  \strut
+  1）不需要任何领域知识或参数假设。
+  2）适合高维数据。
+  3）简单易于理解。
+  4）短时间内处理大量数据，得到可行且效果较好的结果。
+  5）能够同时处理数据型和常规性属性。
+  \strut
+\end{minipage}
+&
+\begin{minipage}[t]{0.04\columnwidth}
+  \raggedright
+  \strut
+  1）对于各类别样本数量不一致数据，信息增益偏向于那些具有更多数值的特征。
+  2）易于过拟合。
+  3）忽略属性之间的相关性。
+  4）不支持在线学习。
+  \strut
+\end{minipage}
+\tabularnewline
+\begin{minipage}[t]{0.04\columnwidth}
+  \raggedright
+  \strut
+  SVM支持向量机
+  \strut
+\end{minipage}
+&
+\begin{minipage}[t]{0.04\columnwidth}
+  \raggedright
+  \strut
+  1）可以解决小样本下机器学习的问题。
+  2）提高泛化性能。
+  3）可以解决高维、非线性问题。超高维文本分类仍受欢迎。
+  4）避免神经网络结构选择和局部极小的问题。
+  \strut
+\end{minipage}
+&
+\begin{minipage}[t]{0.04\columnwidth}
+  \raggedright
+  \strut
+  1）对缺失数据敏感。
+  2）内存消耗大，难以解释。
+  3）运行和调参略烦人。
+  \strut
+\end{minipage}
+\tabularnewline
 \begin{minipage}[t]{0.04\columnwidth}\raggedright\strut
 KNN K近邻\strut
 \end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright\strut
@@ -374,7 +441,7 @@ Adaboosting\strut
 \end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright\strut
 对outlier比较敏感\strut
 \end{minipage}\tabularnewline
-% \bottomrule
+ \bottomrule
 \end{longtable}
 
 \subsection{2.8.2

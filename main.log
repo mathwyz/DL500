@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.2.21)  12 JUL 2020 09:53
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.2.21)  12 JUL 2020 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2155,34 +2155,7 @@ File: pst-fp.tex 2018/01/06 v2.82 `PST-fp' (hv)
 \c@solve=\count377
 Package hyperref Info: Option `colorlinks' set `true' on input line 89.
 )
-(./main.aux
-
-LaTeX Warning: Label `ux57faux672cux6982ux5ff5' multiply defined.
-
-
-LaTeX Warning: Label `ux635fux5931ux51fdux6570' multiply defined.
-
-
-LaTeX Warning: Label `ux4e3aux4ec0ux4e48ux9700ux8981ux5206ux5e03ux5f0fux8ba1ux7
-b97' multiply defined.
-
-
-LaTeX Warning: Label `spark-mlllib' multiply defined.
-
-
-LaTeX Warning: Label `ray' multiply defined.
-
-
-LaTeX Warning: Label `horovod' multiply defined.
-
-
-LaTeX Warning: Label `bigdl' multiply defined.
-
-
-LaTeX Warning: Label `ux5982ux4f55ux8fdbux884cux79bbux7ebfux8ba1ux7b97' multipl
-y defined.
-
-)
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -2294,30 +2267,17 @@ ABD: EveryShipout initializing macros [1
 
 ] [2]
 目录
-(./main.toc
-Underfull \vbox (badness 2005) has occurred while \output is active []
+(./main.toc)
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
  [3
 
 
-]
-Underfull \vbox (badness 1024) has occurred while \output is active []
-
- [4]
-Underfull \vbox (badness 1024) has occurred while \output is active []
-
- [5]
-Underfull \vbox (badness 7740) has occurred while \output is active []
-
- [6]
-Underfull \vbox (badness 1024) has occurred while \output is active []
-
- [7])
-\tf@toc=\write5
-\openout5 = `main.toc'.
+] [4
 
 
-[8] (./scr/chapter1.tex
+] (./scr/chapter1.tex
 Chapter 1
 
 LaTeX Font Warning: Font shape `TU/FandolSong-Regular(0)/m/sc' undefined
@@ -2329,8 +2289,6 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 24.
 
 [1
-
-
 
 
 ]
@@ -2754,6 +2712,9 @@ Missing character: There is no ​ in font cmr10!
 Chapter 2
 Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+
+LaTeX Warning: Reference `fig:2.5.1' on page 17 undefined on input line 30.
+
 File: ./img/ch2/mao.png Graphic file (type bmp)
 <./img/ch2/mao.png>
 
@@ -2854,4 +2815,26 @@ might try typing `S' now just to see what is salvageable.
 l.47 回归算法 & 聚类算法 &
                                    正则化方法
 I can't figure out why you would want to use a tab mark
-here. If you ju
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \cr.
+\reserved@c ->\ifnum 0=`{\fi }\cr 
+                                  
+l.49 \midrule
+             
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\midrule ->\noalign 
+                    {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
+l.49 \midrule
+             
+I expect to see \noalign only after the \
