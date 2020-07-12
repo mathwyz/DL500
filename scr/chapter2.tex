@@ -1,149 +1,218 @@
 \chapter{机器学习基础}
 \label{ux7b2cux4e8cux7ae0-ux673aux5668ux5b66ux4e60ux57faux7840}
-​ 机器学习起源于上世纪50年代，1959年在IBM工作的Arthur
-Samuel设计了一个下棋程序，这个程序具有学习的能力，它可以在不断的对弈中提高自己。由此提出了``机器学习''这个概念，它是一个结合了多个学科如概率论，优化理论，统计等，最终在计算机上实现自我获取新知识，学习改善自己的这样一个研究领域。机器学习是人工智能的一个子集，目前已经发展出许多有用的方法，比如支持向量机，回归，决策树，随机森林，强化方法，集成学习，深度学习等等，一定程度上可以帮助人们完成一些数据预测，自动化，自动决策，最优化等初步替代脑力的任务。本章我们主要介绍下机器学习的基本概念、监督学习、分类算法、逻辑回归、代价函数、损失函数、LDA、PCA、决策树、支持向量机、EM算法、聚类和降维以及模型评估有哪些方法、指标等等。
+​ 机器学习起源于上世纪50年代，1959年在IBM工作的Arthur Samuel设计了一个下棋程序，这个程序具有学习的能力，它可以在不断的对弈中提高自己。
+由此提出了``机器学习''这个概念，它是一个结合了多个学科如概率论，优化理论，统计等，最终在计算机上实现自我获取新知识，学习改善自己的这样一个研究领域。
+机器学习是人工智能的一个子集，目前已经发展出许多有用的方法，比如支持向量机，回归，决策树，随机森林，强化方法，集成学习，深度学习等等，一定程度上可以帮助人们完成一些数据预测，自动化，自动决策，最优化等初步替代脑力的任务。
+本章我们主要介绍下机器学习的基本概念，如监督学习、分类算法、逻辑回归、代价函数、损失函数、LDA、PCA、决策树、支持向量机、EM算法、聚类和降维以及模型评估有哪些方法、指标等等\footnote{病句.}。
 
-\section{ 基本概念}\label{ux57faux672cux6982ux5ff5}
+\section{基本概念}
+\label{ux57faux672cux6982ux5ff5}
+\subsection{大话理解机器学习本质}
+\label{ux5927ux8bddux7406ux89e3ux673aux5668ux5b66ux4e60ux672cux8d28}
+​ 机器学习(Machine Learning,ML)，顾名思义，让机器去学习。
+这里，机器指的是计算机，是算法运行的物理载体，你也可以把各种算法本身当做一个有输入和输出的机器。
+那么到底让计算机去学习什么呢？
+对于一个任务及其表现的度量方法，设计一种算法，让算法能够提取中数据所蕴含的规律，这就叫机器学习。
+如果输入机器的数据是带有标签的，就称作有监督学习。
+如果数据是无标签的，就是无监督学习。
+\subsection{什么是神经网络}
+\label{ux4ec0ux4e48ux662fux795eux7ecfux7f51ux7edc}
+神经网络就是按照一定规则将多个神经元连接起来的网络。
+不同的神经网络，具有不同的连接规则。
+例如全连接(Full Connected, FC)神经网络，它的规则包括：
+\begin{enumerate}
+\item 有三种层：输入层，输出层，隐藏层。
+\item 同一层的神经元之间没有连接。
+\item fully connected的含义：第 N 层的每个神经元和第 N-1层的所有神经元相连，第 N-1 层神经元的输出就是第 N 层神经元的输入。
+\item 每个连接都有一个权值。
+\end{enumerate}
+\subsubsection{神经网络架构}
+图\ref{fig:2.5.1}就是一个神经网络系统，它由很多层组成。
+输入层负责接收信息，比如一只猫的图片。
+输出层是计算机对这个输入信息的判断结果，它是不是猫。
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{./img/ch2/mao.png}
+  \caption{神经网络系统}
+  \label{fig:2.5.1}
+\end{figure}
+\subsection{各种常见算法图示}
+\label{ux5404ux79cdux5e38ux89c1ux7b97ux6cd5ux56feux793a}
+日常使用机器学习的任务中，我们经常会遇见各种算法，图\ref{fig:2.5.2},
+图\ref{fig:2.5.3}，图\ref{fig:2.5.4}，图\ref{fig:2.5.5}是各种常见算法的图示。
 
-\subsection{大话理解机器学习本质}\label{ux5927ux8bddux7406ux89e3ux673aux5668ux5b66ux4e60ux672cux8d28}
+\begin{longtable}[]{ccc}
+  \label{fig:2.5.2}
+\toprule
+回归算法 & 聚类算法 & 正则化方法
+\tabularnewline
+\midrule
+\endhead
+\begin{minipage}{0.1\linewidth}
+  \includegraphics[width=1.0\linewidth]{./img/ch2/sec1/1.jpg}
+\end{minipage}
+&
+\begin{minipage}{0.1\linewidth}
+\includegraphics[width=1.0\linewidth]{./img/ch2/sec1/2.jpg}  
+\end{minipage}
+&
+\begin{minipage}{0.1\linewidth}
+\includegraphics[width=1.0\linewidth]{./img/ch2/sec1/3.jpg}
+\end{minipage}
+\tabularnewline
+\bottomrule
+\caption{各种常见算法图示}
+\end{longtable}
 
-​ 机器学习(Machine Learning,
-ML)，顾名思义，让机器去学习。这里，机器指的是计算机，是算法运行的物理载体，你也可以把各种算法本身当做一个有输入和输出的机器。那么到底让计算机去学习什么呢？对于一个任务及其表现的度量方法，设计一种算法，让算法能够提取中数据所蕴含的规律，这就叫机器学习。如果输入机器的数据是带有标签的，就称作有监督学习。如果数据是无标签的，就是无监督学习。
+\begin{longtable}[]{ccc}
+    \label{fig:2.5.3}
+  \toprule
+  决策树学习 & 贝叶斯方法 & 基于核的算法
+\tabularnewline
+\midrule
+\endhead
+\begin{minipage}{0.1\linewidth}
+  \includegraphics[width=1.0\linewidth]{./img/ch2/dec.png}  
+\end{minipage}
+&
+\begin{minipage}{0.1\linewidth}
+  \includegraphics[width=1.0\linewidth]{./img/ch2/sec1/5.jpg}  
+\end{minipage}
+&
+\begin{minipage}{0.1\linewidth}
+  \includegraphics[width=1.0\linewidth]{./img/ch2/sec1/6.jpg}  
+\end{minipage}
+\tabularnewline
+\bottomrule
+\caption{各种常见算法图示}
+\end{longtable}
 
-\subsection{什么是神经网络}\label{ux4ec0ux4e48ux662fux795eux7ecfux7f51ux7edc}
+\begin{longtable}[]{ccc}
+    \label{fig:2.5.4}
+\toprule
+聚类算法 & 关联规则学习 & 人工神经网络
+\tabularnewline
+\midrule
+\endhead
+\begin{minipage}{1.0\linewidth}
+\includegraphics[width=1.0\linewidth]{./img/ch2/sec1/7.jpg}  
+\end{minipage}
+ &
+\begin{minipage}{1.0\linewidth}
+\includegraphics[width=1.0\linewidth]{./img/ch2/guan.png}   
+\end{minipage}
+&
+\begin{minipage}{1.0\linewidth}
+\includegraphics[width=1.0\linewidth]{./img/ch2/ren.png}  
+\end{minipage}
+\tabularnewline
+\bottomrule
+\caption{各种常见算法图示}
+\end{longtable}
 
-​
-神经网络就是按照一定规则将多个神经元连接起来的网络。不同的神经网络，具有不同的连接规则。例如全连接(Full
-Connected, FC)神经网络，它的规则包括：
+\begin{longtable}[]{ccc}
+    \label{fig:2.5.5}
+\toprule
+深度学习 & 降低维度算法 & 集成算法
+\tabularnewline
+\midrule
+\endhead
+\begin{minipage}{1.0\linewidth}
+\includegraphics[width=1.0\linewidth]{./img/ch2/2-2-10.png}  
+\end{minipage}
+ &
+\begin{minipage}{1.0\linewidth}
+\includegraphics[width=1.0\linewidth]{./img/ch2/2-2-11.png}  
+\end{minipage}
+ &
+\begin{minipage}{1.0\linewidth}
+\includegraphics[width=1.0\linewidth]{./img/ch2/2-2-12.png}  
+\end{minipage}
+\tabularnewline
+\bottomrule
+\caption{各种常见算法图示}
+\end{longtable}
 
-（1）有三种层：输入层，输出层，隐藏层。
-
-（2）同一层的神经元之间没有连接。
-
-（3）fully connected的含义：第 N 层的每个神经元和第 N-1
-层的所有神经元相连，第 N-1 层神经元的输出就是第 N 层神经元的输入。
-
-（4）每个连接都有一个权值。
-
-\textbf{神经网络架构} ​
-图2-1就是一个神经网络系统，它由很多层组成。输入层负责接收信息，比如一只猫的图片。输出层是计算机对这个输入信息的判断结果，它是不是猫。隐藏层就是对输入信息的传递和加工处理。
-% \includegraphics{./img/ch2/2.5.1.png}
-
-​ 图2-1 神经网络系统
-
-\subsection{各种常见算法图示}\label{ux5404ux79cdux5e38ux89c1ux7b97ux6cd5ux56feux793a}
-
-​
-日常使用机器学习的任务中，我们经常会遇见各种算法，图2-2是各种常见算法的图示。
-
-% \begin{longtable}[]{ccc}
-% %\toprule
-% 回归算法 & 聚类算法 & 正则化方法\tabularnewline
-% %\midrule
-% %\endhead
-% \includegraphics{./img/ch2/2.1/1.jpg} &
-% \includegraphics{./img/ch2/2.1/2.jpg} &
-% \includegraphics{./img/ch2/2.1/3.jpg}\tabularnewline
-% % \bottomrule
-% \end{longtable}
-
-% \begin{longtable}[]{ccc}
-% %\toprule
-% 决策树学习 & 贝叶斯方法 & 基于核的算法\tabularnewline
-% %\midrule
-% %\endhead
-% \includegraphics{./img/ch2/2.2.4.png} &
-% \includegraphics{./img/ch2/2.1/5.jpg} &
-% \includegraphics{./img/ch2/2.1/6.jpg}\tabularnewline
-% % \bottomrule
-% \end{longtable}
-
-% \begin{longtable}[]{ ccc }
-% %\toprule
-% 聚类算法 & 关联规则学习 & 人工神经网络\tabularnewline
-% %\midrule
-% %\endhead
-% \includegraphics{./img/ch2/2.1/7.jpg} &
-% \includegraphics{./img/ch2/2.2.8.png} &
-% \includegraphics{./img/ch2/2.2.09.png}\tabularnewline
-% % \bottomrule
-% \end{longtable}
-
-% \begin{longtable}[]{ccc}
-% %\toprule
-% 深度学习 & 降低维度算法 & 集成算法\tabularnewline
-% %\midrule
-% %\endhead
-% \includegraphics{./img/ch2/2.2.10.png} &
-% \includegraphics{./img/ch2/2.2.11.png} &
-% \includegraphics{./img/ch2/2.2.12.png}\tabularnewline
-% % \bottomrule
-% \end{longtable}
-
-​ 图2-2 各种常见算法图示
-
-\subsection{计算图的导数计算}\label{ux8ba1ux7b97ux56feux7684ux5bfcux6570ux8ba1ux7b97}
-
+\subsection{计算图的导数计算}
+\label{ux8ba1ux7b97ux56feux7684ux5bfcux6570ux8ba1ux7b97}
 ​ 计算图导数计算是反向传播，利用链式法则和隐式函数求导。
-
 ​ 假设 $z = f(u,v)$ 在点 $(u,v)$ 处偏导连续，$(u,v)$是关于 $t$
 的函数，在 $t$ 点可导，求 $z$ 在 $t$ 点的导数。
-
-根据链式法则有 \[
-\frac{dz}{dt}=\frac{\partial z}{\partial u}.\frac{du}{dt}+\frac{\partial z}{\partial v}
-                .\frac{dv}{dt}
+\footnote{在点$(u,v)$有问题.}
+根据链式法则有
+\[
+  \frac{dz}{dt}=\frac{\partial z}{\partial u}.\frac{du}{dt}+
+  \frac{\partial z}{\partial v}.\frac{dv}{dt}
 \] ​
-链式法则用文字描述:``由两个函数凑起来的复合函数，其导数等于里边函数代入外边函数的值之导数，乘以里边函数的导数。\\
-​ 为了便于理解，下面举例说明： \[
+链式法则用文字描述:由两个函数凑起来的复合函数，其导数等于里边函数代入外边函数的值之导数，乘以里边函数的导数。
+
+​ 为了便于理解，下面举例说明：
+\[
 f(x)=x^2,g(x)=2x+1
-\] ​ 则: \[
+\]
+则:
+\[
 {f[g(x)]}'=2[g(x)] \times g'(x)=2[2x+1] \times 2=8x+4
 \]
 
 \subsection{理解局部最优与全局最优}\label{ux7406ux89e3ux5c40ux90e8ux6700ux4f18ux4e0eux5168ux5c40ux6700ux4f18}
+\subsubsection{笑谈局部最优和全局最优}
+\label{sec:1.5.1}
 
-​ 笑谈局部最优和全局最优
+柏拉图有一天问老师苏格拉底什么是爱情？
+苏格拉底叫他到麦田走一次，摘一颗最大的麦穗回来，不许回头，只可摘一次。
+柏拉图空着手出来了，他的理由是，看见不错的，却不知道是不是最好的，一次次侥幸，走到尽头时，才发现还不如前面的，于是放弃。
+苏格拉底告诉他：``这就是爱情。''
 
-\begin{quote}
+这故事让我们明白了一个道理，因为生命的一些不确定性，所以全局最优解是很难寻找到的，或者说根本就不存在，我们应该设置一些限定条件，然后在这个范围内寻找最优解，也就是局部最优解------有所斩获总比空手而归强，哪怕这种斩获只是一次有趣的经历。
 ​
-柏拉图有一天问老师苏格拉底什么是爱情？苏格拉底叫他到麦田走一次，摘一颗最大的麦穗回来，不许回头，只可摘一次。柏拉图空着手出来了，他的理由是，看见不错的，却不知道是不是最好的，一次次侥幸，走到尽头时，才发现还不如前面的，于是放弃。苏格拉底告诉他：``这就是爱情。''这故事让我们明白了一个道理，因为生命的一些不确定性，所以全局最优解是很难寻找到的，或者说根本就不存在，我们应该设置一些限定条件，然后在这个范围内寻找最优解，也就是局部最优解------有所斩获总比空手而归强，哪怕这种斩获只是一次有趣的经历。
-​
-柏拉图有一天又问什么是婚姻？苏格拉底叫他到树林走一次,选一棵最好的树做圣诞树，也是不许回头，只许选一次。这次他一身疲惫地拖了一棵看起来直挺、翠绿，却有点稀疏的杉树回来，他的理由是，有了上回的教训，好不容易看见一棵看似不错的，又发现时间、体力已经快不够用了，也不管是不是最好的，就拿回来了。苏格拉底告诉他：``这就是婚姻。''
-\end{quote}
+柏拉图有一天又问什么是婚姻？
+苏格拉底叫他到树林走一次,选一棵最好的树做圣诞树，也是不许回头，只许选一次。
+这次他一身疲惫地拖了一棵看起来直挺、翠绿，却有点稀疏的杉树回来，他的理由是，有了上回的教训，好不容易看见一棵看似不错的，又发现时间、体力已经快不够用了，也不管是不是最好的，就拿回来了。
+苏格拉底告诉他：``这就是婚姻。''
 
 ​ 优化问题一般分为局部最优和全局最优。其中，
+\begin{enumerate}
+\item 局部最优，就是在函数值空间的一个有限区域内寻找最小值；而全局最优，是在函数值空间整个区域寻找最小值问题。
+\item 函数局部最小点是它的函数值小于或等于附近点的点，但是有可能大于较远距离的点。
+\item 全局最小点是那种它的函数值小于或等于所有的可行点。
+\end{enumerate}
+\subsection{大数据与深度学习之间的关系}
+\label{ux5927ux6570ux636eux4e0eux6df1ux5ea6ux5b66ux4e60ux4e4bux95f4ux7684ux5173ux7cfb}
 
-（1）局部最优，就是在函数值空间的一个有限区域内寻找最小值；而全局最优，是在函数值空间整个区域寻找最小值问题。
-
-（2）函数局部最小点是它的函数值小于或等于附近点的点，但是有可能大于较远距离的点。
-
-（3）全局最小点是那种它的函数值小于或等于所有的可行点。
-
-\subsection{大数据与深度学习之间的关系}\label{ux5927ux6570ux636eux4e0eux6df1ux5ea6ux5b66ux4e60ux4e4bux95f4ux7684ux5173ux7cfb}
-
+\subsubsection{定义}
 首先来看大数据、机器学习及数据挖掘三者简单的定义：
+\begin{defination}
+\textbf{大数据}通常被定义为``超出常用软件工具捕获，管理和处理能力''的数据集。  
+\end{defination}
 
-\textbf{大数据}通常被定义为``超出常用软件工具捕获，管理和处理能力''的数据集。
-\textbf{机器学习}关心的问题是如何构建计算机程序使用经验自动改进。
-\textbf{数据挖掘}是从数据中提取模式的特定算法的应用，在数据挖掘中，重点在于算法的应用，而不是算法本身。
+\begin{defination}
+\textbf{机器学习}关心的问题是如何构建计算机程序使用经验自动改进。  
+\end{defination}
+\begin{defination}
+\textbf{数据挖掘}是从数据中提取模式的特定算法的应用，在数据挖掘中，重点在于算法的应用，而不是算法本身。  
+\end{defination}
 
-\textbf{机器学习和数据挖掘}之间的关系如下：
+\subsubsection{\textbf{机器学习和数据挖掘}之间的关系}
 数据挖掘是一个过程，在此过程中机器学习算法被用作提取数据集中的潜在有价值模式的工具。
-大数据与深度学习关系总结如下：
+\subsubsection{大数据与深度学习关系总结}
+（1）深度学习是一种模拟大脑的行为。
+可以从所学习对象的机制以及行为等等很多相关联的方面进行学习，模仿类型行为以及思维。
 
-（1）深度学习是一种模拟大脑的行为。可以从所学习对象的机制以及行为等等很多相关联的方面进行学习，模仿类型行为以及思维。
+（2）深度学习对于大数据的发展有帮助。
+深度学习对于大数据技术开发的每一个阶段均有帮助，不管是数据的分析还是挖掘还是建模，只有深度学习，这些工作才会有可能一一得到实现。
 
-（2）深度学习对于大数据的发展有帮助。深度学习对于大数据技术开发的每一个阶段均有帮助，不管是数据的分析还是挖掘还是建模，只有深度学习，这些工作才会有可能一一得到实现。
+（3）深度学习转变了解决问题的思维。
+很多时候发现问题到解决问题，走一步看一步不是一个主要的解决问题的方式了，在深度学习的基础上，要求我们从开始到最后都要基于一个目标，为了需要优化的那个最终目标去进行处理数据以及将数据放入到数据应用平台上去，这就是端到端（End to End）。
 
-（3）深度学习转变了解决问题的思维。很多时候发现问题到解决问题，走一步看一步不是一个主要的解决问题的方式了，在深度学习的基础上，要求我们从开始到最后都要基于一个目标，为了需要优化的那个最终目标去进行处理数据以及将数据放入到数据应用平台上去，这就是端到端（End
-to End）。
+（4）大数据的深度学习需要一个框架。
+在大数据方面的深度学习都是从基础的角度出发的，深度学习需要一个框架或者一个系统。
+总而言之，将你的大数据通过深度分析变为现实，这就是深度学习和大数据的最直接关系。
 
-（4）大数据的深度学习需要一个框架。在大数据方面的深度学习都是从基础的角度出发的，深度学习需要一个框架或者一个系统。总而言之，将你的大数据通过深度分析变为现实，这就是深度学习和大数据的最直接关系。
-
-\section{机器学习学习方式}\label{ux673aux5668ux5b66ux4e60ux5b66ux4e60ux65b9ux5f0f}
-
-​
-根据数据类型的不同，对一个问题的建模有不同的方式。依据不同的学习方式和输入数据，机器学习主要分为以下四种学习方式。
+\section{机器学习学习方式}
+\label{ux673aux5668ux5b66ux4e60ux5b66ux4e60ux65b9ux5f0f}
+根据数据类型的不同，对一个问题的建模有不同的方式。
+依据不同的学习方式和输入数据，机器学习主要分为以下四种学习方式。
 
 \subsection{ 监督学习}\label{ux76d1ux7763ux5b66ux4e60}
 
@@ -526,16 +595,16 @@ $y\rightarrow  1 $，即y为1类;
 
 ​ 表2-3 线性回归和逻辑回归的区别
 
-\begin{longtable}[]{ ccc }
-%\toprule
+\begin{longtable}[]{ccc}
+\toprule
 & 线性回归 & 逻辑回归\tabularnewline
-%\midrule
-%\endhead
+\midrule
+\endhead
 目的 & 预测 & 分类\tabularnewline
 $y^{(i)}$ & 未知 & （0,1）\tabularnewline
 函数 & 拟合函数 & 预测函数\tabularnewline
 参数计算方式 & 最小二乘法 & 极大似然估计\tabularnewline
-% \bottomrule
+ \bottomrule
 \end{longtable}
 
 下面具体解释一下：
