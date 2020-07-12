@@ -1,4 +1,4 @@
-# 来源
+# 简介
 这是《深度学习500问》的LaTeX版本.
 # 源项目
 https://github.com/scutan90/DeepLearning-500-questions
