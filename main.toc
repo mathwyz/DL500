@@ -1,0 +1,183 @@
+\contentsline {chapter}{\tocchapter {Chapter}{1}{数学基础}}{1}{chapter.1}%
+\contentsline {section}{\tocsection {}{1}{向量和矩阵}}{1}{section.1.1}%
+\contentsline {subsection}{\tocsubsection {}{1.1}{标量、向量、矩阵、张量之间的联系}}{1}{subsection.1.1.1}%
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.1}{标量}}{1}{subsubsection.1.1.1.1}%
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.2}{向量}}{1}{subsubsection.1.1.1.2}%
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.3}{矩阵}}{1}{subsubsection.1.1.1.3}%
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.4}{张量}}{2}{subsubsection.1.1.1.4}%
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.5}{四者之间关系}}{2}{subsubsection.1.1.1.5}%
+\contentsline {subsection}{\tocsubsection {}{1.2}{张量与矩阵的区别}}{2}{subsection.1.1.2}%
+\contentsline {subsection}{\tocsubsection {}{1.3}{矩阵和向量相乘结果}}{2}{subsection.1.1.3}%
+\contentsline {subsection}{\tocsubsection {}{1.4}{向量和矩阵的范数归纳}}{2}{subsection.1.1.4}%
+\contentsline {subsubsection}{\tocsubsubsection {}{1.4.1}{向量的范数}}{3}{subsubsection.1.1.4.1}%
+\contentsline {subsubsection}{\tocsubsubsection {}{1.4.2}{矩阵的范数}}{4}{subsubsection.1.1.4.2}%
+\contentsline {subsection}{\tocsubsection {}{1.5}{如何判断一个矩阵为正定}}{5}{subsection.1.1.5}%
+\contentsline {section}{\tocsection {}{2}{导数和偏导数}}{5}{section.1.2}%
+\contentsline {subsection}{\tocsubsection {}{2.1}{导数偏导计算}}{5}{subsection.1.2.1}%
+\contentsline {subsubsection}{\tocsubsubsection {}{2.1.1}{导数定义}}{5}{subsubsection.1.2.1.1}%
+\contentsline {subsubsection}{\tocsubsubsection {}{2.1.2}{偏导数}}{6}{subsubsection.1.2.1.2}%
+\contentsline {subsection}{\tocsubsection {}{2.2}{导数和偏导数有什么区别？}}{6}{subsection.1.2.2}%
+\contentsline {section}{\tocsection {}{3}{特征值和特征向量}}{7}{section.1.3}%
+\contentsline {subsection}{\tocsubsection {}{3.1}{特征值分解与特征向量}}{7}{subsection.1.3.1}%
+\contentsline {subsection}{\tocsubsection {}{3.2}{奇异值与特征值有什么关系}}{7}{subsection.1.3.2}%
+\contentsline {section}{\tocsection {}{4}{概率分布与随机变量}}{8}{section.1.4}%
+\contentsline {subsection}{\tocsubsection {}{4.1}{机器学习为什么要使用概率}}{8}{subsection.1.4.1}%
+\contentsline {subsection}{\tocsubsection {}{4.2}{变量与随机变量有什么区别}}{8}{subsection.1.4.2}%
+\contentsline {subsubsection}{\tocsubsubsection {}{4.2.1}{随机变量}}{8}{subsubsection.1.4.2.1}%
+\contentsline {subsubsection}{\tocsubsubsection {}{4.2.2}{变量与随机变量的区别}}{8}{subsubsection.1.4.2.2}%
+\contentsline {subsection}{\tocsubsection {}{4.3}{随机变量与概率分布的联系}}{9}{subsection.1.4.3}%
+\contentsline {subsection}{\tocsubsection {}{4.4}{离散型随机变量和概率质量函数}}{9}{subsection.1.4.4}%
+\contentsline {subsection}{\tocsubsection {}{4.5}{连续型随机变量和概率密度函数}}{9}{subsection.1.4.5}%
+\contentsline {subsection}{\tocsubsection {}{4.6}{举例理解条件概率}}{10}{subsection.1.4.6}%
+\contentsline {subsection}{\tocsubsection {}{4.7}{联合概率与边缘概率联系区别}}{11}{subsection.1.4.7}%
+\contentsline {subsubsection}{\tocsubsubsection {}{4.7.1}{区别}}{11}{subsubsection.1.4.7.1}%
+\contentsline {subsubsection}{\tocsubsubsection {}{4.7.2}{联系}}{11}{subsubsection.1.4.7.2}%
+\contentsline {subsection}{\tocsubsection {}{4.8}{条件概率的链式法则}}{11}{subsection.1.4.8}%
+\contentsline {subsection}{\tocsubsection {}{4.9}{独立性和条件独立性}}{11}{subsection.1.4.9}%
+\contentsline {subsubsection}{\tocsubsubsection {}{4.9.1}{独立性}}{11}{subsubsection.1.4.9.1}%
+\contentsline {subsubsection}{\tocsubsubsection {}{4.9.2}{条件独立性}}{12}{subsubsection.1.4.9.2}%
+\contentsline {section}{\tocsection {}{5}{常见概率分布}}{12}{section.1.5}%
+\contentsline {subsection}{\tocsubsection {}{5.1}{ Bernoulli分布}}{12}{subsection.1.5.1}%
+\contentsline {subsection}{\tocsubsection {}{5.2}{Multinoulli分布}}{12}{subsection.1.5.2}%
+\contentsline {subsection}{\tocsubsection {}{5.3}{二项分布}}{12}{subsection.1.5.3}%
+\contentsline {subsection}{\tocsubsection {}{5.4}{多项式分布}}{13}{subsection.1.5.4}%
+\contentsline {subsection}{\tocsubsection {}{5.5}{ 高斯分布}}{13}{subsection.1.5.5}%
+\contentsline {subsection}{\tocsubsection {}{5.6}{ 指数分布}}{14}{subsection.1.5.6}%
+\contentsline {subsection}{\tocsubsection {}{5.7}{ Laplace分布（拉普拉斯分布）}}{14}{subsection.1.5.7}%
+\contentsline {subsection}{\tocsubsection {}{5.8}{Dirac分布和经验分布}}{14}{subsection.1.5.8}%
+\contentsline {section}{\tocsection {}{6}{期望、方差、协方差、相关系数}}{14}{section.1.6}%
+\contentsline {subsection}{\tocsubsection {}{6.1}{ 期望}}{14}{subsection.1.6.1}%
+\contentsline {subsubsection}{\tocsubsubsection {}{6.1.1}{线性运算}}{14}{subsubsection.1.6.1.1}%
+\contentsline {subsubsection}{\tocsubsubsection {}{6.1.2}{ 推广形式}}{14}{subsubsection.1.6.1.2}%
+\contentsline {subsubsection}{\tocsubsubsection {}{6.1.3}{函数期望}}{15}{subsubsection.1.6.1.3}%
+\contentsline {subsection}{\tocsubsection {}{6.2}{方差}}{15}{subsection.1.6.2}%
+\contentsline {subsection}{\tocsubsection {}{6.3}{ 协方差}}{15}{subsection.1.6.3}%
+\contentsline {subsection}{\tocsubsection {}{6.4}{ 相关系数}}{16}{subsection.1.6.4}%
+\contentsline {chapter}{\tocchapter {Chapter}{2}{机器学习基础}}{17}{chapter.2}%
+\contentsline {section}{\tocsection {}{1}{基本概念}}{17}{section.2.1}%
+\contentsline {subsection}{\tocsubsection {}{1.1}{大话理解机器学习本质}}{17}{subsection.2.1.1}%
+\contentsline {subsection}{\tocsubsection {}{1.2}{什么是神经网络}}{17}{subsection.2.1.2}%
+\contentsline {subsubsection}{\tocsubsubsection {}{1.2.1}{神经网络架构}}{17}{subsubsection.2.1.2.1}%
+\contentsline {subsection}{\tocsubsection {}{1.3}{各种常见算法图示}}{18}{subsection.2.1.3}%
+\contentsline {subsection}{\tocsubsection {}{1.4}{计算图的导数计算}}{18}{subsection.2.1.4}%
+\contentsline {subsection}{\tocsubsection {}{1.5}{理解局部最优与全局最优}}{19}{subsection.2.1.5}%
+\contentsline {subsubsection}{\tocsubsubsection {}{1.5.1}{笑谈局部最优和全局最优}}{19}{subsubsection.2.1.5.1}%
+\contentsline {subsection}{\tocsubsection {}{1.6}{大数据与深度学习之间的关系}}{19}{subsection.2.1.6}%
+\contentsline {subsubsection}{\tocsubsubsection {}{1.6.1}{定义}}{19}{subsubsection.2.1.6.1}%
+\contentsline {subsubsection}{\tocsubsubsection {}{1.6.2}{\textbf {机器学习和数据挖掘}之间的关系}}{20}{subsubsection.2.1.6.2}%
+\contentsline {subsubsection}{\tocsubsubsection {}{1.6.3}{大数据与深度学习关系总结}}{20}{subsubsection.2.1.6.3}%
+\contentsline {section}{\tocsection {}{2}{机器学习学习方式}}{20}{section.2.2}%
+\contentsline {subsection}{\tocsubsection {}{2.1}{ 监督学习}}{20}{subsection.2.2.1}%
+\contentsline {subsection}{\tocsubsection {}{2.2}{非监督式学习}}{20}{subsection.2.2.2}%
+\contentsline {subsection}{\tocsubsection {}{2.3}{半监督式学习}}{21}{subsection.2.2.3}%
+\contentsline {subsection}{\tocsubsection {}{2.4}{弱监督学习}}{21}{subsection.2.2.4}%
+\contentsline {subsection}{\tocsubsection {}{2.5}{监督学习有哪些步骤}}{21}{subsection.2.2.5}%
+\contentsline {section}{\tocsection {}{3}{ 分类算法}}{22}{section.2.3}%
+\contentsline {subsection}{\tocsubsection {}{3.1}{常用分类算法的优缺点？}}{22}{subsection.2.3.1}%
+\contentsline {subsection}{\tocsubsection {}{3.2}{2.8.2 分类算法的评估方法}}{31}{subsection.2.3.2}%
+\contentsline {subsection}{\tocsubsection {}{3.3}{2.8.3 正确率能很好的评估分类算法吗}}{33}{subsection.2.3.3}%
+\contentsline {subsection}{\tocsubsection {}{3.4}{什么样的分类器是最好的}}{33}{subsection.2.3.4}%
+\contentsline {section}{\tocsection {}{4}{2.9 逻辑回归}}{33}{section.2.4}%
+\contentsline {subsection}{\tocsubsection {}{4.1}{2.9.1 回归划分}}{33}{subsection.2.4.1}%
+\contentsline {subsection}{\tocsubsection {}{4.2}{逻辑回归适用性}}{33}{subsection.2.4.2}%
+\contentsline {subsection}{\tocsubsection {}{4.3}{生成模型和判别模型的区别}}{34}{subsection.2.4.3}%
+\contentsline {subsection}{\tocsubsection {}{4.4}{逻辑回归与朴素贝叶斯有什么区别}}{34}{subsection.2.4.4}%
+\contentsline {subsection}{\tocsubsection {}{4.5}{线性回归与逻辑回归的区别}}{35}{subsection.2.4.5}%
+\contentsline {section}{\tocsection {}{5}{2.10 代价函数}}{35}{section.2.5}%
+\contentsline {subsection}{\tocsubsection {}{5.1}{2.10.1 为什么需要代价函数}}{35}{subsection.2.5.1}%
+\contentsline {subsection}{\tocsubsection {}{5.2}{代价函数作用原理}}{36}{subsection.2.5.2}%
+\contentsline {subsection}{\tocsubsection {}{5.3}{为什么代价函数要非负}}{36}{subsection.2.5.3}%
+\contentsline {subsection}{\tocsubsection {}{5.4}{常见代价函数}}{37}{subsection.2.5.4}%
+\contentsline {subsection}{\tocsubsection {}{5.5}{2.10.5 为什么用交叉熵代替二次代价函数}}{41}{subsection.2.5.5}%
+\contentsline {section}{\tocsection {}{6}{2.11 损失函数}}{41}{section.2.6}%
+\contentsline {subsection}{\tocsubsection {}{6.1}{2.11.1 什么是损失函数}}{41}{subsection.2.6.1}%
+\contentsline {subsection}{\tocsubsection {}{6.2}{2.11.2 常见的损失函数}}{42}{subsection.2.6.2}%
+\contentsline {subsection}{\tocsubsection {}{6.3}{2.11.3 逻辑回归为什么使用对数损失函数}}{43}{subsection.2.6.3}%
+\contentsline {subsection}{\tocsubsection {}{6.4}{对数损失函数是如何度量损失的}}{44}{subsection.2.6.4}%
+\contentsline {section}{\tocsection {}{7}{ 梯度下降}}{45}{section.2.7}%
+\contentsline {subsection}{\tocsubsection {}{7.1}{机器学习中为什么需要梯度下降}}{45}{subsection.2.7.1}%
+\contentsline {subsection}{\tocsubsection {}{7.2}{梯度下降法缺点}}{45}{subsection.2.7.2}%
+\contentsline {subsection}{\tocsubsection {}{7.3}{梯度下降法直观理解}}{45}{subsection.2.7.3}%
+\contentsline {subsection}{\tocsubsection {}{7.4}{梯度下降法算法描述}}{46}{subsection.2.7.4}%
+\contentsline {subsection}{\tocsubsection {}{7.5}{如何对梯度下降法进行调优}}{47}{subsection.2.7.5}%
+\contentsline {subsection}{\tocsubsection {}{7.6}{随机梯度和批量梯度区别}}{47}{subsection.2.7.6}%
+\contentsline {subsection}{\tocsubsection {}{7.7}{2.12.7 各种梯度下降法性能比较}}{49}{subsection.2.7.7}%
+\contentsline {section}{\tocsection {}{8}{2.14 线性判别分析（LDA）}}{49}{section.2.8}%
+\contentsline {subsection}{\tocsubsection {}{8.1}{2.14.1 LDA思想总结}}{49}{subsection.2.8.1}%
+\contentsline {subsection}{\tocsubsection {}{8.2}{2.14.2 图解LDA核心思想}}{50}{subsection.2.8.2}%
+\contentsline {subsection}{\tocsubsection {}{8.3}{2.14.3 二类LDA算法原理}}{50}{subsection.2.8.3}%
+\contentsline {subsection}{\tocsubsection {}{8.4}{LDA算法流程总结}}{51}{subsection.2.8.4}%
+\contentsline {subsection}{\tocsubsection {}{8.5}{LDA和PCA区别}}{52}{table.2.9}%
+\contentsline {subsection}{\tocsubsection {}{8.6}{ LDA优缺点}}{55}{table.2.10}%
+\contentsline {section}{\tocsection {}{9}{主成分分析（PCA）}}{55}{section.2.9}%
+\contentsline {subsection}{\tocsubsection {}{9.1}{主成分分析（PCA）思想总结}}{55}{subsection.2.9.1}%
+\contentsline {subsection}{\tocsubsection {}{9.2}{图解PCA核心思想}}{55}{subsection.2.9.2}%
+\contentsline {subsection}{\tocsubsection {}{9.3}{ PCA算法推理}}{55}{subsection.2.9.3}%
+\contentsline {subsection}{\tocsubsection {}{9.4}{PCA算法流程总结}}{57}{subsection.2.9.4}%
+\contentsline {subsection}{\tocsubsection {}{9.5}{PCA算法主要优缺点}}{60}{table.2.11}%
+\contentsline {subsection}{\tocsubsection {}{9.6}{降维的必要性及目的}}{60}{subsection.2.9.6}%
+\contentsline {subsection}{\tocsubsection {}{9.7}{KPCA与PCA的区别}}{60}{subsection.2.9.7}%
+\contentsline {section}{\tocsection {}{10}{ 模型评估}}{60}{section.2.10}%
+\contentsline {subsection}{\tocsubsection {}{10.1}{模型评估常用方法？}}{60}{subsection.2.10.1}%
+\contentsline {subsection}{\tocsubsection {}{10.2}{2.16.2 误差、偏差和方差有什么区别和联系}}{61}{subsection.2.10.2}%
+\contentsline {subsection}{\tocsubsection {}{10.3}{经验误差与泛化误差}}{62}{subsection.2.10.3}%
+\contentsline {subsection}{\tocsubsection {}{10.4}{图解欠拟合、过拟合}}{62}{subsection.2.10.4}%
+\contentsline {subsection}{\tocsubsection {}{10.5}{如何解决过拟合与欠拟合}}{62}{subsection.2.10.5}%
+\contentsline {subsection}{\tocsubsection {}{10.6}{交叉验证的主要作用}}{63}{subsection.2.10.6}%
+\contentsline {subsection}{\tocsubsection {}{10.7}{理解k折交叉验证}}{63}{subsection.2.10.7}%
+\contentsline {subsection}{\tocsubsection {}{10.8}{混淆矩阵}}{63}{subsection.2.10.8}%
+\contentsline {subsection}{\tocsubsection {}{10.9}{错误率及精度}}{64}{subsection.2.10.9}%
+\contentsline {subsection}{\tocsubsection {}{10.10}{查准率与查全率}}{64}{subsection.2.10.10}%
+\contentsline {subsection}{\tocsubsection {}{10.11}{ROC与AUC}}{64}{subsection.2.10.11}%
+\contentsline {subsection}{\tocsubsection {}{10.12}{如何画ROC曲线}}{65}{subsection.2.10.12}%
+\contentsline {subsection}{\tocsubsection {}{10.13}{如何计算TPR，FPR}}{65}{subsection.2.10.13}%
+\contentsline {subsection}{\tocsubsection {}{10.14}{如何计算AUC}}{66}{subsection.2.10.14}%
+\contentsline {subsection}{\tocsubsection {}{10.15}{为什么使用Roc和Auc评价分类器}}{67}{subsection.2.10.15}%
+\contentsline {subsection}{\tocsubsection {}{10.16}{直观理解AUC}}{67}{subsection.2.10.16}%
+\contentsline {subsection}{\tocsubsection {}{10.17}{代价敏感错误率与代价曲线}}{67}{subsection.2.10.17}%
+\contentsline {subsection}{\tocsubsection {}{10.18}{模型有哪些比较检验方法}}{68}{subsection.2.10.18}%
+\contentsline {subsection}{\tocsubsection {}{10.19}{为什么使用标准差}}{68}{subsection.2.10.19}%
+\contentsline {subsection}{\tocsubsection {}{10.20}{类别不平衡产生原因}}{68}{subsection.2.10.20}%
+\contentsline {section}{\tocsection {}{11}{决策树}}{70}{section.2.11}%
+\contentsline {subsection}{\tocsubsection {}{11.1}{决策树的基本原理}}{70}{subsection.2.11.1}%
+\contentsline {subsection}{\tocsubsection {}{11.2}{决策树的三要素？}}{70}{subsection.2.11.2}%
+\contentsline {subsection}{\tocsubsection {}{11.3}{决策树学习基本算法}}{70}{subsection.2.11.3}%
+\contentsline {subsection}{\tocsubsection {}{11.4}{决策树算法优缺点}}{70}{subsection.2.11.4}%
+\contentsline {subsection}{\tocsubsection {}{11.5}{熵的概念以及理解}}{71}{subsection.2.11.5}%
+\contentsline {subsection}{\tocsubsection {}{11.6}{信息增益的理解}}{71}{subsection.2.11.6}%
+\contentsline {subsection}{\tocsubsection {}{11.7}{剪枝处理的作用及策略}}{71}{subsection.2.11.7}%
+\contentsline {section}{\tocsection {}{12}{ 支持向量机}}{72}{section.2.12}%
+\contentsline {subsection}{\tocsubsection {}{12.1}{什么是支持向量机}}{72}{subsection.2.12.1}%
+\contentsline {subsection}{\tocsubsection {}{12.2}{支持向量机能解决哪些问题}}{72}{subsection.2.12.2}%
+\contentsline {subsection}{\tocsubsection {}{12.3}{核函数特点及其作用}}{72}{subsection.2.12.3}%
+\contentsline {subsection}{\tocsubsection {}{12.4}{SVM为什么引入对偶问题}}{73}{subsection.2.12.4}%
+\contentsline {subsection}{\tocsubsection {}{12.5}{如何理解SVM中的对偶问题}}{73}{subsection.2.12.5}%
+\contentsline {subsection}{\tocsubsection {}{12.6}{常见的核函数有哪些}}{75}{table.2.21}%
+\contentsline {subsection}{\tocsubsection {}{12.7}{ SVM主要特点}}{75}{subsection.2.12.7}%
+\contentsline {subsection}{\tocsubsection {}{12.8}{ SVM主要缺点}}{76}{subsection.2.12.8}%
+\contentsline {subsection}{\tocsubsection {}{12.9}{逻辑回归与SVM的异同}}{76}{subsection.2.12.9}%
+\contentsline {section}{\tocsection {}{13}{贝叶斯分类器}}{77}{section.2.13}%
+\contentsline {subsection}{\tocsubsection {}{13.1}{图解极大似然估计}}{77}{subsection.2.13.1}%
+\contentsline {subsection}{\tocsubsection {}{13.2}{极大似然估计原理}}{78}{subsection.2.13.2}%
+\contentsline {subsection}{\tocsubsection {}{13.3}{贝叶斯分类器基本原理}}{78}{subsection.2.13.3}%
+\contentsline {subsection}{\tocsubsection {}{13.4}{朴素贝叶斯分类器}}{79}{subsection.2.13.4}%
+\contentsline {subsection}{\tocsubsection {}{13.5}{举例理解朴素贝叶斯分类器}}{79}{subsection.2.13.5}%
+\contentsline {subsection}{\tocsubsection {}{13.6}{半朴素贝叶斯分类器}}{82}{subsection.2.13.6}%
+\contentsline {section}{\tocsection {}{14}{ EM算法}}{82}{section.2.14}%
+\contentsline {subsection}{\tocsubsection {}{14.1}{EM算法基本思想}}{82}{subsection.2.14.1}%
+\contentsline {subsection}{\tocsubsection {}{14.2}{EM算法推导}}{82}{subsection.2.14.2}%
+\contentsline {subsection}{\tocsubsection {}{14.3}{ 图解EM算法}}{83}{subsection.2.14.3}%
+\contentsline {subsection}{\tocsubsection {}{14.4}{ EM算法流程}}{84}{subsection.2.14.4}%
+\contentsline {section}{\tocsection {}{15}{ 降维和聚类}}{84}{section.2.15}%
+\contentsline {subsection}{\tocsubsection {}{15.1}{图解为什么会产生维数灾难}}{84}{subsection.2.15.1}%
+\contentsline {subsection}{\tocsubsection {}{15.2}{怎样避免维数灾难}}{86}{subsection.2.15.2}%
+\contentsline {subsection}{\tocsubsection {}{15.3}{聚类和降维有什么区别与联系}}{86}{subsection.2.15.3}%
+\contentsline {subsection}{\tocsubsection {}{15.4}{有哪些聚类算法优劣衡量标准}}{86}{subsection.2.15.4}%
+\contentsline {subsection}{\tocsubsection {}{15.5}{聚类和分类有什么区别}}{87}{subsection.2.15.5}%
+\contentsline {subsection}{\tocsubsection {}{15.6}{不同聚类算法特点性能比较}}{87}{table.2.24}%
+\contentsline {subsection}{\tocsubsection {}{15.7}{四种常用聚类方法之比较}}{87}{subsection.2.15.7}%
+\contentsline {subsection}{\tocsubsection {}{15.8}{k-means聚类算法}}{87}{subsection.2.15.8}%
+\contentsline {subsection}{\tocsubsection {}{15.9}{层次聚类算法}}{88}{subsection.2.15.9}%
+\contentsline {subsection}{\tocsubsection {}{15.10}{SOM聚类算法}}{88}{subsection.2.15.10}%
+\contentsline {subsection}{\tocsubsection {}{15.11}{ FCM聚类算法}}{89}{subsection.2.15.11}%
+\contentsline {subsection}{\tocsubsection {}{15.12}{四种聚类算法试验}}{89}{subsection.2.15.12}%
