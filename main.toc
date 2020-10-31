@@ -73,7 +73,7 @@
 \contentsline {subsection}{\tocsubsection {}{2.4}{弱监督学习}}{21}{subsection.2.2.4}%
 \contentsline {subsection}{\tocsubsection {}{2.5}{监督学习有哪些步骤}}{21}{subsection.2.2.5}%
 \contentsline {section}{\tocsection {}{3}{ 分类算法}}{22}{section.2.3}%
-\contentsline {subsection}{\tocsubsection {}{3.1}{常用分类算法的优缺点？}}{22}{subsection.2.3.1}%
+\contentsline {subsection}{\tocsubsection {}{3.1}{常用分类算法的优缺点}}{22}{subsection.2.3.1}%
 \contentsline {subsection}{\tocsubsection {}{3.2}{2.8.2 分类算法的评估方法}}{31}{subsection.2.3.2}%
 \contentsline {subsection}{\tocsubsection {}{3.3}{2.8.3 正确率能很好的评估分类算法吗}}{33}{subsection.2.3.3}%
 \contentsline {subsection}{\tocsubsection {}{3.4}{什么样的分类器是最好的}}{33}{subsection.2.3.4}%
@@ -122,7 +122,7 @@
 \contentsline {subsection}{\tocsubsection {}{10.2}{2.16.2 误差、偏差和方差有什么区别和联系}}{61}{subsection.2.10.2}%
 \contentsline {subsection}{\tocsubsection {}{10.3}{经验误差与泛化误差}}{62}{subsection.2.10.3}%
 \contentsline {subsection}{\tocsubsection {}{10.4}{图解欠拟合、过拟合}}{62}{subsection.2.10.4}%
-\contentsline {subsection}{\tocsubsection {}{10.5}{如何解决过拟合与欠拟合}}{62}{subsection.2.10.5}%
+\contentsline {subsection}{\tocsubsection {}{10.5}{如何解决过拟合与欠拟合}}{63}{subsection.2.10.5}%
 \contentsline {subsection}{\tocsubsection {}{10.6}{交叉验证的主要作用}}{63}{subsection.2.10.6}%
 \contentsline {subsection}{\tocsubsection {}{10.7}{理解k折交叉验证}}{63}{subsection.2.10.7}%
 \contentsline {subsection}{\tocsubsection {}{10.8}{混淆矩阵}}{63}{subsection.2.10.8}%
@@ -137,7 +137,7 @@
 \contentsline {subsection}{\tocsubsection {}{10.17}{代价敏感错误率与代价曲线}}{67}{subsection.2.10.17}%
 \contentsline {subsection}{\tocsubsection {}{10.18}{模型有哪些比较检验方法}}{68}{subsection.2.10.18}%
 \contentsline {subsection}{\tocsubsection {}{10.19}{为什么使用标准差}}{68}{subsection.2.10.19}%
-\contentsline {subsection}{\tocsubsection {}{10.20}{类别不平衡产生原因}}{68}{subsection.2.10.20}%
+\contentsline {subsection}{\tocsubsection {}{10.20}{类别不平衡产生原因}}{69}{subsection.2.10.20}%
 \contentsline {section}{\tocsection {}{11}{决策树}}{70}{section.2.11}%
 \contentsline {subsection}{\tocsubsection {}{11.1}{决策树的基本原理}}{70}{subsection.2.11.1}%
 \contentsline {subsection}{\tocsubsection {}{11.2}{决策树的三要素？}}{70}{subsection.2.11.2}%
@@ -149,15 +149,15 @@
 \contentsline {section}{\tocsection {}{12}{ 支持向量机}}{72}{section.2.12}%
 \contentsline {subsection}{\tocsubsection {}{12.1}{什么是支持向量机}}{72}{subsection.2.12.1}%
 \contentsline {subsection}{\tocsubsection {}{12.2}{支持向量机能解决哪些问题}}{72}{subsection.2.12.2}%
-\contentsline {subsection}{\tocsubsection {}{12.3}{核函数特点及其作用}}{72}{subsection.2.12.3}%
+\contentsline {subsection}{\tocsubsection {}{12.3}{核函数特点及其作用}}{73}{subsection.2.12.3}%
 \contentsline {subsection}{\tocsubsection {}{12.4}{SVM为什么引入对偶问题}}{73}{subsection.2.12.4}%
 \contentsline {subsection}{\tocsubsection {}{12.5}{如何理解SVM中的对偶问题}}{73}{subsection.2.12.5}%
 \contentsline {subsection}{\tocsubsection {}{12.6}{常见的核函数有哪些}}{75}{table.2.21}%
 \contentsline {subsection}{\tocsubsection {}{12.7}{ SVM主要特点}}{75}{subsection.2.12.7}%
 \contentsline {subsection}{\tocsubsection {}{12.8}{ SVM主要缺点}}{76}{subsection.2.12.8}%
 \contentsline {subsection}{\tocsubsection {}{12.9}{逻辑回归与SVM的异同}}{76}{subsection.2.12.9}%
-\contentsline {section}{\tocsection {}{13}{贝叶斯分类器}}{77}{section.2.13}%
-\contentsline {subsection}{\tocsubsection {}{13.1}{图解极大似然估计}}{77}{subsection.2.13.1}%
+\contentsline {section}{\tocsection {}{13}{贝叶斯分类器}}{78}{section.2.13}%
+\contentsline {subsection}{\tocsubsection {}{13.1}{图解极大似然估计}}{78}{subsection.2.13.1}%
 \contentsline {subsection}{\tocsubsection {}{13.2}{极大似然估计原理}}{78}{subsection.2.13.2}%
 \contentsline {subsection}{\tocsubsection {}{13.3}{贝叶斯分类器基本原理}}{78}{subsection.2.13.3}%
 \contentsline {subsection}{\tocsubsection {}{13.4}{朴素贝叶斯分类器}}{79}{subsection.2.13.4}%
